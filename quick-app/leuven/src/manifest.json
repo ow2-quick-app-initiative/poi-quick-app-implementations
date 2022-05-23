@@ -1,8 +1,8 @@
 {
     "package": "es.espinr.leuven",
     "name": "LVN Street Heritage",
-    "versionName": "0.4",
-    "versionCode": 7,
+    "versionName": "0.5",
+    "versionCode": 8,
     "minPlatformVersion": 1078,
     "icon": "/common/images/logo.png",
     "features": [

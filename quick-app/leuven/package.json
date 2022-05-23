@@ -1,8 +1,8 @@
 {
   "name": "es.espinr.leuven",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
-  "repository": "https://github.com/espinr/local-cultural-heritage",
+  "repository": "https://github.com/pbesteu/cultural-heritage-quick-app",
   "description": "Leuven Cultural Heritage Quick App",
   "scripts": {
     "fa-build": "node node_modules/webpack/bin/webpack.js --progress --config ./node_modules/fa-toolkit/webpack.config.js",
