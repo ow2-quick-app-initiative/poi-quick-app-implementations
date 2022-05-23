@@ -61,18 +61,13 @@
         </list-item>
         <list-item class="item-more" type="poisTechnical" if={{hasUrls(item)}}>
           <text>{{ $t('message.detail.more_info') }}</text>
-          <text class="list-item" if="{{ item.wikidata }}">
-            <a href="https://www.wikidata.org/wiki/{{ item.wikidata }}">
-              {{ $t('message.detail.wikidata') }}
-            </a>
-          </text>
-          <text class="list-item" if="{{ item.freebase }}">
-            <a href="https://www.google.com/search?kgmid={{ item.freebase }}">
-              {{ $t('message.detail.freebase') }}
-            </a>
-          </text>
           <text class="list-item" for="{{item.urls}}">
             <a href="{{ $item }}">{{$item}}</a>
+          </text>
+          <text class="list-item">
+          <a if="{{ item.wikidata }}" href="https://www.wikidata.org/wiki/{{ item.wikidata }}">
+            {{ $t('message.detail.wikidata') }}
+          </a>
           </text>
         </list-item>
         
@@ -193,11 +188,11 @@ export default {
         itemName: this.item.name, 
         appName: this.$app.manifest.name, 
         description: this.item.description,
-        url: url }), 
+        url: url }),
       complete() {
         self.$app.track('share', `${self.$page.name}/${self.item.id}`)
       },  
-      fail: function(data, code) { 
+      fail(data, code) { 
         prompt.showToast({
           message: this.$t('message.detail.share.error')
         })      

@@ -98,6 +98,9 @@ export default {
 <style lang="less">
 @import '../../common/styles/style.less'; 
 
+.page-container {
+  color: #585858;
+}
 .app-info {
   padding: 5 * @size-factor;
   flex-direction: column;

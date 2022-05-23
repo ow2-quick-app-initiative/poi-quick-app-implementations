@@ -11,7 +11,7 @@ import prompt from '@system.prompt'
 
 // URL for the Maps
 const mapBaseUrl = 'https://geojson.pbest.me'
-const markerIconColor = 'red'
+const markerIconColor = 'pale'
 
 // to enable async
 const injectRef = Object.getPrototypeOf(global) || global

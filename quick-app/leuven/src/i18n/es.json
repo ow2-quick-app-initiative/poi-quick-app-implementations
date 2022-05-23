@@ -35,11 +35,10 @@
             "approx_m": "Aprox. a {distance} m desde aquí",
             "acknowledgements": "Muchas gracias a nuestros colaboradores:",
             "wikidata": "Wikidata",
-            "freebase": "Freebase",
             "more_info": "Más información:",
             "loading_map": "Cargando mapa...",
             "share": {
-                "body": "Eh, echa un ojo a {itemName} en {appName}. Es acerca de {description} {url}",
+                "body": "Eh, echa un ojo a {itemName} en {appName}. Es acerda de {description} {url}",
                 "error": "No he podido compartir el contenido :(" 
             },
             "buttons": {
