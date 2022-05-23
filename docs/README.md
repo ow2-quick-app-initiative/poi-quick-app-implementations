@@ -7,8 +7,8 @@ The Local Cultural Heritage Quick App promotes cultural heritage collections in 
 Any city can implement its own application in a few hours. They only need one or more experts to feed the first version of the database.   
 Currently, we have the following proofs of concept:
 
-- [Leuven (Belgium)](https://espinr.github.io/local-cultural-heritage/be/leuven) 
-- [Eckernförde (Germany)](https://espinr.github.io/local-cultural-heritage/de/eckernforde) 
+- [Leuven (Belgium)](https://pbest.eu/cultural-heritage-quick-app/be/leuven) 
+- [Eckernförde (Germany)](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde) 
 
 Some screenshots:
 
