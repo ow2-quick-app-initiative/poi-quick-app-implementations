@@ -69,15 +69,25 @@ export default {
   setAppData(key, val) {
     this.dataCache[key] = val
   },
-  toggleLikedPoi(id) {
+  toggleLikedPoi(id, name) {
     const index = this.dataCache.likedIds.indexOf(id)
     if (index >= 0) {
       // Removes the item from the array
       console.info(`Unliked ${id}. Removing from the array of favorites`)
       this.dataCache.likedIds.splice(index, 1)
+      prompt.showToast({ 
+        message: this.i18n.$t('message.app.likes.removed', {title: name}), 
+        duration: "3000", 
+        gravity: 'bottom' 
+      })
     } else {
       console.info(`Liked ${id}. Adding to the array of favorites`)
       this.dataCache.likedIds.push(id)
+      prompt.showToast({ 
+        message: this.i18n.$t('message.app.likes.added', {title: name}), 
+        duration: "3000", 
+        gravity: 'bottom' 
+      })
     }
     // Now stores the updated list of likes
     storage.set({

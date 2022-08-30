@@ -163,7 +163,7 @@ export default {
   },
   toggleLike() {
     // Retrieve the likes stored in the data cache
-    this.currentLikedIds = this.$app.toggleLikedPoi(this.item.id)
+    this.currentLikedIds = this.$app.toggleLikedPoi(this.item.id, this.item.name)
     this.isLikedPoI = this.currentLikedIds.includes(this.item.id)
   },  
   exits(key) {

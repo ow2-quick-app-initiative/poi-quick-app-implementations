@@ -6,7 +6,11 @@
                 "description": "Diese App verwendet Ihre Geolocation, um die Kunstwerke in der Nähe zu zeigen, sonst nichts. Bitte gewähren Sie es :)",
                 "no": "Nein, danke",
                 "yes": "Ja, es geht mir gut"
-            }
+            },
+            "likes" : {
+                "added": "{title} zu den favoriten hinzugefügt",
+                "removed": "{title} aus den favoriten entfernt"
+            }            
         },
         "tabs": [
             {

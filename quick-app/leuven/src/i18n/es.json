@@ -6,7 +6,11 @@
                 "description": "Esta aplicación utiliza tu geoposición para mostrar los puntos de interés cercanos, nada más. Por favor, dame permiso :)",
                 "no": "No, gracias",
                 "yes": "Sí, está bien"
-            }
+            },
+            "likes" : {
+                "added": "{title} añadido a favoritos",
+                "removed": "{title} eliminado de favoritos"
+            }            
         },
         "tabs": [
             {

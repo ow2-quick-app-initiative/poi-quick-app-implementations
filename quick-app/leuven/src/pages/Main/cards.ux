@@ -113,7 +113,7 @@ export default {
   toggleLike(index) {
     console.log('liking ' + this.pois[index].id)
     // Retrieve the likes stored in the data cache
-    this.currentLikedIds = this.$app.toggleLikedPoi(this.pois[index].id)
+    this.currentLikedIds = this.$app.toggleLikedPoi(this.pois[index].id, this.pois[index].name)
   }
 }
 </script>

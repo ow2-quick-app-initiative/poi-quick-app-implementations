@@ -6,6 +6,10 @@
                 "description": "This app uses your geolocation to show the artworks nearby, nothing else. Please grant it :)",
                 "no": "No, thanks",
                 "yes": "Yes, I'm okay"
+            },
+            "likes" : {
+                "added": "{title} added to favorites",
+                "removed": "{title} removed from favorites"
             }
         },
         "tabs": [
