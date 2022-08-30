@@ -6,6 +6,7 @@
           type="poi"
           class="item-poi"
           for="pois"
+          if={{filterPoI($item.id)}}
         >
           <stack class="poi-image-wrap">
             <image onclick="onItemClick($idx)" if="{{$item.images.length > 0 }}" src="{{$item.images[0]}}"></image>
@@ -24,8 +25,11 @@
           </div>
         </list-item>
 
-        <list-item type="loadStatus" class="load-status">
-          <text show="{{!hasMoreData}}">{{$t("message.cards.no_items")}}</text>
+        <list-item type="loadStatus" class="no-content" if="{{filter_favorites && (currentLikedIds.length === 0)}}">
+          <text class="no-content">{{$t("message.cards.no_favorites")}}</text>
+        </list-item>
+        <list-item type="loadStatus" class="end-list" else="{{filter_favorites}}">
+          <text else>{{$t("message.cards.no_items")}}</text>
         </list-item>
       </list>
     </stack>
@@ -45,6 +49,13 @@ export default {
     iconUnliked: '\ue87e',
     currentLikedIds: []
   },
+  props: {
+    filter_favorites: {   // Parameter to filter just the Favorites
+      type: Boolean,
+      default: false,
+      required: false
+    },
+  },
   onInit() {
     this.currentLikedIds = this.$app.getAppData('likedIds')
     this.channel = new BroadcastChannel('updateChannel')
@@ -54,6 +65,9 @@ export default {
     this._subscribeChannelUpdate()
     this.$app.track('access', `${this.$page.name}/cards`)    
   },
+  filterPoI(id) {
+    return !this.filter_favorites || this.currentLikedIds.includes(id) 
+  },  
   onDestroy() {
     this.channel.close()
   },  
@@ -66,6 +80,9 @@ export default {
         self._loadAndRender()
       }
     }
+  },
+  noFavoriteItems() {
+    return this.currentLikedIds.length === 0
   },
   refresh(e) {
     const self = this
@@ -197,9 +214,18 @@ export default {
     }
   }
 }
-.load-status {
+.end-list {
   width: 100%;
   flex-direction: row;
   justify-content: center;
+  padding: 4 * @size-factor;
+}
+.no-content {
+  width: 100%;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: 3 * @size-factor; 
+  padding: 7 * @size-factor;
 }
 </style>

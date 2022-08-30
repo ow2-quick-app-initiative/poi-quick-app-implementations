@@ -9,13 +9,13 @@
         <tab-content>
           <div class="content-container">
             <div if="{{this.selectedTabIndex === 0}}">
-              <cards id="cards-component"></cards>
+              <cards id="cards-component" filter_favorites={{false}}></cards>
             </div>
             <div if="{{this.selectedTabIndex === 1}}">
               <mymap id="map-component"></mymap>
             </div>          
             <div if="{{this.selectedTabIndex === 2}}">
-              <cards id="cards-likes"></cards>
+              <cards id="cards-likes" filter_favorites={{true}} ></cards>
             </div>
             <div if="{{this.selectedTabIndex === 3}}">
               <about id="about-component"></about>

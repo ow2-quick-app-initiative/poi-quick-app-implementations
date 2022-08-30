@@ -33,7 +33,8 @@
         "cards": {
             "approx_km": "{distance} km desde aquí",
             "approx_m": "{distance} m desde aquí",
-            "no_items": "No más datos"
+            "no_items": "Final de la lista 😌",
+            "no_favorites": "No tienes favoritos en la lista. Haz clic sobre los iconos de corazón (♡) y elige tus sitios favoritos."            
         },
         "main": {
             "loading": "Cargando puntos de interés..."
