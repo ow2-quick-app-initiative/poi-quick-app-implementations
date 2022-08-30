@@ -15,6 +15,9 @@
               <mymap id="map-component"></mymap>
             </div>          
             <div if="{{this.selectedTabIndex === 2}}">
+              <cards id="cards-likes"></cards>
+            </div>
+            <div if="{{this.selectedTabIndex === 3}}">
               <about id="about-component"></about>
             </div>          
           </div>
@@ -63,6 +66,10 @@ export default {
       {
         title: 'map',
         icon: '\uf041'
+      },
+      {
+        title: 'likes',
+        icon: '\uf004'
       },
       {
         title: 'about',

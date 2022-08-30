@@ -18,6 +18,10 @@
                 "icon": "\ue55b"
             },
             {
+                "title": "Favoritos",
+                "icon": "\ue87d"
+            },            
+            {
                 "title": "Acerca",
                 "icon": "\ue88e"
             }
