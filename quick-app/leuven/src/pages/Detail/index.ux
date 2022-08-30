@@ -151,8 +151,9 @@ export default {
     distance: null,
   },
   onInit() {
-    this.currentLikedIds = this.$app.getAppData('likedIds')
     this.item = this.$app.getAppData('pois').find(item => item.id === this.identifier)
+    this.currentLikedIds = this.$app.getAppData('likedIds')
+    this.isLikedPoI = this.currentLikedIds.includes(this.item.id)
     this.mapUrl = this.$app.generateIndidivualMapUrl(this.item)
     this.loadingMap = true
     this.$app.track('access', `${this.$page.name}/${this.item.id}`)    
@@ -224,9 +225,6 @@ export default {
       url: `${appInfo.issue_url}+${encodeURIComponent(identifier)}`
     })
   },
-  isLikedPoI() {
-    return
-  }
 }
 </script>
 
