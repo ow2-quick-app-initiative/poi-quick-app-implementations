@@ -73,7 +73,7 @@ export default {
     const index = this.dataCache.likedIds.indexOf(id)
     if (index >= 0) {
       // Removes the item from the array
-      console.info(`Unliked ${id}. Revoving from the array of favorites`)
+      console.info(`Unliked ${id}. Removing from the array of favorites`)
       this.dataCache.likedIds.splice(index, 1)
     } else {
       console.info(`Liked ${id}. Adding to the array of favorites`)

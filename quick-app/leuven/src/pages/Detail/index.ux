@@ -27,11 +27,11 @@
                 class="images-image"
                 src="{{$item}}"
               ></image>
-              <text if={{item.type}} class="poi-overlay-type">{{item.type}}</text>            
+              <text if={{item.type}} class="poi-overlay-type">{{item.type}}</text> 
             </stack>
             <stack else class="poi-image-wrap">
               <image class="images-image" src="/common/images/placeholder.jpg"></image>
-              <text if={{item.type}} class="poi-overlay-type">{{item.type}}</text>            
+              <text if={{item.type}} class="poi-overlay-type">{{item.type}}</text> 
             </stack>
           </swiper>
         </list-item>
@@ -104,13 +104,21 @@
         <input
           class="button"
           type="button"
-          value="{{$t('message.detail.buttons.feedback')}}"
-          @click="feedbackItem"
+          value="{{ isLikedPoI? iconLiked : iconUnliked }}"
+          @click="toggleLike"
         />
+        <!-- <input
+          class="button"
+          type="button"
+          value="{{ iconFeedback }}"
+          data-title="{{$t('message.detail.buttons.feedback')}}"
+          @click="feedbackItem"
+        /> -->
         <input
           class="button"
           type="button"
-          value="{{$t('message.detail.buttons.share')}}"
+          value="{{ iconShare }}"
+          data-value="{{$t('message.detail.buttons.share')}}"
           @click="shareItem"
         />
       </div>
@@ -127,11 +135,15 @@ import webview from '@system.webview'
 export default {
   private: {
     isTop: true,
-    iconLike: '\uf004',
-    iconLikeEmpty: '\uf08a',
     pois: [],
     item: null, 
     loadingMap: true,
+    iconLiked: '\ue87d',
+    iconUnliked: '\ue87e',
+    iconFeedback: '\ue266',
+    iconShare: '\ue80d',
+    currentLikedIds: [],
+    isLikedPoI: false,
     mapUrl: 'https://geojson.pbest.me',
   },
   public: {
@@ -139,6 +151,7 @@ export default {
     distance: null,
   },
   onInit() {
+    this.currentLikedIds = this.$app.getAppData('likedIds')
     this.item = this.$app.getAppData('pois').find(item => item.id === this.identifier)
     this.mapUrl = this.$app.generateIndidivualMapUrl(this.item)
     this.loadingMap = true
@@ -147,6 +160,11 @@ export default {
   onBack() {
     router.back()
   },
+  toggleLike() {
+    // Retrieve the likes stored in the data cache
+    this.currentLikedIds = this.$app.toggleLikedPoi(this.item.id)
+    this.isLikedPoI = this.currentLikedIds.includes(this.item.id)
+  },  
   exits(key) {
     return this.item[key]
   },
@@ -205,6 +223,9 @@ export default {
     webview.loadUrl({ 
       url: `${appInfo.issue_url}+${encodeURIComponent(identifier)}`
     })
+  },
+  isLikedPoI() {
+    return
   }
 }
 </script>
@@ -231,18 +252,19 @@ export default {
         width: 100%;
         height: 100%;
         .poi-image-wrap {
+          flex-direction: column;
           justify-content: flex-end;
           .images-image {
             width: 100%;
             height: 100%;
           }
           .poi-overlay-type {
-            background-color: rgba(0, 0, 0, 0.5);
             color: #ffffff;
-            font-weight: lighter;
+            background-color: rgba(0, 0, 0, 0.5);
             height: 6 * @size-factor;
             font-size: 5 * @size-factor;
             align-self: flex-end;
+            font-weight: lighter;
             margin-bottom: 2 * @size-factor;
             padding: 1 * @size-factor;
             padding-top: 0;
@@ -369,12 +391,26 @@ export default {
   flex-direction: column;
   .bottom-line {
     width: 100%;
-    height: 2px;
+    height: 0.2 * @size-factor;
     background-color: #eeeeee;
   }
   .buttons-wrap {
     flex-direction: row;
     justify-content: space-around;
+    .button {
+      font-family: iconfont;
+      border-width: 0.1 * @size-factor;
+      border-radius: 0.6 * @size-factor;;
+      font-size: 5 * @size-factor;
+      line-height: 5.2 * @size-factor;
+      border-color: #808080;
+      background-color: #fafafa;
+      align-items: center;
+      justify-content: center;
+      padding-top: 1 * @size-factor;
+      padding-bottom: 1 * @size-factor;
+      color: @brand;
+    }
   }
 }
 </style>

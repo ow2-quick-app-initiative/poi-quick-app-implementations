@@ -12,7 +12,7 @@
             <image onclick="onItemClick($idx)" else src="/common/images/placeholder.jpg"></image>
             <div class="poi-overlay-bottom">
               <text class="poi-overlay-like" onclick="toggleLike($idx)">{{ isLikedPoI($item.id)? iconLiked : iconUnliked }}</text>
-              <text onclick="onItemClick($idx)" if={{$item.type}} class="poi-overlay-type">{{$item.type}}</text> 
+              <text class="poi-overlay-type" onclick="onItemClick($idx)" if={{$item.type}}>{{$item.type}}</text> 
             </div>
           </stack>
           <div class="poi-text-wrap" onclick="onItemClick($idx)">
@@ -125,20 +125,20 @@ export default {
   background-color: #ffffff;
   flex-direction: column;
   width: 100%;
-  height: 700px;
-  border-radius: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 70 * @size-factor;
+  border-radius: 1.6 * @size-factor;
+  margin-top: 1 * @size-factor;
+  margin-bottom: 1 * @size-factor;
+  margin-left: 2 * @size-factor;
+  margin-right: 2 * @size-factor;
   .poi-image-wrap {
-    height: 500px;
+    height: 50 * @size-factor;
     justify-content: flex-end;
     image {
       width: 100%;
       height: 100%;
-      border-top-left-radius: 16px;
-      border-top-right-radius: 16px;
+      border-top-left-radius: 1.6 * @size-factor;
+      border-top-right-radius: 1.6 * @size-factor;
     }
     .poi-overlay-bottom {
       flex-direction: row;
@@ -147,21 +147,21 @@ export default {
       width: 100%;
       .poi-overlay-like {
         color: #ffffff;
-        height: 70px;
-        font-size: 65px;
-        margin-bottom: 20px;
-        padding: 20px;
+        height: 8 * @size-factor;
+        font-size: 7.5 * @size-factor;
+        margin-bottom: 2 * @size-factor;
+        padding: 2 * @size-factor;
         font-family: iconfont;
       }
       .poi-overlay-type {
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.5);
-        height: 35px;
-        font-size: 30px;
+        height: 4 * @size-factor;
+        font-size: 3 * @size-factor;
         align-self: flex-end;
         font-weight: lighter;
-        margin-bottom: 10px;
-        padding: 5px;
+        margin-bottom: 2 * @size-factor;
+        padding: 1 * @size-factor;
         padding-top: 0;
       }
     }
@@ -172,8 +172,8 @@ export default {
     padding: 1.6 * @size-factor;
     background-color: #ffffff;
     flex-direction: column;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 1.6 * @size-factor;
+    border-bottom-right-radius: 1.6 * @size-factor;
     .poi-text-title {
       flex-direction: row;
       justify-content: space-between;
