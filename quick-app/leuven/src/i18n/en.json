@@ -10,7 +10,11 @@
             "likes" : {
                 "added": "{title} added to favorites",
                 "removed": "{title} removed from favorites"
-            }            
+            },
+            "update_notification" : {
+                "title": "You are up to date!",
+                "content": "The database was updated successfuly"
+            }
         },
         "tabs": [
             {

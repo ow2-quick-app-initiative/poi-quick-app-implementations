@@ -38,6 +38,9 @@
         },
         {
             "name": "system.storage"
+        },
+        {
+            "name": "service.push"
         }
     ],
     "config": {

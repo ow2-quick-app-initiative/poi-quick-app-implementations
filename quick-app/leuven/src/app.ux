@@ -8,7 +8,8 @@ import device from '@system.device'
 import cipher from '@system.cipher'  
 import geolocation from '@system.geolocation'
 import prompt from '@system.prompt'
-import storage from '@system.storage'  
+import storage from '@system.storage'
+import push from '@service.push'
 
 // URL for the Maps
 const mapBaseUrl = 'https://geojson.pbest.me'
@@ -26,8 +27,8 @@ export default {
     // Setup the locale
     this.locale = 'en'              // by default
     this._setupLocale(data.content)  // Find the closest match based on the config file
-
-    // Load the favorites (IDs) into an array
+    
+    this._setupPushNotifications()  // Configure the push notifications
     
     // Initialize the data cached by the app
     this.dataCache = {
@@ -48,6 +49,8 @@ export default {
         // Notify all the components that the database is ready
         this.channel.postMessage('ready')
         console.info(`   ✔️ All set!`)
+        // launch a push notification in case it´s new database
+        this._storeLatestVersionUsed()
       })
     
   },
@@ -68,6 +71,49 @@ export default {
    */
   setAppData(key, val) {
     this.dataCache[key] = val
+  },
+  _setupPushNotifications() {
+    if (push.getProvider() === 'huawei') {
+      // If regId exists in the storage, it does not need to register
+      storage.get({ 
+        key: 'regId',
+        default: '' })
+        .then((res) => {
+          if (res.data.length === 0) {
+            // Subscribe for the first time
+            push.subscribe()
+              .then((result) => {
+                console.log(`Subscribed to push notifications regId: ${result.data.regId}`)
+                storage.set({
+                  key: 'regId',
+                  value: result.data.regId})
+              })
+          } else {
+            console.log(`You can keep using the regId: ${res.data}`)
+          }
+        })
+    }
+    // to add other providers
+  },
+  /**
+   * Stores a pair key=value with the latest version loaded by this app.
+   */
+  _storeLatestVersionUsed() {
+    const self = this
+    storage.get({
+      key: 'db_version',
+      default: data.meta.version })
+      .then((res) => {
+        // If current version is higher than the stored
+        if (parseInt(self.dataCache.meta.version) > parseInt(res.data)) {
+          storage.set({
+            key: 'db_version',
+            value: self.dataCache.meta.version})
+        }
+      })
+      .catch((err) => { 
+        console.error(`   🐛 I could not store the version. Reason: ${err}`) 
+      });
   },
   toggleLikedPoi(id, name) {
     const index = this.dataCache.likedIds.indexOf(id)
