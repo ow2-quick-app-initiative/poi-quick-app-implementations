@@ -11,10 +11,10 @@
                 "added": "{title} añadido a favoritos",
                 "removed": "{title} eliminado de favoritos"
             },
-            "update_notification" : {
-                "title": "Estás a la última!",
-                "content": "Base de datos actualizada correctamente"
-            }            
+            "init": {
+                "info": "Descubre la historia de Leuven a través del patrimonio culural de sus calles. Explora los lugares a tu alrededor y añádelos (♥) a tu lista de favoritos.",
+                "button": "Explora Leuven >"
+            }       
         },
         "tabs": [
             {

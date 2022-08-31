@@ -49,12 +49,26 @@
         <progress type="circular" class="circular-progress"></progress>
       </div>
     </div>
+    <div id="splash-first-experience" show="{{fistExperience}}">
+      <stack class="image" >
+        <image src="/common/images/frontpage.jpg"></image>
+        <text class="brand">{{appName}}</text>
+      </stack>
+      <text class="info">{{$t('message.app.init.info')}}</text>
+      <input
+        class="button"
+        type="button"
+        value="{{$t('message.app.init.button')}}"
+        @click="closeIntroSplash"
+      />    
+    </div>
   </stack>    
 </template>
 
 <script>
 
 import { getDistance } from 'geolib'
+import storage from '@system.storage'
 
 export default {
   private: {
@@ -76,6 +90,7 @@ export default {
         icon: '\uf129'
       }
     ],
+    fistExperience: true,
     selectedTabIndex: 0,
     deactivedColor: '#707780',
     activedColor: '#000000',
@@ -88,7 +103,8 @@ export default {
     loading: true
   },
   onInit() {
-    this.initTabs() 
+    this.initTabs()
+    this.checkIfFirstVisit()
     this.channel = new BroadcastChannel('updateChannel')
     const appInfo = this.$app.getAppData('appInfo')
     this.loadingMessage = this.$t('message.main.loading')
@@ -131,6 +147,22 @@ export default {
   updatePoisByDistance() {
     this._setDistancePois()
     this._reorderPOIs()
+  },
+  checkIfFirstVisit() {
+    const self = this
+    storage.get({ 
+      key: 'firstExperience',
+      default: 'false' })
+      .then((res) => {
+        self.fistExperience = (res.data === 'false')
+      }) 
+  },
+  closeIntroSplash() {
+    this.fistExperience = false
+    // If regId exists in the storage, it does not need to register
+    storage.set({ 
+      key: 'firstExperience',
+      value: 'true' }) 
   },
   /* -------------------SelfCustomEvent------------------ */
   changeTab(e) {
@@ -217,8 +249,45 @@ text {
       width: 40%;
     }
     .version, .info {
-      font-size: 20px; 
+      font-size: 2 * @size-factor; 
     }
-  }   
+  }
+  #splash-first-experience {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    .image {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 4 * @size-factor; 
+      image {
+        width: 100%;
+      }
+    }
+    .brand {
+      color: @brand;
+      font-size: 10 * @size-factor;
+      font-weight: bolder;
+    }
+    .button {
+      padding-left: 4 * @size-factor; 
+      padding-right: 4 * @size-factor; 
+      margin-top: 5 * @size-factor; 
+    }
+    .info {
+      padding-left: 5 * @size-factor;  
+      padding-right: 5 * @size-factor; 
+      text-align: left; 
+      color: #aaaaaa;
+      font-style: italic;
+      font-size: 3 * @size-factor;
+      padding-bottom: 3 * @size-factor; 
+    }
+  }
 }
 </style>
