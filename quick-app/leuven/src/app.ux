@@ -7,7 +7,8 @@ import configuration from '@system.configuration'
 import device from '@system.device'
 import cipher from '@system.cipher'  
 import geolocation from '@system.geolocation'
-import prompt from '@system.prompt' 
+import prompt from '@system.prompt'
+import storage from '@system.storage'  
 
 // URL for the Maps
 const mapBaseUrl = 'https://geojson.pbest.me'
@@ -25,6 +26,8 @@ export default {
     // Setup the locale
     this.locale = 'en'              // by default
     this._setupLocale(data.content)  // Find the closest match based on the config file
+
+    // Load the favorites (IDs) into an array
     
     // Initialize the data cached by the app
     this.dataCache = {
@@ -33,10 +36,12 @@ export default {
       pois: [].concat(data.content[this.locale].pois),
       myCoordinates: { lat: 0, lon: 0},   // user's coordinates
       globalMapURL: mapBaseUrl, 
-      userId: cipher.getRandomValues(8)
+      userId: cipher.getRandomValues(8),
+      likedIds: []
     }
     this.channel = new BroadcastChannel('updateChannel')
-    this._updateDatabase()
+    this._getLikedIdsFromStorage()
+      .then(() => this._updateDatabase())
       .then(() => this.geolocateUser())
       .then(() => this.generateMapUrl())
       .then(() => {
@@ -44,6 +49,7 @@ export default {
         this.channel.postMessage('ready')
         console.info(`   ✔️ All set!`)
       })
+    
   },
   onDestroy: function () {
       this.channel.close()
@@ -63,6 +69,50 @@ export default {
   setAppData(key, val) {
     this.dataCache[key] = val
   },
+  toggleLikedPoi(id, name) {
+    const index = this.dataCache.likedIds.indexOf(id)
+    if (index >= 0) {
+      // Removes the item from the array
+      console.info(`Unliked ${id}. Removing from the array of favorites`)
+      this.dataCache.likedIds.splice(index, 1)
+      prompt.showToast({ 
+        message: this.i18n.$t('message.app.likes.removed', {title: name}), 
+        duration: "3000", 
+        gravity: 'bottom' 
+      })
+    } else {
+      console.info(`Liked ${id}. Adding to the array of favorites`)
+      this.dataCache.likedIds.push(id)
+      prompt.showToast({ 
+        message: this.i18n.$t('message.app.likes.added', {title: name}), 
+        duration: "3000", 
+        gravity: 'bottom' 
+      })
+    }
+    // Now stores the updated list of likes
+    storage.set({
+      key: 'liked',
+      value: JSON.stringify(this.dataCache.likedIds)
+    })
+    return this.dataCache.likedIds
+  },
+  _getLikedIdsFromStorage() {
+    return new Promise((resolve, reject) => {
+      storage.get({
+        key: 'liked',
+        default: "[]" })
+        .then((res) => {
+          // Convert string into array
+          this.dataCache.likedIds = [].concat(JSON.parse(res.data))
+          console.info(`[0] Retrieving the Liked PoIs from local storage (${this.dataCache.likedIds.length} items)`)
+          resolve(this.dataCache.likedIds)
+        })
+        .catch((err) => { 
+          console.error(`   🐛 I could not store the liked IDs. Reason: ${err}`) 
+          reject(err)
+        });
+    })
+  },  
   _updateDatabase() {
     return new Promise((resolve, reject) => {
       console.info('[2] Fetching external resources with latest configuration...')

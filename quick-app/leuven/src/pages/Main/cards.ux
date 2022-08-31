@@ -6,14 +6,17 @@
           type="poi"
           class="item-poi"
           for="pois"
-          onclick="onItemClick($idx)"
+          if={{filterPoI($item.id)}}
         >
           <stack class="poi-image-wrap">
-            <image if="{{$item.images.length > 0 }}" src="{{$item.images[0]}}"></image>
-            <image else src="/common/images/placeholder.jpg"></image>
-            <text if={{$item.type}} class="poi-overlay-type">{{$item.type}}</text>            
+            <image onclick="onItemClick($idx)" if="{{$item.images.length > 0 }}" src="{{$item.images[0]}}"></image>
+            <image onclick="onItemClick($idx)" else src="/common/images/placeholder.jpg"></image>
+            <div class="poi-overlay-bottom">
+              <text class="poi-overlay-like" onclick="toggleLike($idx)">{{ isLikedPoI($item.id)? iconLiked : iconUnliked }}</text>
+              <text class="poi-overlay-type" onclick="onItemClick($idx)" if={{$item.type}}>{{$item.type}}</text> 
+            </div>
           </stack>
-          <div class="poi-text-wrap">
+          <div class="poi-text-wrap" onclick="onItemClick($idx)">
             <div class="poi-text-title">
               <text class="poi-text-name">{{ $item.name }}</text>
               <text class="poi-text-distance">{{ prettifyDistance($item.distance) }}</text>
@@ -22,8 +25,11 @@
           </div>
         </list-item>
 
-        <list-item type="loadStatus" class="load-status">
-          <text show="{{!hasMoreData}}">{{$t("message.cards.no_items")}}</text>
+        <list-item type="loadStatus" class="no-content" if="{{filter_favorites && (currentLikedIds.length === 0)}}">
+          <text class="no-content">{{$t("message.cards.no_favorites")}}</text>
+        </list-item>
+        <list-item type="loadStatus" class="end-list" else="{{filter_favorites}}">
+          <text else>{{$t("message.cards.no_items")}}</text>
         </list-item>
       </list>
     </stack>
@@ -38,16 +44,30 @@ export default {
     introText: '' ,
     pois: [],
     isRefreshing: false,
-    channel: null
+    channel: null,
+    iconLiked: '\ue87d',
+    iconUnliked: '\ue87e',
+    currentLikedIds: []
+  },
+  props: {
+    filter_favorites: {   // Parameter to filter just the Favorites
+      type: Boolean,
+      default: false,
+      required: false
+    },
   },
   onInit() {
+    this.currentLikedIds = this.$app.getAppData('likedIds')
+    this.channel = new BroadcastChannel('updateChannel')
     this.introText = `${this.$app.manifest.name} v${this.$app.manifest.versionName}`
-    this.channel = new BroadcastChannel('updateChannel');
     // Waits for the signal to load the page
     this._loadAndRender()
     this._subscribeChannelUpdate()
     this.$app.track('access', `${this.$page.name}/cards`)    
   },
+  filterPoI(id) {
+    return !this.filter_favorites || this.currentLikedIds.includes(id) 
+  },  
   onDestroy() {
     this.channel.close()
   },  
@@ -60,6 +80,9 @@ export default {
         self._loadAndRender()
       }
     }
+  },
+  noFavoriteItems() {
+    return this.currentLikedIds.length === 0
   },
   refresh(e) {
     const self = this
@@ -77,6 +100,8 @@ export default {
    */
   _loadAndRender() {
     // Re-request data and determine whether to render the list based on the mode.
+    this.currentLikedIds = this.$app.getAppData('likedIds')
+    console.log(`   ✔️ ${this.currentLikedIds.length} PoIs currently liked`)
     this.pois = [].concat(this.$app.getAppData('pois'))
   },
   prettifyDistance(value) { 
@@ -99,6 +124,14 @@ export default {
       } 
     })
   },
+  isLikedPoI(id) {
+    return this.currentLikedIds.includes(id)
+  },
+  toggleLike(index) {
+    console.log('liking ' + this.pois[index].id)
+    // Retrieve the likes stored in the data cache
+    this.currentLikedIds = this.$app.toggleLikedPoi(this.pois[index].id, this.pois[index].name)
+  }
 }
 </script>
 
@@ -109,31 +142,45 @@ export default {
   background-color: #ffffff;
   flex-direction: column;
   width: 100%;
-  height: 700px;
-  border-radius: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 70 * @size-factor;
+  border-radius: 1.6 * @size-factor;
+  margin-top: 1 * @size-factor;
+  margin-bottom: 1 * @size-factor;
+  margin-left: 2 * @size-factor;
+  margin-right: 2 * @size-factor;
   .poi-image-wrap {
-    height: 500px;
+    height: 50 * @size-factor;
     justify-content: flex-end;
     image {
       width: 100%;
       height: 100%;
-      border-top-left-radius: 16px;
-      border-top-right-radius: 16px;
+      border-top-left-radius: 1.6 * @size-factor;
+      border-top-right-radius: 1.6 * @size-factor;
     }
-    .poi-overlay-type {
-      background-color: rgba(0, 0, 0, 0.5);
-      color: #ffffff;
-      font-weight: lighter;
-      height: 35px;
-      font-size: 30px;
+    .poi-overlay-bottom {
+      flex-direction: row;
+      justify-content: space-between;
       align-self: flex-end;
-      margin-bottom: 10px;
-      padding: 5px;
-      padding-top: 0;
+      width: 100%;
+      .poi-overlay-like {
+        color: #ffffff;
+        height: 8 * @size-factor;
+        font-size: 7.5 * @size-factor;
+        margin-bottom: 2 * @size-factor;
+        padding: 2 * @size-factor;
+        font-family: iconfont;
+      }
+      .poi-overlay-type {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 4 * @size-factor;
+        font-size: 3 * @size-factor;
+        align-self: flex-end;
+        font-weight: lighter;
+        margin-bottom: 2 * @size-factor;
+        padding: 1 * @size-factor;
+        padding-top: 0;
+      }
     }
   }
   .poi-text-wrap {
@@ -142,8 +189,8 @@ export default {
     padding: 1.6 * @size-factor;
     background-color: #ffffff;
     flex-direction: column;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 1.6 * @size-factor;
+    border-bottom-right-radius: 1.6 * @size-factor;
     .poi-text-title {
       flex-direction: row;
       justify-content: space-between;
@@ -167,9 +214,18 @@ export default {
     }
   }
 }
-.load-status {
+.end-list {
   width: 100%;
   flex-direction: row;
   justify-content: center;
+  padding: 4 * @size-factor;
+}
+.no-content {
+  width: 100%;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: 3 * @size-factor; 
+  padding: 7 * @size-factor;
 }
 </style>

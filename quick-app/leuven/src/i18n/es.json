@@ -6,7 +6,11 @@
                 "description": "Esta aplicación utiliza tu geoposición para mostrar los puntos de interés cercanos, nada más. Por favor, dame permiso :)",
                 "no": "No, gracias",
                 "yes": "Sí, está bien"
-            }
+            },
+            "likes" : {
+                "added": "{title} añadido a favoritos",
+                "removed": "{title} eliminado de favoritos"
+            }            
         },
         "tabs": [
             {
@@ -14,9 +18,13 @@
                 "icon": "\ue3b6"
             },
             {
+                "title": "Favoritos",
+                "icon": "\ue87d"
+            },            
+            {
                 "title": "Mapa",
                 "icon": "\ue55b"
-            },
+            },            
             {
                 "title": "Acerca",
                 "icon": "\ue88e"
@@ -25,7 +33,8 @@
         "cards": {
             "approx_km": "{distance} km desde aquí",
             "approx_m": "{distance} m desde aquí",
-            "no_items": "No más datos"
+            "no_items": "Final de la lista 😌",
+            "no_favorites": "No tienes favoritos en la lista. Haz clic sobre los iconos de corazón (♡) y elige tus sitios favoritos."            
         },
         "main": {
             "loading": "Cargando puntos de interés..."
@@ -43,8 +52,10 @@
             },
             "buttons": {
                 "share": "Compartir",
+                "navi": "Direcciones",
                 "feedback": "Mejóralo"
-            }
+            },
+            "url_navi": "https://www.petalmaps.com/nav/{from_lon},{from_lat}/{to_lon},{to_lat}/Mi%20posición/{name_poi}/walk" 
         },
         "about": {
             "install" : {

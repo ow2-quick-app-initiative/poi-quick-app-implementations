@@ -6,6 +6,10 @@
                 "description": "This app uses your geolocation to show the artworks nearby, nothing else. Please grant it :)",
                 "no": "No, thanks",
                 "yes": "Yes, I'm okay"
+            },
+            "likes" : {
+                "added": "{title} added to favorites",
+                "removed": "{title} removed from favorites"
             }
         },
         "tabs": [
@@ -13,6 +17,10 @@
                 "title": "Cards",
                 "icon": "\ue3b6"
             },
+            {
+                "title": "Favorites",
+                "icon": "\ue87d"
+            },            
             {
                 "title": "Map",
                 "icon": "\ue55b"
@@ -25,7 +33,8 @@
         "cards": {
             "approx_km": "{distance} km from here",
             "approx_m": "{distance} m from here",
-            "no_items": "No more data"
+            "no_items": "End of the list 😌",
+            "no_favorites": "No favorites in your list. Click on the heart icons (♡) and highlight your favorite places"
         },
         "main": {
             "loading": "Loading artworks..."
@@ -43,8 +52,10 @@
             },
             "buttons": {
                 "share": "Share",
+                "navi": "Directions",
                 "feedback": "Improve it"
-            }
+            },
+            "url_navi": "https://www.petalmaps.com/nav/{from_lon},{from_lat}/{to_lon},{to_lat}/My%20location/{name_poi}/walk" 
         },
         "about": {
             "install" : {
