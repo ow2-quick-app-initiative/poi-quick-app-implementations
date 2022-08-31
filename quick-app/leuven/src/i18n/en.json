@@ -18,12 +18,12 @@
                 "icon": "\ue3b6"
             },
             {
-                "title": "Map",
-                "icon": "\ue55b"
-            },
-            {
                 "title": "Favorites",
                 "icon": "\ue87d"
+            },
+            {
+                "title": "Map",
+                "icon": "\ue55b"
             },
             {
                 "title": "About",
@@ -52,8 +52,10 @@
             },
             "buttons": {
                 "share": "Share",
+                "navi": "Directions",
                 "feedback": "Improve it"
-            }
+            },
+            "url_navi": "https://www.petalmaps.com/nav/{from_lon},{from_lat}/{to_lon},{to_lat}/My%20location/{name_poi}/walk" 
         },
         "about": {
             "install" : {

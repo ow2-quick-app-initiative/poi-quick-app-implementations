@@ -1,3 +1,6 @@
+<import name="navi-button" src="./navi/button.ux"></import>
+<import name="navi-link" src="./navi/link.ux"></import>
+
 <template>
   <div class="page-container">
     <stack class="stack-container">
@@ -38,7 +41,15 @@
 
         <list-item class="item-title" type="poisTitle">
           <text class="item-text-name">{{ item.name }}</text>
-          <text class="item-text-distance">{{ prettifyDistance(distance) }}</text>
+          <div class="distance-directions">
+            <text class="item-text-distance">{{ prettifyDistance(distance) }}</text>
+            <div class="button-directions">
+              <navi-link 
+                  to_lat="{{item.lat}}" to_lon="{{item.lon}}" 
+                  name_poi="{{item.name}}">
+              </navi-link>           
+            </div>
+          </div>
           <div class="title-line"></div>          
           <text class="title-text-description">{{ item.description }}</text>
           <text class="title-text-description">{{ item.more }}</text>
@@ -70,7 +81,6 @@
           </a>
           </text>
         </list-item>
-        
         <list-item type="map">
           <stack class="map-container">
             <web src="{{mapUrl}}" @pagefinish={{pagefinish}}></web>
@@ -79,6 +89,7 @@
             </div>
           </stack>         
         </list-item>  
+
 
       </list>
 
@@ -107,6 +118,10 @@
           value="{{ isLikedPoI? iconLiked : iconUnliked }}"
           @click="toggleLike"
         />
+        <navi-button 
+          to_lat="{{item.lat}}" to_lon="{{item.lon}}" 
+          name_poi="{{item.name}}">
+        </navi-button>
         <!-- <input
           class="button"
           type="button"
@@ -129,8 +144,8 @@
 <script>
 import router from '@system.router'
 import share from '@system.share' 
-import prompt from '@system.prompt';
-import webview from '@system.webview' 
+import prompt from '@system.prompt'
+import webview from '@system.webview'
 
 export default {
   private: {
@@ -278,10 +293,17 @@ export default {
         font-size: 4 * @size-factor;
         color: #000000;
       }
-      .item-text-distance {
-        font-size: 2 * @size-factor;
-        color: #c7c2c2;
-      }        
+      .distance-directions {
+        flex-direction: row;
+        margin-bottom: 2 * @size-factor;
+        .item-text-distance {
+          font-size: 2 * @size-factor;
+          color: #c7c2c2;
+        }
+        .button-directions {
+          margin-left: 2 * @size-factor;
+        }
+      }
       .title-line {
         width: 100%;
         height: 1px;

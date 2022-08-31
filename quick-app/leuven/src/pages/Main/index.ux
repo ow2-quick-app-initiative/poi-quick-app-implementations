@@ -12,10 +12,10 @@
               <cards id="cards-component" filter_favorites={{false}}></cards>
             </div>
             <div if="{{this.selectedTabIndex === 1}}">
-              <mymap id="map-component"></mymap>
-            </div>          
-            <div if="{{this.selectedTabIndex === 2}}">
               <cards id="cards-likes" filter_favorites={{true}} ></cards>
+            </div>
+            <div if="{{this.selectedTabIndex === 2}}">
+              <mymap id="map-component"></mymap>
             </div>
             <div if="{{this.selectedTabIndex === 3}}">
               <about id="about-component"></about>
@@ -58,18 +58,18 @@ import { getDistance } from 'geolib'
 
 export default {
   private: {
-    tabList: [      
+    tabList: [      // icons and titles are overwriten using i18n
       {
         title: 'cards',
         icon: '\uf03e'
       },
       {
-        title: 'map',
-        icon: '\uf041'
-      },
-      {
         title: 'likes',
         icon: '\uf004'
+      },
+      {
+        title: 'map',
+        icon: '\uf041'
       },
       {
         title: 'about',
