@@ -22,7 +22,6 @@ export default {
     this.imageMap = this.$app.getAppData('globalMapImageURL')
     this.channel = new BroadcastChannel('updateChannel');
     this.mapUrl = this.$app.getAppData('globalMapURL')
-    console.log(`Loading map: ${this.mapUrl}`)
     this._subscribeChannelUpdate()
     this.$app.track('access', `${this.$page.name}/map`)
   },

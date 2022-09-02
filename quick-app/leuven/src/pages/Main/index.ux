@@ -24,8 +24,9 @@
         </tab-content>
 
         <tab-bar class="tab-bar">
-          <div class="tab-item" for="tabList">
+          <div class="tab-item" for="tabList" >
             <text
+              id="{{$item.id}}"
               class="iconfont"
               style="color: {{$idx === this.selectedTabIndex ? this.activedColor : this.deactivedColor}}"
             >
@@ -49,7 +50,7 @@
         <progress type="circular" class="circular-progress"></progress>
       </div>
     </div>
-    <div id="splash-first-experience" show="{{fistExperience}}">
+    <div id="splash-first-experience" show="{{!closeIntro}}">
       <stack class="image" >
         <image src="/common/images/frontpage.jpg"></image>
         <text class="brand">{{appName}}</text>
@@ -68,29 +69,34 @@
 <script>
 
 import { getDistance } from 'geolib'
-import storage from '@system.storage'
+//import storage from '@system.storage'
 
 export default {
   private: {
     tabList: [      // icons and titles are overwriten using i18n
       {
-        title: 'cards',
-        icon: '\uf03e'
+        title: '',
+        id: 'tab_cards',
+        icon: ''
       },
       {
-        title: 'likes',
-        icon: '\uf004'
+        title: '',
+        id: 'tab_likes',
+        icon: ''
       },
       {
-        title: 'map',
-        icon: '\uf041'
+        title: '',
+        id: 'tab_map',
+        icon: ''
       },
       {
-        title: 'about',
-        icon: '\uf129'
+        title: '',
+        id: 'tab_about',
+        icon: ''
       }
     ],
     fistExperience: true,
+    closeIntro: false,
     selectedTabIndex: 0,
     deactivedColor: '#707780',
     activedColor: '#000000',
@@ -165,11 +171,11 @@ export default {
     //   }) 
   },
   closeIntroSplash() {
-    this.fistExperience = false
+    this.closeIntro = true
     // If regId exists in the storage, it does not need to register
-    storage.set({ 
-      key: 'firstExperience',
-      value: 'true' }) 
+    // storage.set({ 
+    //   key: 'firstExperience',
+    //   value: 'true' }) 
   },
   /* -------------------SelfCustomEvent------------------ */
   changeTab(e) {
