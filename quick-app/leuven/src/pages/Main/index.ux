@@ -58,7 +58,7 @@
       <input
         class="button"
         type="button"
-        value="{{$t('message.app.init.button')}}"
+        value="{{$t('message.app.init.button') | uppercase }}"
         @click="closeIntroSplash"
       />    
     </div>
@@ -121,6 +121,9 @@ export default {
   onDestroy() {
     this.channel.close()
   },
+  uppercase(name) {
+    return name.toUpperCase()
+  },
   initTabs() {
     const appInfo = this.$app.getAppData('appInfo')
     for (let i = 0; i < this.tabList.length; i++) {
@@ -149,13 +152,17 @@ export default {
     this._reorderPOIs()
   },
   checkIfFirstVisit() {
-    const self = this
-    storage.get({ 
-      key: 'firstExperience',
-      default: 'false' })
-      .then((res) => {
-        self.fistExperience = (res.data === 'false')
-      }) 
+    // This was added to close the splash screen the second time
+    // If you want to close it the second time the user opens the app
+    // just uncomment the following code
+
+    // const self = this
+    // storage.get({ 
+    //   key: 'firstExperience',
+    //   default: 'false' })
+    //   .then((res) => {
+    //     self.fistExperience = (res.data === 'false')
+    //   }) 
   },
   closeIntroSplash() {
     this.fistExperience = false
@@ -247,6 +254,7 @@ text {
     background-color: rgba(255, 255, 255, 0.8);
     image {
       width: 40%;
+      opacity: 0.6;
     }
     .version, .info {
       font-size: 2 * @size-factor; 
@@ -267,6 +275,7 @@ text {
       padding-bottom: 4 * @size-factor; 
       image {
         width: 100%;
+        opacity: 0.7;
       }
     }
     .brand {
@@ -275,9 +284,16 @@ text {
       font-weight: bolder;
     }
     .button {
-      padding-left: 4 * @size-factor; 
-      padding-right: 4 * @size-factor; 
-      margin-top: 5 * @size-factor; 
+      padding: 4 * @size-factor; 
+      padding-top: 2 * @size-factor; 
+      padding-bottom: 2 * @size-factor; 
+      margin-top: 5 * @size-factor;
+      border-width: 0.5 * @size-factor;
+      border-radius: 2 * @size-factor;
+      font-size: 3 * @size-factor;
+      background-color: @brand;
+      color: #fafafa;
+      border-color: #fafafa;
     }
     .info {
       padding-left: 5 * @size-factor;  

@@ -297,7 +297,7 @@ export default {
         flex-direction: row;
         margin-bottom: 2 * @size-factor;
         .item-text-distance {
-          font-size: 2 * @size-factor;
+          font-size: 2.5 * @size-factor;
           color: #c7c2c2;
         }
         .button-directions {

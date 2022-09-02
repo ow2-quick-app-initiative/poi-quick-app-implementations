@@ -55,11 +55,11 @@ export default {
     align-items: center;
     padding: 0.5 * @size-factor;
     text {
-        font-size: 1.5 * @size-factor;
+        font-size: 2.5 * @size-factor;
     }
     .icon {
         font-family: iconfont;
-        font-size: 2.5 * @size-factor;
+        font-size: 3 * @size-factor;
     }
 }
 </style>
