@@ -1,8 +1,8 @@
 {
     "meta": {
         "app_title": "LVN Street Heritage",
-        "version": 16,
-        "updated": "2022-09-02",
+        "version": 17,
+        "updated": "2022-09-04",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/leuven/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": "https://appgallery.huawei.com/app/C105790639"
@@ -65,6 +65,7 @@
                     "description": "Het Fonske -Fons Sapientiae, Latin for Source of Wisdom-",
                     "more": "Het Fonske is one of the works of Jef Claerhout and was donated to the city in 1975 on the occasion of the 550th anniversary of the Catholic University of Leuven.",
                     "images": [
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384_4.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384_2.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384_3.jpg"
@@ -286,6 +287,7 @@
                         "https://nl.wikipedia.org/wiki/Martelarenplein_(Leuven)"
                     ],
                     "images": [
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/vredesmonument_1.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/vredesmonument_2.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/vredesmonument.jpg"
                     ]
