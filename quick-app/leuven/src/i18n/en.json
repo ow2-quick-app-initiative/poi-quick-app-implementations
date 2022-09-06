@@ -22,10 +22,6 @@
                 "icon": "\ue3b6"
             },
             {
-                "title": "Favorites",
-                "icon": "\ue87d"
-            },
-            {
                 "title": "Map",
                 "icon": "\ue55b"
             },
@@ -38,7 +34,11 @@
             "approx_km": "{distance} km from here",
             "approx_m": "{distance} m from here",
             "no_items": "End of the list 😌",
-            "no_favorites": "No favorites in your list. Click on the heart icons (♡) and highlight your favorite places"
+            "no_favorites": "No favorites in your list. Click on the heart icons (♡) and highlight your favorite places",
+            "filter": {
+                "only_favs": "only favorites",
+                "placeholder": "type to filter..."
+            }            
         },
         "main": {
             "loading": "Loading artworks..."

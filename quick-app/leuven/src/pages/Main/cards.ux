@@ -1,12 +1,21 @@
 <template>
   <refresh class="refresh" refreshing="{{isRefreshing}}" onrefresh="refresh">
-    <stack class="page-container">
+    <div class="filterbar" style="position:{{positionFilterBar}}">
+      <input class="text" placeholder="{{$t('message.cards.filter.placeholder')}}" enterkeytype="search" @change="searchPoIs"/>
+      <div class="switch">
+        <label class="label">{{$t('message.cards.filter.only_favs')}}</label>
+        <div class="result">
+          <switch checked="{{filterFavorites}}" @change="changeFavs"></switch>
+        </div>
+      </div>
+    </div>
+    <stack class="page-container" ontouchstart="onScroll">
       <list>      
         <list-item
           type="poi"
           class="item-poi"
           for="pois"
-          if={{filterPoI($item.id)}}
+          if="{{filterPoI($item.id, $item.name)}}"
         >
           <stack class="poi-image-wrap">
             <image onclick="onItemClick($idx)" if="{{$item.images.length > 0 }}" src="{{$item.images[0]}}"></image>
@@ -25,10 +34,10 @@
           </div>
         </list-item>
 
-        <list-item type="loadStatus" class="no-content" if="{{filter_favorites && (currentLikedIds.length === 0)}}">
+        <list-item type="loadStatus" class="no-content" if="{{filterFavorites && (currentLikedIds.length === 0)}}">
           <text class="no-content">{{$t("message.cards.no_favorites")}}</text>
         </list-item>
-        <list-item type="loadStatus" class="end-list" else="{{filter_favorites}}">
+        <list-item type="loadStatus" class="end-list" else="{{filterFavorites}}">
           <text else>{{$t("message.cards.no_items")}}</text>
         </list-item>
       </list>
@@ -38,6 +47,7 @@
 
 <script>
 import router from '@system.router'
+import storage from '@system.storage'
 
 export default {
   private: {
@@ -47,14 +57,10 @@ export default {
     channel: null,
     iconLiked: '\ue87d',
     iconUnliked: '\ue87e',
-    currentLikedIds: []
-  },
-  props: {
-    filter_favorites: {   // Parameter to filter just the Favorites
-      type: Boolean,
-      default: false,
-      required: false
-    },
+    currentLikedIds: [],
+    filterByText: '', 
+    positionFilterBar: 'absolute',
+    filterFavorites: false
   },
   onInit() {
     this.currentLikedIds = this.$app.getAppData('likedIds')
@@ -63,10 +69,27 @@ export default {
     // Waits for the signal to load the page
     this._loadAndRender()
     this._subscribeChannelUpdate()
-    this.$app.track('access', `${this.$page.name}/cards`)    
+    this.$app.track('access', `${this.$page.name}/cards`)
   },
-  filterPoI(id) {
-    return !this.filter_favorites || this.currentLikedIds.includes(id) 
+
+  filterPoI(id, name) {
+    const valueToSearch = this.filterByText.trim().toLowerCase()
+    if (name.toLowerCase().includes(valueToSearch)) {
+      return !this.filterFavorites ||  this.currentLikedIds.includes(id)
+    }
+    return false 
+  },
+  searchPoIs(ev) {
+    console.log(`Filtering by text ${ev.value}`)
+    this.filterByText = ev.value
+  },
+  changeFavs(ev) {
+    this.filterFavorites = ev.checked
+    const valueToStore = this.filterFavorites? 'true' : 'false'
+    storage.set({
+        key: 'filter_favorites_switch',
+        value: valueToStore })
+    this.$app.setAppData('filterFavorites', this.filterFavorites)
   },  
   onDestroy() {
     this.channel.close()
@@ -103,6 +126,10 @@ export default {
     this.currentLikedIds = this.$app.getAppData('likedIds')
     console.log(`   ✔️ ${this.currentLikedIds.length} PoIs currently liked`)
     this.pois = [].concat(this.$app.getAppData('pois'))
+    this.filterFavorites = this.$app.getAppData('filterFavorites')    
+  },
+  onScroll() {
+    this.positionFilterBar = "fixed"
   },
   prettifyDistance(value) { 
     try {
@@ -137,7 +164,45 @@ export default {
 
 <style lang="less">
 @import '../../common/styles/style.less'; 
-
+.page-container {
+  margin-top: 8 * @size-factor;
+}
+.refresh {
+  flex-direction: column;
+  .filterbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 1 * @size-factor;
+    .switch {
+      width: 35%;
+      justify-content: center;
+      align-self: flex-end;
+      .label {
+        font-size: 2 * @size-factor;
+      }
+      switch {
+        track-color: @brand;
+      }
+      margin-right: 1 * @size-factor;
+    }
+    .text {
+      margin-left: 1 * @size-factor;
+      padding: 1 * @size-factor;
+      width: 60%;
+      border-width: 0.2 * @size-factor;
+      border-radius: 1 * @size-factor;
+      font-size: 3 * @size-factor;
+      border-color: #fafafa;
+      background-color: #fafafa;
+      align-items: center;
+      justify-content: center;
+      color: @brand;
+    }    
+  }
+}
 .item-poi {
   background-color: #ffffff;
   flex-direction: column;

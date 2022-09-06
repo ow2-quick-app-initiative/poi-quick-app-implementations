@@ -9,15 +9,12 @@
         <tab-content>
           <div class="content-container">
             <div if="{{this.selectedTabIndex === 0}}">
-              <cards id="cards-component" filter_favorites={{false}}></cards>
+              <cards id="cards-component"></cards>
             </div>
             <div if="{{this.selectedTabIndex === 1}}">
-              <cards id="cards-likes" filter_favorites={{true}} ></cards>
-            </div>
-            <div if="{{this.selectedTabIndex === 2}}">
               <mymap id="map-component"></mymap>
             </div>
-            <div if="{{this.selectedTabIndex === 3}}">
+            <div if="{{this.selectedTabIndex === 2}}">
               <about id="about-component"></about>
             </div>          
           </div>
@@ -77,11 +74,6 @@ export default {
       {
         title: '',
         id: 'tab_cards',
-        icon: ''
-      },
-      {
-        title: '',
-        id: 'tab_likes',
         icon: ''
       },
       {
