@@ -1,7 +1,7 @@
 {
     "meta": {
         "app_title": "LVN Street Heritage",
-        "version": 18,
+        "version": 19,
         "updated": "2022-09-06",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/leuven/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
@@ -715,7 +715,27 @@
                     ],
                     "urls": [
                     ]
-                }
+                },
+                {
+                    "id": "kartuis",
+                    "name": "Kartuis",
+                    "description": "16th century Carthusian Priory founded in 1489 that was used as Capuchin monastery in the 20th century.",
+                    "more": "It was purchased by the KU Leuven in 2005.",
+                    "lat": "50.875870",
+                    "lon": "4.687458",
+                    "type": "priory",
+                    "images": [
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_5.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_0.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_1.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_6.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_2.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_3.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/kartuis_4.jpg"
+                    ],
+                    "urls": [
+                    ]
+                }                
             ]
         }
     }
