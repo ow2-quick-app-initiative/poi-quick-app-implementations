@@ -9,13 +9,13 @@
         </div>
       </div>
     </div>
-    <stack class="page-container" ontouchstart="onScroll">
-      <list>      
+    <stack class="page-container" ontouchstart="fixFilterBar">
+      <list id="poi-list">      
         <list-item
           type="poi"
           class="item-poi"
           for="pois"
-          if="{{filterPoI($item.id, $item.name)}}"
+          if="{{filterPoI($item)}}"
         >
           <stack class="poi-image-wrap">
             <image onclick="onItemClick($idx)" if="{{$item.images.length > 0 }}" src="{{$item.images[0]}}"></image>
@@ -33,12 +33,8 @@
             <text class="poi-text-description">{{ $item.description }}</text>
           </div>
         </list-item>
-
-        <list-item type="loadStatus" class="no-content" if="{{filterFavorites && (currentLikedIds.length === 0)}}">
-          <text class="no-content">{{$t("message.cards.no_favorites")}}</text>
-        </list-item>
-        <list-item type="loadStatus" class="end-list" else="{{filterFavorites}}">
-          <text else>{{$t("message.cards.no_items")}}</text>
+        <list-item type="loadStatus" class="end-list">
+          <text>{{$t("message.cards.no_items")}}</text>
         </list-item>
       </list>
     </stack>
@@ -71,16 +67,15 @@ export default {
     this._subscribeChannelUpdate()
     this.$app.track('access', `${this.$page.name}/cards`)
   },
-
-  filterPoI(id, name) {
+  filterPoI(item) {
     const valueToSearch = this.filterByText.trim().toLowerCase()
-    if (name.toLowerCase().includes(valueToSearch)) {
-      return !this.filterFavorites ||  this.currentLikedIds.includes(id)
+    if (item.name.toLowerCase().includes(valueToSearch) || item.type.toLowerCase().includes(valueToSearch)) {
+      return !this.filterFavorites || this.currentLikedIds.includes(item.id)
     }
     return false 
   },
   searchPoIs(ev) {
-    console.log(`Filtering by text ${ev.value}`)
+    this.$element('poi-list').scrollTo({ index: 0 });
     this.filterByText = ev.value
   },
   changeFavs(ev) {
@@ -128,7 +123,7 @@ export default {
     this.pois = [].concat(this.$app.getAppData('pois'))
     this.filterFavorites = this.$app.getAppData('filterFavorites')    
   },
-  onScroll() {
+  fixFilterBar() {
     this.positionFilterBar = "fixed"
   },
   prettifyDistance(value) { 
@@ -169,6 +164,7 @@ export default {
 @import '../../common/styles/style.less'; 
 .page-container {
   margin-top: 8 * @size-factor;
+  max-height: 250 * @size-factor;
 }
 .refresh {
   flex-direction: column;
@@ -210,7 +206,6 @@ export default {
   }
 }
 .item-poi {
-  background-color: #ffffff;
   flex-direction: column;
   width: 100%;
   height: 70 * @size-factor;
@@ -287,16 +282,11 @@ export default {
 }
 .end-list {
   width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  padding: 4 * @size-factor;
-}
-.no-content {
-  width: 100%;
-  flex-direction: row;
-  align-self: flex-end;
-  justify-content: center;
-  font-size: 3 * @size-factor; 
-  padding: 7 * @size-factor;
+  text {
+    text-align: center;
+    width: 100%;
+    padding-top: 2 * @size-factor;
+    padding-bottom: 2 * @size-factor;    
+  }
 }
 </style>

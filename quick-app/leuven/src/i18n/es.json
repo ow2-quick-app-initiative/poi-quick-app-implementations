@@ -33,8 +33,7 @@
         "cards": {
             "approx_km": "{distance} km desde aquí",
             "approx_m": "{distance} m desde aquí",
-            "no_items": "Final de la lista 😌",
-            "no_favorites": "No tienes favoritos en la lista. Haz clic sobre los iconos de corazón (♡) y elige tus sitios favoritos.",
+            "no_items": "Final de la lista 😌\nUsa los filtros para refinar tu búsqueda",
             "filter": {
                 "only_favs": "sólo favoritos",
                 "placeholder": "escribe para filtrar..."

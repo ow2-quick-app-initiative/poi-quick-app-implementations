@@ -33,10 +33,9 @@
         "cards": {
             "approx_km": "{distance} km from here",
             "approx_m": "{distance} m from here",
-            "no_items": "End of the list 😌",
-            "no_favorites": "No favorites in your list. Click on the heart icons (♡) and highlight your favorite places",
+            "no_items": "No more items to show 😌\nUse the filters to refine your search.",
             "filter": {
-                "only_favs": "only favorites",
+                "only_favs": "show only favorites",
                 "placeholder": "type to filter..."
             }            
         },
