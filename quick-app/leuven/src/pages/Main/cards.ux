@@ -5,7 +5,7 @@
       <div class="switch">
         <label class="label">{{$t('message.cards.filter.only_favs')}}</label>
         <div class="result">
-          <switch checked="{{filterFavorites}}" @change="changeFavs"></switch>
+          <switch checked="{{filterFavorites}}" @change="changeFavs" class="{{switchClass()}}"></switch>
         </div>
       </div>
     </div>
@@ -158,6 +158,9 @@ export default {
     console.log('liking ' + this.pois[index].id)
     // Retrieve the likes stored in the data cache
     this.currentLikedIds = this.$app.toggleLikedPoi(this.pois[index].id, this.pois[index].name)
+  },
+  switchClass(){
+    return this.filterFavorites? 'switch-yes' : 'switch-no'
   }
 }
 </script>
@@ -185,6 +188,9 @@ export default {
       }
       switch {
         track-color: @brand;
+      }
+      .switch-no {
+        track-color: #aaaaaa;
       }
       margin-right: 1 * @size-factor;
     }
