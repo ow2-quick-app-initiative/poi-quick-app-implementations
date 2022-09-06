@@ -38,6 +38,7 @@ export default {
       myCoordinates: { lat: 0, lon: 0},   // user's coordinates
       globalMapURL: mapBaseUrl, 
       userId: cipher.getRandomValues(8),
+      screenHeight: 2000,
       likedIds: []
     }
     this.channel = new BroadcastChannel('updateChannel')
@@ -330,8 +331,10 @@ export default {
     const random = String(Math.floor(Math.random()*1000)).padStart(4, '0');
     let matomoUrl = matomoBaseUrl + `&rand=${random}&action_name=${action}&url=${url}`
     matomoUrl += `&_id=${this.dataCache.userId}`
+    const self = this
     device.getInfo()
       .then((res) => {
+        self.dataCache.screenHeight = data.windowHeight
         matomoUrl += `&res=${res.data.screenWidth}x${res.data.screenHeight}`
         matomoUrl += `&lang=${res.data.language}-${res.data.region}` 
         matomoUrl += `&ua=${res.data.model}-${res.data.platformVersionCode}` 

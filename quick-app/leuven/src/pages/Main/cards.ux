@@ -9,8 +9,8 @@
         </div>
       </div>
     </div>
-    <stack class="page-container" ontouchstart="fixFilterBar">
-      <list id="poi-list">      
+    <stack class="page-container" ontouchstart="fixFilterBar" style="height:{{screenHeight}}">
+      <list id="poi-list" >
         <list-item
           type="poi"
           class="item-poi"
@@ -65,6 +65,7 @@ export default {
     // Waits for the signal to load the page
     this._loadAndRender()
     this._subscribeChannelUpdate()
+    this.screenHeight = this.$app.getAppData('screenHeight')
     this.$app.track('access', `${this.$page.name}/cards`)
   },
   filterPoI(item) {
@@ -164,7 +165,6 @@ export default {
 @import '../../common/styles/style.less'; 
 .page-container {
   margin-top: 8 * @size-factor;
-  max-height: 250 * @size-factor;
 }
 .refresh {
   flex-direction: column;
@@ -181,6 +181,7 @@ export default {
       align-self: flex-end;
       .label {
         font-size: 2 * @size-factor;
+        text-align: right;
       }
       switch {
         track-color: @brand;
@@ -204,6 +205,9 @@ export default {
       color: @brand;
     }    
   }
+}
+#poi-list{
+  margin-top: 2 * @size-factor;
 }
 .item-poi {
   flex-direction: column;
@@ -282,6 +286,7 @@ export default {
 }
 .end-list {
   width: 100%;
+  margin-top: 5 * @size-factor;
   text {
     text-align: center;
     width: 100%;
