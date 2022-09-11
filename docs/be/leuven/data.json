@@ -1,8 +1,8 @@
 {
     "meta": {
         "app_title": "LVN Street Heritage",
-        "version": 20,
-        "updated": "2022-09-08",
+        "version": 21,
+        "updated": "2022-09-11",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/leuven/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": "https://appgallery.huawei.com/app/C105790639"
@@ -163,11 +163,12 @@
                     "id": "3101985193",
                     "lat": "50.8803605",
                     "lon": "4.7004394",
-                    "name": "Middelpunt der Stad Leuven",
-                    "type": "plaque",
+                    "name": "Middelpunt",
+                    "type": "milestone",
                     "description": "Center of the City of Leuven, from 1975, when pedestrian Mechelsestraat was opened",
                     "more": "According to a photo from 1864, the landmark stone used to be located on the Zeven Hoeken (today Mathieu De Layensplein)",
                     "images": [
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/3101985193_0.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/3101985193.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/3101985193_2.jpg"
                     ],
