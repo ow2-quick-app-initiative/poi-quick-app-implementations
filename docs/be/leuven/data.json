@@ -1,8 +1,8 @@
 {
     "meta": {
         "app_title": "LVN Street Heritage",
-        "version": 21,
-        "updated": "2022-09-11",
+        "version": 22,
+        "updated": "2022-09-12",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/leuven/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": "https://appgallery.huawei.com/app/C105790639"
@@ -69,7 +69,8 @@
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384_2.jpg",
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/2346968384_3.jpg"
-                    ]
+                    ],
+                    "favorite": true
                 },
                 {
                     "id": "2507985861",
@@ -135,7 +136,7 @@
                 },
                 {
                     "id": "oeratoom",
-                    "name": "Oer Atoom",
+                    "name": "Oeratoom (Primeval Atom)",
                     "description": "Artwork across the city center, based on the Georges Lemaître's Big Bang theory.",
                     "more": "The Primordial Atom, based on the Big Bang theory, written in Leuven by Professor Georges Lemaître. This revolutionary theory was issued in 1931 at the University of Leuven. As a tribute, there is a new city artwork. It is called 'Oer Atom' and it transforms the inner city into a universe. From now on you will find galaxies between the street tiles and 1 meter is equal to 10 million light years. Walk through the city and experience the wonder of the universe with a work of art that only belongs in Leuven.",
                     "type": "big bang",
@@ -144,7 +145,8 @@
                     "lon": "4.702148",
                     "images": [
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/oeratoom.jpg"
-                    ]
+                    ],
+                    "favorite": true
                 },
                 {
                     "id": "dodoens",
@@ -245,7 +247,8 @@
                     "type": "totem",
                     "images": [
                         "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/thetotem.jpg"
-                    ]
+                    ],
+                    "favorite": true
                 },
                 {
                     "id": "1914",
@@ -598,7 +601,8 @@
                     ],
                     "urls": [
                         "https://nl.wikipedia.org/wiki/Groot_Begijnhof_Leuven"
-                    ]
+                    ],
+                    "favorite": true
                 },
                 {
                     "id": "sintgeertruikerk",
@@ -649,11 +653,12 @@
                     ],
                     "urls": [
                         "https://nl.wikipedia.org/wiki/Sint-Pieterskerk_(Leuven)"
-                    ]
+                    ],
+                    "favorite": true
                 },
                 {
                     "id": "stadhuis",
-                    "name": "Stadhuis van Leuven",
+                    "name": "Stadhuis",
                     "description": "Leuven's Town Hall, Gothic building located on the Grote Markt in Leuven",
                     "more": "The plans for the town hall of Leuven are based and inspired by the town hall of Bruges. The town hall has three floors. There are two niches between the windows, which protrude slightly. Three of the four corner towers also have niches. The corbels are carved scenes from the Bible . The recurring topic is guilt and penance.",
                     "lat": "50.87912487363574",
@@ -666,7 +671,8 @@
                     ],
                     "urls": [
                         "https://nl.wikipedia.org/wiki/Stadhuis_van_Leuven"
-                    ]
+                    ],
+                    "favorite": true
                 },
                 {
                     "id": "borchtpoort",
