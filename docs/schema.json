@@ -161,6 +161,11 @@
                                         "...the information was extracted from Wikidata, OpenStreetMaps, and other public sources...."
                                     ]
                                 },
+                                "favorite": {
+                                    "title": "It is favorite by default",
+                                    "type": "boolean",
+                                    "default": "false"
+                                },
                                 "text_feedback": {
                                     "title": "Text to leave feedback",
                                     "type": "string",

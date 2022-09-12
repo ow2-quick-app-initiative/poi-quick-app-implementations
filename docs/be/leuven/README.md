@@ -153,7 +153,8 @@ The content language tags are objects with the following structure:
                     "attributions": [
                         "John Smith", 
                         "Jane Doe"
-                    ], 
+                    ],
+                    "favorite": true, 
                     "urls": [
                         "https://en.wikipedia.org/wiki/Eiffel_Tower"
                     ]
@@ -194,6 +195,7 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 - `more` (`string`) Extended text with more details of the item.
 - `urls` (`array` of `url`) One or more absolute URLs to external related resources (e.g., to Wikipedia, official sources, etc.).
 - `attributions` (`array` of `string`). List of texts with the names of the contributors to the content or images of this item, if any.
+- `favorite`(`boolean`) Indicates whether the place will be added to the list of favorites by default (first launch)
 
 
 ## How to configure and handle public update proposals 
