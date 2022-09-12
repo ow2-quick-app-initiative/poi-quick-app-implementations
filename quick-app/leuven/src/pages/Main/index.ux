@@ -66,7 +66,7 @@
 <script>
 
 import { getDistance } from 'geolib'
-//import storage from '@system.storage'
+import storage from '@system.storage'
 
 export default {
   private: {
@@ -102,7 +102,6 @@ export default {
   },
   onInit() {
     this.initTabs()
-    this.checkIfFirstVisit()
     this.channel = new BroadcastChannel('updateChannel')
     const appInfo = this.$app.getAppData('appInfo')
     this.loadingMessage = this.$t('message.main.loading')
@@ -113,7 +112,7 @@ export default {
       backgroundColor: appInfo.theme.brand, 
       backgroundOpacity: 0.9
     })
-    this.appName = `${this.$app.manifest.name} v${this.$app.manifest.versionName}`
+    this.appName = `${this.$app.manifest.name}`
     this._registerListenerUpdates()
   },
   onDestroy() {
@@ -140,6 +139,7 @@ export default {
     this.channel.onmessage = function(event) {
       console.info(`[Main/index.ux] Received update message ${event.data}`)
       if (event.data === 'ready') {
+        self._checkIfFirstVisit()
         self.updatePoisByDistance()
         self.loading = false
       }
@@ -149,18 +149,36 @@ export default {
     this._setDistancePois()
     this._reorderPOIs()
   },
-  checkIfFirstVisit() {
-    // This was added to close the splash screen the second time
-    // If you want to close it the second time the user opens the app
-    // just uncomment the following code
-
-    // const self = this
-    // storage.get({ 
-    //   key: 'firstExperience',
-    //   default: 'false' })
-    //   .then((res) => {
-    //     self.fistExperience = (res.data === 'false')
-    //   }) 
+  _checkIfFirstVisit() {
+    const self = this
+    storage.get({ 
+      key: 'firstVisit',
+      default: 'false' })
+      .then((res) => {
+        if (res.data === 'false') {
+          self._addFavoritesByDefault()
+          storage.set({ 
+            key: 'firstVisit',
+            value: 'true' })           
+        }
+      }) 
+  },
+  _addFavoritesByDefault() {
+    // if it´s the first time, populates the array of favorites 
+    // with those marked as favorite=true in the db
+    const currentLikedIds = this.$app.getAppData('likedIds')
+    if (currentLikedIds && currentLikedIds.length === 0) {
+      const pois = this.$app.getAppData('pois')
+      pois.forEach(poi => {
+        if (poi.favorite) {
+          currentLikedIds.push(poi.id)
+        }        
+      });
+      storage.set({
+        key: 'liked',
+        value: JSON.stringify(currentLikedIds)
+      })
+    }
   },
   closeIntroSplash() {
     this.closeIntro = true
