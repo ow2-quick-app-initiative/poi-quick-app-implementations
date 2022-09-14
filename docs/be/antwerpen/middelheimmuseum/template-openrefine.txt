@@ -1,0 +1,18 @@
+    {
+      "id" : {{jsonize(cells["result - id"].value)}},
+      "type" : {{jsonize(cells["type"].value)}},
+      "lon" : {{jsonize(cells["lon"].value)}},
+      "lat" : {{jsonize(cells["lat"].value)}},
+      "name" : {{jsonize(cells["title"].value)}},
+      "creator" : {{jsonize(cells["creator"].value)}},
+      "description" : {{jsonize(cells["description"].value)}},
+      "license" : {{jsonize(cells["license"].value)}},
+      "publisher" : {{jsonize(cells["publisher"].value)}},
+      "contributor" : {{jsonize(cells["contributor"].value)}},
+      "format" : {{jsonize(cells["result - format"].value)}},
+      "more" : "",
+      "images" : [{{ if(cells["image"].value!=null, jsonize(cells["image"].value), '') }}],
+      "attributions": ["Source: Museums and Heritage Antwerp" ],
+      "wikidata": {{jsonize(cells["wikipedia"].value)}}, 
+      "urls": []
+    }
