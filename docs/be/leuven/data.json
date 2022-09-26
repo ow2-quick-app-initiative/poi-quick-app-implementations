@@ -1,8 +1,9 @@
 {
     "meta": {
+        "app_id": "es.espinr.leuven",
         "app_title": "LVN Street Heritage",
-        "version": 22,
-        "updated": "2022-09-12",
+        "version": 23,
+        "updated": "2022-09-26",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/leuven/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": "https://appgallery.huawei.com/app/C105790639"
