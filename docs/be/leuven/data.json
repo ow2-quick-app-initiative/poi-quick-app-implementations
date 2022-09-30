@@ -2,8 +2,8 @@
     "meta": {
         "app_id": "es.espinr.leuven",
         "app_title": "LVN Street Heritage",
-        "version": 23,
-        "updated": "2022-09-26",
+        "version": 24,
+        "updated": "2022-09-30",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/leuven/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": "https://appgallery.huawei.com/app/C105790639"
@@ -744,7 +744,39 @@
                     ],
                     "urls": [
                     ]
-                }                
+                },
+                {
+                    "id": "dewitte",
+                    "name": "De Witte",
+                    "description": "De Witte is a character from Ernest Claes' De Witte novel",
+                    "more": "Louis Verheyden, nicknamed De Witte, goes to school but is not really a good student. The statue of De Witte is portrayed as a mischievous barefooted rascal who looks up at the faculty of arts.",
+                    "lat": "50.877526",
+                    "lon": "4.708749",
+                    "type": "statue",
+                    "images": [
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/dewitte.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/dewitte_02.jpg"
+                    ],
+                    "urls": [
+                        "https://catchysights.com/blogs/news/de-witte"
+                    ]
+                },
+                {
+                    "id": "bell",
+                    "name": "Michaux foundry bell",
+                    "description": "Facing stone from the former bell foundry Michaux (Diestsevest)",
+                    "more": "Sandstone from the 19th century (fourth quarter) with the inscription O. MICHAUX. It is a gift from KBC Verzekeringen.",
+                    "lat": "50.877399215643116",
+                    "lon": "4.709040923685559",
+                    "type": "facing stone",
+                    "images": [
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/bell_02.jpg",
+                        "https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/bell.jpg"
+                    ],
+                    "urls": [
+                        "https://blendeff.be/nl/item/B284"
+                    ]
+                }                          
             ]
         }
     }
