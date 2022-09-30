@@ -1,4 +1,4 @@
-# Local Cultural Heritage Quick App - Eckernförde (Germany)
+# _Heritage in…_ Eckernförde (Germany)
 
 The Eckernförde Cultural Heritage Quick App promotes cultural heritage collections in the city of Eckernförde (Germany) through open data and crowdsourcing. 
 

@@ -1,4 +1,4 @@
-# Local Cultural Heritage - Leuven (Belgium)
+# _Heritage in…_ Leuven (Belgium)
 
 The LVN Local Cultural Heritage quick app promotes cultural heritage collections in the City of Leuven through open data and crowdsourcing. You can find the [quick app in the AppGallery](https://appgallery.huawei.com/app/C105790639).
 

@@ -1,8 +1,8 @@
-# Local Cultural Heritage Quick App
+# _Heritage in…_ Quick App
 
 [![JSON Check & Publication](https://github.com/pbesteu/cultural-heritage-quick-app/actions/workflows/gh-deploy.yml/badge.svg?branch=main)](https://github.com/pbesteu/cultural-heritage-quick-app/actions/workflows/gh-deploy.yml)
 
-The Local Cultural Heritage Quick App promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
+The _Heritage in…_ Quick App project promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
 
 > It's free, open-source, and collaborative 
 

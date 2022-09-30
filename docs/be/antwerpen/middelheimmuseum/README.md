@@ -1,4 +1,4 @@
-# Local Cultural Heritage Quick App - Antwerpen Middelheimmuseum
+# _Heritage in…_ Quick App - Antwerpen Middelheimmuseum
 
 The Middelheimmuseum Cultural Heritage Quick App promotes cultural heritage collections in the Antwerpen's Middelheimmuseum through open data and crowdsourcing. 
 
