@@ -34,7 +34,7 @@
             "images" : ["https://commons.wikimedia.org/wiki/File:David,_Park_Den_Brandt,_Antwerpen.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: H4N5-antw" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/2376124830"]
           },
           {
             "id" : "3137504602",
@@ -47,7 +47,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/79/Mark_Macken%2C_April%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615985", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504602","https://www.mapillary.com/map/im/GhYuMGo6UVmxVouPpqID4k"]
           },
           {
             "id" : "3137504603",
@@ -60,7 +60,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/39/Panamarenko%2C_Archaeopterix_Lithografica%2C_1993.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616414", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504603","https://www.mapillary.com/map/im/PXp1EaWrQ5vg18CmGfzQGD"]
           },
           {
             "id" : "3137504605",
@@ -73,7 +73,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c7/Aldo_Calo%2C_Biforma%2C_1959.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616019", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504605","https://www.mapillary.com/map/im/onWQsztvC7E6Njn5KhbSE6"]
           },
           {
             "id" : "3137504606",
@@ -86,7 +86,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/01/Floriano_Bodini%2C_Dames%2C_1961.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616045", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504606","https://www.mapillary.com/map/im/LRXSah9n7RIBe3AeKzPGCz"]
           },
           {
             "id" : "3137504607",
@@ -99,7 +99,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/6/64/Umberto_Mastroianni%2C_De_Boodschap%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615963", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:De Boodschap (Umberto Mastroianni)"]
+            "urls": ["https://www.openstreetmap.org/node/3137504607"]
           },
           {
             "id" : "3137504608",
@@ -112,7 +112,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/79/Giacomo_Manzu%2C_De_Danspas%2C_1960.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615764", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504608","https://www.mapillary.com/map/im/hhjjhULmEBMpUVOjBqcRcA"]
           },
           {
             "id" : "3137504609",
@@ -125,7 +125,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/0a/Francisco_Zuniga%2C_De_Drempel%2C_1970.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616224", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504609","https://www.mapillary.com/map/im/yhQ6y81S4nvV0WZqQhU00Y"]
           },
           {
             "id" : "3137504610",
@@ -138,7 +138,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/ff/Toni_Stadler%2C_De_Hond%2C_1950.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615775", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504610","https://www.mapillary.com/map/im/3jtetMVM0iBT3SQZ1YIbdr"]
           },
           {
             "id" : "3137504611",
@@ -151,7 +151,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/a1/De_Zaaier_door_Constantin_Meunier.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q21647357", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504611","https://www.mapillary.com/map/im/LMfHwMZEh2mFuKJEDmcbFP"]
           },
           {
             "id" : "3137504612",
@@ -164,7 +164,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/85/Johan_Creten%2C_De_Zuil%2C_2010.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55756859", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504612","https://www.mapillary.com/map/im/QxxxTt1I8pvZSTnNT5fm9B"]
           },
           {
             "id" : "3137504613",
@@ -177,7 +177,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/b5/Kosta_Angeli_Radovani%2C_Dunja_IV%2C_1963.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616066", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Dunja IV (Kosta Angeli Radovani)"]
+            "urls": ["https://www.openstreetmap.org/node/3137504613","https://www.mapillary.com/map/im/JA4jm9EMcM9n6l1pqwPX4M"]
           },
           {
             "id" : "3137504615",
@@ -190,7 +190,7 @@
             "images" : ["https://photos.app.goo.gl/u1WLowvR2hKThsDu8"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616444", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Envelope (Tony Cragg)"]
+            "urls": ["https://www.openstreetmap.org/node/3137504615","https://www.mapillary.com/map/im/F149R55Uhzfq6fKunwTxZz"]
           },
           {
             "id" : "3137504616",
@@ -203,7 +203,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/bd/Marcello_Mascherini%2C_Faun%2C_1953-1954.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615854", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504616","https://www.mapillary.com/map/im/NBXmJocuBSBp5wRit3Y6UW"]
           },
           {
             "id" : "3137504617",
@@ -216,7 +216,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/87/Giacomo_Manzu%2C_Graflegging%2C_1950.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615772", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504617","https://www.mapillary.com/map/im/3f83fFrCvk69eJz4XJniVo"]
           },
           {
             "id" : "3137504618",
@@ -229,7 +229,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Emiel_Poetou%2C_Grafmonument%2C_1930.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615589", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504618","https://www.mapillary.com/map/im/OH69BZwzBLxVayU7ngZDsl"]
           },
           {
             "id" : "3137504619",
@@ -242,7 +242,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/ed/Giacomo_Manzu%2C_Kruisiging%2C_1950.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615768", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504619","https://www.mapillary.com/map/im/3f83fFrCvk69eJz4XJniVo"]
           },
           {
             "id" : "3137504620",
@@ -255,7 +255,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/ed/Alice_Aycock%2C_Leonardo_Swirl%2C_1982.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616362", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Leonardo Swirl (Alice Aycock)"]
+            "urls": ["https://www.openstreetmap.org/node/3137504620","https://www.mapillary.com/map/im/kmiln4u1MxrdZgE1DFMrIt"]
           },
           {
             "id" : "3137504621",
@@ -268,7 +268,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/94/Adam_Fischer%2C_Meisje_uit_Crete%2C_1942.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615669", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504621","https://www.mapillary.com/map/im/z8JnxnopfntbhPLKoPtmbg"]
           },
           {
             "id" : "3137504623",
@@ -281,7 +281,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/af/Lynn_Chadwick%2C_Ontmoeting_VIII%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615966", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504623","https://www.mapillary.com/map/im/js8qgdl0ClN4VIc2DPV0Iy"]
           },
           {
             "id" : "3137504624",
@@ -294,7 +294,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/0f/Ivan_Mestrovic%2C_Pieta%2C_1932.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615602", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504624","https://www.mapillary.com/map/im/HDD2VDpGiGRXH0vhUvS6ov"]
           },
           {
             "id" : "3137504626",
@@ -307,7 +307,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e8/Jessica_Stockholder_-_Born_of_Landscape_Linoleum_-_1999_-_Middelheimmuseum_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616473", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504626"]
           },
           {
             "id" : "3137504627",
@@ -320,7 +320,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c4/Sphairos%2C_Franz_West.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616453", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504627","https://www.mapillary.com/map/im/o7GeCKUNwKOgIGLuCupa9N"]
           },
           {
             "id" : "3137504628",
@@ -333,7 +333,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4e/Vojin_Bakic%2C_Stier%2C_1955.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615896", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137504628"]
           },
           {
             "id" : "3137505329",
@@ -346,7 +346,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e2/Carmelo_Cappello%2C_Storm%2C_1956.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615932", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137505329"]
           },
           {
             "id" : "3137505330",
@@ -359,7 +359,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/59/Corey_McCorkle%2C_Yayoi%2C_2005.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616487", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137505330","https://www.mapillary.com/map/im/gx6dY4R8ubr0aSNT38n2uK"]
           },
           {
             "id" : "3137505370",
@@ -372,7 +372,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f8/Honor%C3%A9_d%27O%2C_Shouting_is_Breathing_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616491", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137505370"]
           },
           {
             "id" : "3137505371",
@@ -385,7 +385,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/cf/Modelh%C3%A4user_Typ_Bomarzo_%28Timm_Ulrichs%29_in_Middelheim_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616463", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Modelhäuser Typ Bomarzo (Timm Ulrichs)"]
+            "urls": ["https://www.openstreetmap.org/node/3137505371"]
           },
           {
             "id" : "3137505372",
@@ -398,7 +398,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/3b/Zonder_Titel%2C_Bernd_Lohaus.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616405", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137505372"]
           },
           {
             "id" : "3137505374",
@@ -411,7 +411,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/29/Pi%C3%A8ce_%C3%A0_Conviction%2C_Michel_Francois.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616427", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137505374"]
           },
           {
             "id" : "3137505378",
@@ -424,7 +424,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e4/Luciano_Fabro%2C_Badenden%2C_1994.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616432", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3137505378"]
           },
           {
             "id" : "3138809335",
@@ -437,7 +437,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/b7/Alberto_Viano%2C_Abstract_naakt%2C1949.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615752", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809335","https://www.mapillary.com/map/im/2Unf3iBCxYKYU1xjsYbkHj"]
           },
           {
             "id" : "3138809338",
@@ -450,7 +450,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/33/Jorge_Dubon%2C_Bos_van_metaal%2C_1970.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616232", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809338","https://www.mapillary.com/map/im/BoQ7R476ulOwlOb6ka7my9"]
           },
           {
             "id" : "3138809339",
@@ -463,7 +463,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/21/Ulrich_Ruckriem%2C_Constructie%2C_1967.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616162", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809339","https://www.mapillary.com/map/im/iGgAbMAVyWW5k0KwS6QWax"]
           },
           {
             "id" : "3138809341",
@@ -476,7 +476,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f7/Etienne_Desmet%2C_De_familie_Desmet_in_de_hemel%2C_1972.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616284", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:De familie Desmet in de hemel (Etienne Desmet)"]
+            "urls": ["https://www.openstreetmap.org/node/3138809341","https://www.mapillary.com/map/im/pz6Uyss2AhHtG68XqNCanB"]
           },
           {
             "id" : "3138809342",
@@ -489,7 +489,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/05/Fran%C3%A7ois_Pompon%2C_De_ijsbeer%2C_1920.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615555", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809342","https://www.mapillary.com/map/im/9oP4d2XMIFdJ6G80RcQaIp"]
           },
           {
             "id" : "3138809344",
@@ -502,7 +502,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/04/Erwin_Wurm%2C_Disziplin_der_Subjektivitat%2C_2006.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55744017", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809344","https://www.mapillary.com/map/im/J5SmmlKwgosUELztyxvgXu"]
           },
           {
             "id" : "3138809346",
@@ -515,7 +515,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/21/Pierre_Heyvaert%2C_Equa-Tria_nr_23%2C_1971.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616257", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809346","https://www.mapillary.com/map/im/7CaNaJDnQZvOYiHK3EFnOE"]
           },
           {
             "id" : "3138809347",
@@ -528,7 +528,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/37/Pietro_Cascella%2C_Geboorte%2C_1973.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616286", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809347","https://www.mapillary.com/map/im/ijiOTAwrR3U9mie5nfXI8d"]
           },
           {
             "id" : "3138809348",
@@ -541,7 +541,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c2/Harry_Kivij%C3%A4rvi%2C_Groot_zeil%2C_1968.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616196", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809348"]
           },
           {
             "id" : "3138809349",
@@ -554,7 +554,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/09/Andre_Willequet%2C_Grote_vogel%2C_1964.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616087", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809349","https://www.mapillary.com/map/im/g47eg0DyCE9Zya4bf4oE0H"]
           },
           {
             "id" : "3138809351",
@@ -567,7 +567,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/d1/Jacques_Guilmot%2C_La_folie_du_geste%2C_1971.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616259", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809351","https://www.mapillary.com/map/im/DuGyoZIfzcZMvxa7dBnGId"]
           },
           {
             "id" : "3138809352",
@@ -580,7 +580,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9b/Jan_Dries%2C_Lichtleven%2C_1962.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616055", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809352","https://www.mapillary.com/map/im/1s0sIUwwN4WOr266sec76h"]
           },
           {
             "id" : "3138809353",
@@ -593,7 +593,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/df/Martin_Chirino%2C_Mediterranean%2C_1969.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616205", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809353","https://www.mapillary.com/map/im/TwVlC2ZpJA5CN4brenk4ZI"]
           },
           {
             "id" : "3138809354",
@@ -606,7 +606,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/02/Bernard_Rosenthal%2C_Odyssey%2C_1968.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616189", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809354","https://www.mapillary.com/map/im/t4j6BZAEjicDi4mWJqpUUd"]
           },
           {
             "id" : "3138809355",
@@ -619,7 +619,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2b/Kim_Lim%2C_One_and_a_half%2C_1967.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616149", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809355","https://www.mapillary.com/map/im/Lg0IuzglSNF5vT9m4Aj4m6"]
           },
           {
             "id" : "3138809356",
@@ -632,7 +632,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/af/Carl_Milles%2C_Pegasus%2C_1949.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615749", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809356","https://www.mapillary.com/map/im/EppJ6cmwazXfpUAWFFrec8"]
           },
           {
             "id" : "3138809357",
@@ -645,7 +645,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/dc/Umberto_Mastroianni%2C_Ruiters%2C1953.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615858", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809357","https://www.mapillary.com/map/im/PuSpzNKPFwJexiuwTvsimt"]
           },
           {
             "id" : "3138809358",
@@ -658,7 +658,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/30/Louise_Nevelson%2C_Sun_Disk-Moon_Shadow%2C_1976.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616338", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809358","https://www.mapillary.com/map/im/77HBWk26K5BKKRetXJXzes"]
           },
           {
             "id" : "3138809359",
@@ -671,7 +671,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/3a/Rodriguez_Amador%2C_Vertikaal_dubbele_kubus%2C_1972.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616269", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809359","https://www.mapillary.com/map/im/l4hxlTZJZjd6DsMDL3M9RK"]
           },
           {
             "id" : "3138809360",
@@ -684,7 +684,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/74/Alberto_Viano%2C_Vrouwentorso%2C_1954.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27627558", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809360","https://www.mapillary.com/map/im/kvvAZJ3OHUQFDwwbX9rpYq"]
           },
           {
             "id" : "3138809361",
@@ -697,7 +697,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/29/Luciano_Minguzzi%2C_Zes_personages%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615960", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809361","https://www.mapillary.com/map/im/pd6pHktgditEaJfxr1tcdh"]
           },
           {
             "id" : "3138809362",
@@ -710,7 +710,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/03/Camiel_Van_Breedam%2C_Zonnewagen%2C_1974.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616300", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3138809362","https://www.mapillary.com/map/im/0aUdjw5rlJDm7KvZpbJLZa"]
           },
           {
             "id" : "3151447560",
@@ -723,7 +723,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/47/Augustin_Cardenas%2C_%22L%22%2C_1968.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616193", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151447560","https://www.mapillary.com/map/im/61lsjCPh5bm346VvJtWnOT"]
           },
           {
             "id" : "3151450161",
@@ -736,7 +736,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/10/Balzac_door_Auguste_Rodin.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q2770535", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450161","https://www.mapillary.com/map/im/k11OEgUVVNB9MXH09v4W3B"]
           },
           {
             "id" : "3151450163",
@@ -749,7 +749,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/78/Mari_Andriessen%2C_Bomslachtoffer%2C_1948-1951.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615745", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450163","https://www.mapillary.com/map/im/Eg1FZqdfykN1fkAZxWGKmV"]
           },
           {
             "id" : "3151450164",
@@ -762,7 +762,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/6/6c/Burgemeester_Lode_Craeybeckx_door_Vic_Gentils.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616278", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450164","https://www.mapillary.com/map/im/lk0GWB7BOia38cI2fXJ1Jo"]
           },
           {
             "id" : "3151450165",
@@ -775,7 +775,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/81/Condor_%28Josue_Dupon%29_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615403", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450165","https://www.mapillary.com/map/im/7phdnqFtlaRL1keKuQdIcb"]
           },
           {
             "id" : "3151450166",
@@ -788,7 +788,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c2/Joseph_Bernard%2C_Dansende_vrouw_en_kind%2C_1925.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615561", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450166","https://www.mapillary.com/map/im/iVcu8XUalgrJ2QEKl6s9oQ"]
           },
           {
             "id" : "3151450167",
@@ -801,7 +801,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/1e/Alexander_Calder%2C_De_Hond%2C_1958.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616013", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450167","https://www.mapillary.com/map/im/wa9TfTgIYFW56q8TRc2xr7"]
           },
           {
             "id" : "3151450168",
@@ -814,7 +814,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/45/Germaine_Richier_-_De_Mantis_%28Bidsprinkhaan%29_-_1946_-_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615697", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450168","https://www.mapillary.com/map/im/iqucJpuVIBIYekUbU5S1Ze"]
           },
           {
             "id" : "3151450169",
@@ -827,7 +827,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/01/De_Middelandse_Zee_door_Aristide_Maillol.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615389", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450169","https://www.mapillary.com/map/im/EPgTAH8mM1wEZj9mffcfZ8"]
           },
           {
             "id" : "3151450170",
@@ -840,7 +840,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/3b/De_Rivier_door_Aristide_Maillol.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27636923", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450170","https://www.mapillary.com/map/im/UhDUKEfoeYMmRU16AU8a1r"]
           },
           {
             "id" : "3151450171",
@@ -853,7 +853,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/b1/De_kardinaal_door_Giacomo_Manzu%2C_1952.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615820", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450171","https://www.mapillary.com/map/im/k2KoGDe1OyzilZlBqUrerE"]
           },
           {
             "id" : "3151450172",
@@ -866,7 +866,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/17/Roberto_Bertagnin%2C_De_koe%2C_1947.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615718", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450172","https://www.mapillary.com/map/im/VTzhnT14jSuKUiFLqtippU"]
           },
           {
             "id" : "3151450173",
@@ -879,7 +879,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/33/Pable_Gargallo%2C_De_profeet%2C_1933.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615607", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450173","https://www.mapillary.com/map/im/tn6fFSmDkqLq9rFvsTXv8z"]
           },
           {
             "id" : "3151450174",
@@ -892,7 +892,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/55/Remo_Rossi%2C_De_stier%2C_1952.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615830", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450174","https://www.mapillary.com/map/im/Fs7c90aPs2J1VUyEa74IGr"]
           },
           {
             "id" : "3151450175",
@@ -905,7 +905,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4f/Emilio_Greco%2C_De_worstelaar%2C_1947-1948.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615704", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450175","https://www.mapillary.com/map/im/XE1pCERNNhldHQNM5K6Zws"]
           },
           {
             "id" : "3151450176",
@@ -918,7 +918,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/03/Demeure_nr_4_Lanleef_door_Etienne_Martin%2C_1961.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616051", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450176","https://www.mapillary.com/map/im/dYsYaxvE47UrwtnR4uyc6e"]
           },
           {
             "id" : "3151450177",
@@ -931,7 +931,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/79/Hildo_Crop%2C_Drang_naar_het_leven%2C_1952.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615824", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450177","https://www.mapillary.com/map/im/PMblavW35KqVn5Tc0Qm1YL"]
           },
           {
             "id" : "3151450178",
@@ -944,7 +944,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/a5/Eugene_Dodeigne%2C_Drie_staanden%2C_1978.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616344", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450178","https://www.mapillary.com/map/im/umGLWcYP1HYXN6nyJUU80f"]
           },
           {
             "id" : "3151450179",
@@ -957,7 +957,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/02/Drieklank_door_Rudolf_Belling%2C_1919.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615552", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450179","https://www.mapillary.com/map/im/h4tA3hvnXNOPEAjpiZtubo"]
           },
           {
             "id" : "3151450180",
@@ -970,7 +970,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4f/Isa_Genzken%2C_Fenster%2C_1993.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616395", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450180"]
           },
           {
             "id" : "3151450181",
@@ -983,7 +983,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/b1/Joachim_Bandau%2C_Fragment%2C_1991.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616389", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450181","https://www.mapillary.com/map/im/0QEuX5M8Gb2zkXzMsJP2vj"]
           },
           {
             "id" : "3151450182",
@@ -996,7 +996,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/d4/Franz_West_-_Freie_Form_-_1998_-_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616451", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Freie Form (Franz West)"]
+            "urls": ["https://www.openstreetmap.org/node/3151450182","https://www.mapillary.com/map/im/C1hSagJbeUtIwSAtFSPhk6"]
           },
           {
             "id" : "3151450184",
@@ -1009,7 +1009,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/d9/%22Gevecht_van_Jacob_met_de_Engel%22_door_Jacques_Lipchitz%2C_1932.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615594", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450184","https://www.mapillary.com/map/im/mHRm9U1ObmwZfKGHgAoVmt"]
           },
           {
             "id" : "3151450185",
@@ -1022,7 +1022,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/57/Georg_Kolbe%2C_Grote_zittende%2C_1929.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615579", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450185","https://www.mapillary.com/map/im/8dCOrRms0OsiMoLXfMwCUD"]
           },
           {
             "id" : "3151450186",
@@ -1035,7 +1035,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/db/Heracles_Boogschutter_door_Emile-Antoine_Bourdelle.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615524", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450186","https://www.mapillary.com/map/im/EKSL3Ld93GAi98q7xh5lsU"]
           },
           {
             "id" : "3151450187",
@@ -1048,7 +1048,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Raymond_Duchamp-Villon%2C_Het_grote_paard%2C_1914.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615545", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Het grote paard (Raymond Duchamp-Villon - Middelheim)"]
+            "urls": ["https://www.openstreetmap.org/node/3151450187","https://www.mapillary.com/map/im/Wg6tWxFMxkVSbGwK16vFdK"]
           },
           {
             "id" : "3151450188",
@@ -1061,7 +1061,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/a7/Emile_Gilioli%2C_Het_rijk_des_hemels%2C_1954-1955.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615877", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450188","https://www.mapillary.com/map/im/W5W9MadDs0Lh2J9N2RgZqf"]
           },
           {
             "id" : "3151450189",
@@ -1074,7 +1074,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/b7/Het_zotte_geweld_door_Rik_Wouters_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q4988632", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450189","https://www.mapillary.com/map/im/mInv6qMWyLIG7Mkqu8jDal"]
           },
           {
             "id" : "3151450190",
@@ -1087,7 +1087,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/b8/%22In_betrekking_staande_figuren%22_door_Bernhard_Heilinger%2C_1954_%282%29.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615889", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450190","https://www.mapillary.com/map/im/No132sZqY7ChmdrCDVxWkS"]
           },
           {
             "id" : "3151450191",
@@ -1100,7 +1100,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/6/65/%22In_de_zon%22_door_Oscar_Jespers%2C_1947.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615723", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450191","https://www.mapillary.com/map/im/j8BRYqOLMOKe3P1O6BFdLs"]
           },
           {
             "id" : "3151450192",
@@ -1113,7 +1113,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/dd/Pablo_Serrano%2C_Interpretatie_van_de_Pieta%2C_1971-1972.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616254", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450192"]
           },
           {
             "id" : "3151450193",
@@ -1126,7 +1126,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Koning_en_Koningin_door_Henry_Moore.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q19759058", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450193","https://www.mapillary.com/map/im/h4jXxBX05SuL4bbtLuNC7H"]
           },
           {
             "id" : "3151450194",
@@ -1139,7 +1139,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/bb/Monique_Geubels%2C_L%27ange_au_Calice%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615982", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450194","https://www.mapillary.com/map/im/XAokQaKyu8rQfqFqy4t8QC"]
           },
           {
             "id" : "3151450196",
@@ -1152,7 +1152,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/ce/Mirko_Basaldella%2C_Leeuw_van_Damascus%2C_1954-1956.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615892", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450196","https://www.mapillary.com/map/im/dfVj3OJSN9rwriDdIT7kPT"]
           },
           {
             "id" : "3151450197",
@@ -1165,7 +1165,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/57/Reinhoud%2C_Les_murs_ont_des_oreilles_...%2C_1958.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616001", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450197","https://www.mapillary.com/map/im/9QqkDtgDQfCNCksL6UBDse"]
           },
           {
             "id" : "3151450198",
@@ -1178,7 +1178,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/50/Georges_Minne%2C_Manstorso%2C_1910.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615526", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450198","https://www.mapillary.com/map/im/E2MjphjwUGIr8dJXsLmUcx"]
           },
           {
             "id" : "3151450199",
@@ -1191,7 +1191,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/ae/Robert_Couturier%2C_Meisje_met_springtouw%2C_1951.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615783", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450199","https://www.mapillary.com/map/im/y5Rj5Sl4gJUn7k9hHdpYae"]
           },
           {
             "id" : "3151450200",
@@ -1204,7 +1204,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/d5/Andre_Bloc%2C_Niet-menselijke_vorm%2C_1954-1955.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615881", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450200","https://www.mapillary.com/map/im/gTJSiIk4CI6MmnR7OPTmdg"]
           },
           {
             "id" : "3151450201",
@@ -1217,7 +1217,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/ae/Georges_Grard%2C_Niobe%2C_1947-1948.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615701", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450201","https://www.mapillary.com/map/im/GYfAJ8B7d92Lt3dram6tVQ"]
           },
           {
             "id" : "3151450202",
@@ -1230,7 +1230,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e0/Victor_Brecheret%2C_O_Indio_e_a_suassuapara%2C_1951.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615795", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450202","https://www.mapillary.com/map/im/qsXE61fWirDqITrIdAVSmr"]
           },
           {
             "id" : "3151450205",
@@ -1243,7 +1243,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/7f/One_Minute_Sculpture%2C_Erwin_Wurm.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55717705", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:One Minute Sculpture (Erwin Wurm)"]
+            "urls": ["https://www.openstreetmap.org/node/3151450205"]
           },
           {
             "id" : "3151450206",
@@ -1256,7 +1256,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/fd/Mark_Macken%2C_Opschik%2C_1952.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615835", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450206","https://www.mapillary.com/map/im/GQZqrfBh7MJaxRGERg0HQS"]
           },
           {
             "id" : "3151450207",
@@ -1269,7 +1269,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/09/Ossip_Zadkine%2C_Phoenix%2C_1944.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615685", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450207","https://www.mapillary.com/map/im/HQjBq14vsiraJA08qI6wqV"]
           },
           {
             "id" : "3151450208",
@@ -1282,7 +1282,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/36/Didier_Vermeiren%2C_Place%2C_1993.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616419", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450208"]
           },
           {
             "id" : "3151450209",
@@ -1295,7 +1295,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9e/Raised_Elevation_door_Leon_Vranken.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759103", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450209","https://www.mapillary.com/map/im/4ta1IJWjhrvSEYCNsC7Ln9"]
           },
           {
             "id" : "3151450210",
@@ -1308,7 +1308,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2e/Guillaume_Bijl%2C_Romeinse_straat%2C_1994.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616429", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450210"]
           },
           {
             "id" : "3151450211",
@@ -1321,7 +1321,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/73/Schalenboom%2C_Jean_Arp%2C_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615760", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Schalenboom (Jean Arp)"]
+            "urls": ["https://www.openstreetmap.org/node/3151450211","https://www.mapillary.com/map/im/rVA02bm78qKH534AcglpDl"]
           },
           {
             "id" : "3151450212",
@@ -1334,7 +1334,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c1/Pericle_Fazzini%2C_Sibilla%2C_1947.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615727", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450212"]
           },
           {
             "id" : "3151450213",
@@ -1347,7 +1347,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/80/Ferit_Ozsen%2C_Stier%2C_1974.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616296", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450213","https://www.mapillary.com/map/im/vJTD75mN5ldivr3K1tFNGr"]
           },
           {
             "id" : "3151450214",
@@ -1360,7 +1360,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e9/Henk_Visch%2C_Telling_no_Lies%2C_1996.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616448", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Telling No Lies (Henk Visch)"]
+            "urls": ["https://www.openstreetmap.org/node/3151450214","https://www.mapillary.com/map/im/JvR0db3Z7ExZfgX8HdGAtD"]
           },
           {
             "id" : "3151450216",
@@ -1373,7 +1373,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/23/Pedro_Cabrita_Reis%2C_The_Passage_of_the_Hours%2C_2004.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616484", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450216","https://www.mapillary.com/map/im/M6EGidVbLZ2Q5B2aQsIycA"]
           },
           {
             "id" : "3151450217",
@@ -1386,7 +1386,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/26/Torso_door_Arthur_Dupon.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615563", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450217","https://www.mapillary.com/map/im/eMbBvrnwxjEPdiwWUTwkrz"]
           },
           {
             "id" : "3151450219",
@@ -1399,7 +1399,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/03/Leonie_Molenaar%2C_Vogel_en_aarde%2C_1963.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616071", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450219","https://www.mapillary.com/map/im/sg33VwxSvzRo0CuOeswvHL"]
           },
           {
             "id" : "3151450220",
@@ -1412,7 +1412,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/42/Libor_David%2C_Vogel%2C_1965.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616099", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450220","https://www.mapillary.com/map/im/MsnndESj63w01NbSAAu3bO"]
           },
           {
             "id" : "3151450221",
@@ -1425,7 +1425,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e4/Elia_Ajolfi%2C_Wandelende_zusters%2C_1960-1961.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616028", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450221","https://www.mapillary.com/map/im/2XzlWT1lUkDYDQfoxKDO6K"]
           },
           {
             "id" : "3151450222",
@@ -1438,7 +1438,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/1c/Worstelaars%2C_Jef_Lambeaux%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615379", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450222","https://www.mapillary.com/map/im/PCur0yVNrsADWaYWw2jwJ7"]
           },
           {
             "id" : "3151450258",
@@ -1451,7 +1451,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4b/Juan_Mu%C3%B1oz%2C_Two_figures_for_Middelheim%2C_1993_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616410", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450258","https://www.mapillary.com/map/im/lsxacx9B2p4Jj3zGUqHiZL"]
           },
           {
             "id" : "3151450672",
@@ -1464,7 +1464,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/81/Carl_Andre%2C_74_Weathering_Way%2C_2001.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616461", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3151450672"]
           },
           {
             "id" : "3173023480",
@@ -1477,7 +1477,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/a9/Reinhoud%2C_A_contre_coeur%2C_1965.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616116", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023480","https://www.mapillary.com/map/im/54aKlrkqNGxn55tntdFZba"]
           },
           {
             "id" : "3173023481",
@@ -1490,7 +1490,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/6/6e/Pol_Spilliaert%2C_Aan_Victor_Servranckx%2C_1975.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616325", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023481","https://www.mapillary.com/map/im/K60xwdieFBC1I7YzhembRI"]
           },
           {
             "id" : "3173023482",
@@ -1503,7 +1503,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/13/Astrid_Noack%2C_%22Anna_Ancher%22%2C_1939.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615666", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023482","https://www.mapillary.com/map/im/p0dkVkjII9Dt8hfuJzy7h4"]
           },
           {
             "id" : "3173023483",
@@ -1516,7 +1516,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e6/Arbeider%2C_Valentine_Startchev%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616333", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023483","https://www.mapillary.com/map/im/jz9egp4EKp6uDPM8ba35xR"]
           },
           {
             "id" : "3173023484",
@@ -1529,7 +1529,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/51/Charles_Despiau%2C_Assia%2C_1937.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615644", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023484","https://www.mapillary.com/map/im/Nu6VmeNx0sabdF8fLS8F5a"]
           },
           {
             "id" : "3173023485",
@@ -1542,7 +1542,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f4/Idel_Ianchelevici%2C_Buste_van_August_Vermeylen%2C_1935.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615632", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023485","https://www.mapillary.com/map/im/YxfM2uMNyCWKIC40HwfhPS"]
           },
           {
             "id" : "3173023487",
@@ -1555,7 +1555,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c4/Barca_d%27Oro%2C_Nagasawa%2C_Middelheim_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616385", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Barca d'Oro (Nagasawa)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023487","https://www.mapillary.com/map/im/t9WipQsPcYd5ehruPiblL6"]
           },
           {
             "id" : "3173023488",
@@ -1568,7 +1568,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/47/Beeldengroep_Man_Vrouw_Hond%2C_Jos_Vermeersch%2C_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616364", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Beeldengroep Man Vrouw Hond (Jos Vermeersch)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023488","https://www.mapillary.com/map/im/NppOozss3bhDvPgYIY1eai"]
           },
           {
             "id" : "3173023489",
@@ -1581,7 +1581,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/28/Beweging_II%2C_Hilde_Van_Sumere.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616311", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023489","https://www.mapillary.com/map/im/osbbOdwwTOdU8Zar8UdBfN"]
           },
           {
             "id" : "3173023490",
@@ -1594,7 +1594,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/7c/Marcel_Mazy%2C_Beweging%2C_1975.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616316", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023490","https://www.mapillary.com/map/im/GqE5n2kuPmwjlC5WveSTwy"]
           },
           {
             "id" : "3173023491",
@@ -1607,7 +1607,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f3/Rik_Wouters%2C_Buste_van_Rik_Wouters%2C_1911.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615529", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023491","https://www.mapillary.com/map/im/FlyEwrrBoVFDaQRx3MKjwo"]
           },
           {
             "id" : "3173023492",
@@ -1620,7 +1620,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/87/Barbara_Hepworth%2C_Cantate_Domino%2C_1958.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616004", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023492","https://www.mapillary.com/map/im/T93PIhiFJXP00D7rHQJVC5"]
           },
           {
             "id" : "3173023494",
@@ -1633,7 +1633,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e3/Concave_%26_Exterior%2C_Joannis_Avramidis.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616082", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:2 figurengroep B Concave & Exterior (Joannis Avramidis)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023494","https://www.mapillary.com/map/im/WiNnmG33taKjJYGhYm9rHN"]
           },
           {
             "id" : "3173023496",
@@ -1646,7 +1646,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/1a/Friederich_Werthmann%2C_De_Gevleugelde%2C_1964.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616078", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023496","https://www.mapillary.com/map/im/nwcRKtkm9YXepPcwJR6yvp"]
           },
           {
             "id" : "3173023497",
@@ -1659,7 +1659,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/91/Alicia_Penalba%2C_De_Grote_Vonk%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616024", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023497","https://www.mapillary.com/map/im/wSFWG4S3OkHoWb8MZs0lwp"]
           },
           {
             "id" : "3173023498",
@@ -1672,7 +1672,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/91/Yasuo_Mizui%2C_De_Witte_Vlam%2C_1975.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616323", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023498","https://www.mapillary.com/map/im/B5ttwDS9SsE7Y0ekj0YBHZ"]
           },
           {
             "id" : "3173023499",
@@ -1685,7 +1685,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/86/Rik_Poot%2C_De_grote_ammoniet%2C_1968-1969.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616173", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023499","https://www.mapillary.com/map/im/E5Z1550Ld7eNfjKBYM1Yee"]
           },
           {
             "id" : "3173023500",
@@ -1698,7 +1698,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9c/Emile-Antoine_Bourdelle%2C_Dr._Koeberle%2C_1914.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615543", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023500","https://www.mapillary.com/map/im/R9UfH6HX6UkwpbS0s2fT0n"]
           },
           {
             "id" : "3173023501",
@@ -1711,7 +1711,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/75/Max_Bill%2C_Eindeloze_kronkel%2C_1953-1956.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615873", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023501","https://www.mapillary.com/map/im/FCVD0dzbIVWgYU0cPlOZFF"]
           },
           {
             "id" : "3173023502",
@@ -1724,7 +1724,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/bd/Entomologische_Schaking_III%2C_Eric_Gate.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615978", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Entomologische Schaking III (Eric Gate)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023502","https://www.mapillary.com/map/im/yeJBu0aHsrzoQXUR0zkvpK"]
           },
           {
             "id" : "3173023503",
@@ -1737,7 +1737,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e6/Arthur_Dupon%2C_Fonteinmotief%2C_1930.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615581", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023503","https://www.mapillary.com/map/im/3CC2gkH3sQibu4uSbZO07R"]
           },
           {
             "id" : "3173023504",
@@ -1750,7 +1750,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/79/Gustav_Seitz%2C_Buste_van_Francois_Villon%2C_1952-1953.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615812", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023504","https://www.mapillary.com/map/im/1z02X2jaeSicty2jkEeM6N"]
           },
           {
             "id" : "3173023505",
@@ -1763,7 +1763,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4a/Agenore_Fabri%2C_Groot_insekt%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615955", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023505","https://www.mapillary.com/map/im/K1rpjukMJZoxSazu4EnEs6"]
           },
           {
             "id" : "3173023506",
@@ -1776,7 +1776,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/06/Wieland_F%C3%B6rster%2C_Grote_Badende%2C_1971.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616262", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023506","https://www.mapillary.com/map/im/wHHjywQ475ARIbtt4t9ExG"]
           },
           {
             "id" : "3173023507",
@@ -1789,7 +1789,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/db/Marcello_Mascherini%2C_Hero%C3%AFsch_torso%2C_1952.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615827", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023507","https://www.mapillary.com/map/im/TPJULe8je0ZOo3ZBl8f8rG"]
           },
           {
             "id" : "3173023508",
@@ -1802,7 +1802,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/ec/Rik_Wouters%2C_Huiselijke_zorgen%2C_1913.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q21647940", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Huiselijke zorgen (Rik Wouters, Middelheimmuseum)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023508","https://www.mapillary.com/map/im/KhdUklUEdWpdJ6LkK80fMg"]
           },
           {
             "id" : "3173023509",
@@ -1815,7 +1815,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9d/Marino_Marini%2C_Judith%2C_1945.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615693", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Judith (Marino Marini)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023509","https://www.mapillary.com/map/im/STObut6vKHj7N7LiysQH4F"]
           },
           {
             "id" : "3173023510",
@@ -1828,7 +1828,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e0/Kolom%2C_Felix_Roulin%2C_1975%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616319", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Kolom (Félix Roulin)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023510","https://www.mapillary.com/map/im/7dVNz38jdh2LGNJbite3jZ"]
           },
           {
             "id" : "3173023511",
@@ -1841,7 +1841,7 @@
             "images" : ["https://images.mapillary.com/ZMmgce0gY8OcsZ3caMID1X/thumb-2048.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616064", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023511","https://photos.app.goo.gl/C2gu138GC7Sk6cVH7"]
           },
           {
             "id" : "3173023512",
@@ -1854,7 +1854,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/d2/Kurt_Gebauer%2C_Lopend_meisje%2C_1976.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616330", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023512","https://www.mapillary.com/map/im/PluSDhQGUSAV9u6D2IuAQD"]
           },
           {
             "id" : "3173023513",
@@ -1867,7 +1867,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/86/Manifestanten%2C_Drago_Trsar%2C_Middelheimmuseum_03.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615947", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Manifestanten (Drago Trsar)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023513","https://www.mapillary.com/map/im/zqClLbVfG4VFHyRDN26HOx"]
           },
           {
             "id" : "3173023514",
@@ -1880,7 +1880,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/31/Constant_Permeke%2C_%22Marie-Lou%22%2C_1935-1936.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615624", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023514","https://www.mapillary.com/map/im/T668YW55amWZNukBRJKwzg"]
           },
           {
             "id" : "3173023515",
@@ -1893,7 +1893,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/74/Marino_Marini%2C_%22Miracolo%22%2C_1951-1952.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615779", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023515","https://www.mapillary.com/map/im/7APfuAvtJFRcOyufw2tmpE"]
           },
           {
             "id" : "3173023517",
@@ -1906,7 +1906,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9a/Nacht_-_Weefsel%2C_Masayuki_Nagare%2C_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616289", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Nacht - Weefsel (Masayuki Nagare)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023517","https://www.mapillary.com/map/im/UNyTvL2YX5u6XtiUg64P5U"]
           },
           {
             "id" : "3173023518",
@@ -1919,7 +1919,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/8a/Neushoorndier%2C_Gerard_Holmens.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616136", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023518","https://www.mapillary.com/map/im/QR35O1cPihK1RcLtbFX3Yv"]
           },
           {
             "id" : "3173023519",
@@ -1932,7 +1932,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/de/Francesco_Somaini%2C_Ontwerp_voor_een_monument%2C_1961.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616049", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023519","https://www.mapillary.com/map/im/B5Wfw3NFgV2HankE5VmA8Z"]
           },
           {
             "id" : "3173023520",
@@ -1945,7 +1945,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/aa/Ossip_Zadkine%2C_Orpheus%2C_1956.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615929", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023520","https://www.mapillary.com/map/im/XwyT9ZXw6V46HdWayU1Kuw"]
           },
           {
             "id" : "3173023521",
@@ -1958,7 +1958,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e6/Edwin_Scharf%2C_Pandora%2C_1952-1953.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615815", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023521","https://www.mapillary.com/map/im/6LO6gffoBfyFbds2koBJm2"]
           },
           {
             "id" : "3173023522",
@@ -1971,7 +1971,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c1/Henri_Puvrez%2C_buste_van_Permeke%2C_1942.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615674", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023522","https://www.mapillary.com/map/im/dfewyosqh3BLrxizXs7jq9"]
           },
           {
             "id" : "3173023524",
@@ -1984,7 +1984,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f8/Bernard_Meadows%2C_Pointing_Figure_with_a_Child_Opus_82%2C_1966.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616133", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023524","https://www.mapillary.com/map/im/5SYdQQ3e9d4CTe5kA1WyVn"]
           },
           {
             "id" : "3173023525",
@@ -1997,7 +1997,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/08/Imre_Varga%2C_Professor%2C_1969.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616209", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023525","https://www.mapillary.com/map/im/SyWhRk5vqHbxw8ziEZPQHz"]
           },
           {
             "id" : "3173023526",
@@ -2010,7 +2010,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Projet_pour_un_jardin%2C_Roman_Signer%2C_2016.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55717622", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Projet pour un jardin (Roman Signer)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023526","https://www.mapillary.com/map/im/8qLxmGn7FPHHr3dzXIEoWL"]
           },
           {
             "id" : "3173023527",
@@ -2023,7 +2023,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c6/Arvo_Siik%C3%A4m%C3%A4ki%2C_%2CRoodhuid_1976.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616336", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023527","https://www.mapillary.com/map/im/ao3DDvlHVgEtd0ts7w2Ztf"]
           },
           {
             "id" : "3173023530",
@@ -2036,7 +2036,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Giacomo_Manzu%2C_Schaatsenrijdster%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55645599", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023530","https://www.mapillary.com/map/im/0Mwf6h3js5C3GekQVR5fwy"]
           },
           {
             "id" : "3173023531",
@@ -2049,7 +2049,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/8a/Sculptuur%2C_Morice_Lipsi%2C_Middelheim.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615944", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023531","https://www.mapillary.com/map/im/bigvbbbYDFE3Bq4OZI2xEX"]
           },
           {
             "id" : "3173023532",
@@ -2062,7 +2062,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/ff/Sculptuur%2C_Ghisleen_Heirbaut.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55736662", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023532","https://www.mapillary.com/map/im/qxZJ0AXU3TQzjSLA1h1UGM"]
           },
           {
             "id" : "3173023533",
@@ -2075,7 +2075,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/46/Henri_Puvrez%2C_Sirene%2C_1934.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615619", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023533","https://www.mapillary.com/map/im/IyPzNGlSCuOQXXz52IAHLz"]
           },
           {
             "id" : "3173023534",
@@ -2088,7 +2088,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e3/Marcel_Arnould%2C_Skulptuur_S_30%2C_1965.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616108", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023534","https://www.mapillary.com/map/im/BEmxRFiHEbumtvvUAiATx2"]
           },
           {
             "id" : "3173023536",
@@ -2101,7 +2101,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9c/Staande_man%2C_Rik_Poot%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616016", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023536","https://www.mapillary.com/map/im/oAOK0x8DSs7mmeKMTI9SMZ"]
           },
           {
             "id" : "3173023537",
@@ -2114,7 +2114,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/19/Kubach-Wilmsen-Team%2C_Stenen_boek%2C_1980.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616357", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023537","https://www.mapillary.com/map/im/xSrXYLmtnekGITk8OTMJgq"]
           },
           {
             "id" : "3173023538",
@@ -2127,7 +2127,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f8/Toren_der_Stilte%2C_Marta_Colwin%2C_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616037", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Toren der Stilte (Marta Colvin)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023538","https://www.mapillary.com/map/im/P6IaFmdgRCN2Z0D2wZewAv"]
           },
           {
             "id" : "3173023539",
@@ -2140,7 +2140,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/38/Torso%2C_Andre_Willequet%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616057", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Torso (André Willequet)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023539","https://www.mapillary.com/map/im/pNeOEIqdwO8BjSAskTS0Kt"]
           },
           {
             "id" : "3173023540",
@@ -2153,7 +2153,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4e/Kenneth_Armitage%2C_Twee_zittende_figuren%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615970", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023540","https://www.mapillary.com/map/im/ilzXcyqTb1wlAOsnOmLAaI"]
           },
           {
             "id" : "3173023541",
@@ -2166,7 +2166,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9d/Charles_Leplae%2C_Twee_zwangere_vrouwen%2C_1952-1953.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615806", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023541","https://www.mapillary.com/map/im/M7HCll93duHu6oNOTMJxX3"]
           },
           {
             "id" : "3173023542",
@@ -2179,7 +2179,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/a/a1/Julio_L._Hernandez%2C_Ursula%2C_1965.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616112", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023542","https://www.mapillary.com/map/im/7x8uK0NkDYLGNXGPHy4D54"]
           },
           {
             "id" : "3173023543",
@@ -2192,7 +2192,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/3e/Auguste_Renoir%2C_Venus_Victrix%2C_1914.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615540", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023543","https://www.mapillary.com/map/im/X8fNgvrCJHpvcWMIOJUAvs"]
           },
           {
             "id" : "3173023544",
@@ -2205,7 +2205,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/7d/Fritz_Wotruba%2C_Vrouwelijke_rots%2C_1947-1948.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615709", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023544","https://www.mapillary.com/map/im/hlYr6sfmGEUa52dpz9cglH"]
           },
           {
             "id" : "3173023545",
@@ -2218,7 +2218,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4a/Hubert_Minnebo%2C_Zo_kwam_ze_in_...%2C_1980.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616354", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023545","https://www.mapillary.com/map/im/eo7EERGLG9voAPfOy9Qn4i"]
           },
           {
             "id" : "3173023546",
@@ -2231,7 +2231,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/04/Philippe_Jacques%2C_Zonder_titel%2C_1987.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616383", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023546","https://www.mapillary.com/map/im/3FYmJe5e41chsRFDdbrhPP"]
           },
           {
             "id" : "3173023547",
@@ -2244,7 +2244,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/90/Matt_Mullican%2C_Zonder_titel%2C_1993.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616408", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173023547","https://www.mapillary.com/map/im/D6MROuC6MQc0t1ATwBzmVk"]
           },
           {
             "id" : "3173023548",
@@ -2257,7 +2257,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/2d/Zonnesculptuur%2C_Arnold_Haukeland%2C_Middelheim_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616201", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Zonnesculptuur (Arnold Haukeland)"]
+            "urls": ["https://www.openstreetmap.org/node/3173023548","https://www.mapillary.com/map/im/uDKh8KPPrI6AHvMaNMme9w"]
           },
           {
             "id" : "3173024672",
@@ -2270,7 +2270,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/fe/Johan_Muyle%2C_Het_Zwarte_Schaap%2C_2010.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616518", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173024672"]
           },
           {
             "id" : "3173024688",
@@ -2283,7 +2283,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/22/Onbekend_beeld_in_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616347", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3173024688","https://www.mapillary.com/map/im/QrBXTthgpIywpoCbFYdvRa"]
           },
           {
             "id" : "3173025056",
@@ -2296,7 +2296,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/ed/1_24_x_23_x_22_x_x_1%2C_Bert_De_Leeuw_Middelheimmuseum_%283%29.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q21648966", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:1 / 24 x 23 x 22 ... x 1 (Bert De Leeuw)"]
+            "urls": ["https://www.openstreetmap.org/node/3173025056","https://www.mapillary.com/map/im/hpq0XS94XCqHIoT6XOhqvQ"]
           },
           {
             "id" : "3626856997",
@@ -2309,7 +2309,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/82/Bronzen_Tijdperk_door_Auguste_Rodin%2C_1876.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q21647332", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3626856997","https://www.mapillary.com/map/im/cYl38Zfrg92Lypn8c92y8m"]
           },
           {
             "id" : "3626856999",
@@ -2322,7 +2322,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/94/Marcello_Mascherini%2C_Sint-Franciskus%2C_1957.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615952", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Sint-Franciskus (Marcello Mascherini)"]
+            "urls": ["https://www.openstreetmap.org/node/3626856999"]
           },
           {
             "id" : "3626857000",
@@ -2335,7 +2335,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/43/Quinto_Ghermandi%2C_Wijds_gebaar%2C_1969.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616216", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3626857000","https://www.mapillary.com/map/im/ZmoCI5XJhrwZ5tkcBIBWbq"]
           },
           {
             "id" : "3663519584",
@@ -2348,7 +2348,7 @@
             "images" : [""],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/3663519584"]
           },
           {
             "id" : "4326412715",
@@ -2361,7 +2361,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/50/Henri_Laurens%2C_Oceanide%2C_1933.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615611", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4326412715","https://www.mapillary.com/map/im/kTyn6uHKpxqb8VKV0rfvSk"]
           },
           {
             "id" : "4327384984",
@@ -2374,7 +2374,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9b/Jef_Geys%2C_Mama%2C_2002_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616145", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4327384984"]
           },
           {
             "id" : "4327384985",
@@ -2387,7 +2387,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/3/30/Jean-Pierre_Ghysels%2C_Volubilis%2C_1967.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616145", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4327384985","https://www.mapillary.com/map/im/X5YztPOzU6k7a5jl5SWLWV"]
           },
           {
             "id" : "4327384986",
@@ -2400,7 +2400,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4e/Shin_Hongo%2C_Zang%2C_1967.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616139", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4327384986","https://www.mapillary.com/map/im/ik4FJLt3vjb75SiquT6L0W"]
           },
           {
             "id" : "4329806466",
@@ -2413,7 +2413,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9a/Roel_D%27Haese%2C_Moira_en_feuille_morte%2C_1978.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616349", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4329806466","https://www.mapillary.com/map/im/Sqd2PmZcBzQDPbp698KPwX"]
           },
           {
             "id" : "4331721880",
@@ -2426,7 +2426,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/2/27/Panamarenko%2C_Gerestaureerd_%22Magnetisch_Veld%22%2C1983-2015.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759030", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4331721880","https://www.mapillary.com/map/im/Og1oCwEtq0hjYnVwfpJAVz"]
           },
           {
             "id" : "4334413694",
@@ -2439,7 +2439,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/17/Erwin_Wurm%2C_If_you_moor_your_boat_here%2C_strange_things_will_happen.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616515", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4334413694"]
           },
           {
             "id" : "4335023024",
@@ -2452,7 +2452,7 @@
             "images" : ["https://commons.wikimedia.org/wiki/File:Paul_Van_Hoeydonck,_Lucifer,_1994.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4335023024","https://www.mapillary.com/map/im/51v1I6kzR8dR0qClF1REsr"]
           },
           {
             "id" : "4350158618",
@@ -2465,7 +2465,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/d0/Per_Kirkeby%2C_Zonder_titel_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616399", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Zonder Title (Per Kirkeby)"]
+            "urls": ["https://www.openstreetmap.org/node/4350158618"]
           },
           {
             "id" : "4357801068",
@@ -2478,7 +2478,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/cb/Lawrence_Weiner_-_Wind_en_de_wilgen_-_1995_-_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616439", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: Jorisbo" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/4357801068"]
           },
           {
             "id" : "5010030132",
@@ -2491,7 +2491,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/8c/Die_Furcht%2C_Harald_Klingelh%C3%B6ller.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616403", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5010030132"]
           },
           {
             "id" : "5606095004",
@@ -2504,7 +2504,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e7/Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe_%283%29.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759045", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: luckas" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5606095004"]
           },
           {
             "id" : "5606095005",
@@ -2517,7 +2517,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/e/e7/Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe_%283%29.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759045", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: luckas" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5606095005"]
           },
           {
             "id" : "5610620352",
@@ -2530,7 +2530,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/c/c6/Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759045", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Backwards (13, 5, 23, 7) - William Forsythe"]
+            "urls": ["https://www.openstreetmap.org/node/5610620352","https://www.mapillary.com/map/im/arsb2VbShJvUcyizp9Tvyh"]
           },
           {
             "id" : "5612353133",
@@ -2543,7 +2543,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/d/de/Voor_alle_seizoenen%2C_Anne-Mie_Van_Kerkhoven_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759038", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Voor alle seizoenen (Anne-Mie Van Kerkhoven)"]
+            "urls": ["https://www.openstreetmap.org/node/5612353133","https://www.mapillary.com/map/im/vd6cL9QCOQkH0ZGIWV5qpF"]
           },
           {
             "id" : "5614142092",
@@ -2556,7 +2556,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/72/Geknielde_figuur%2C_Eugene_Dodeigne%2C_1970.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616241", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5614142092","https://www.mapillary.com/map/im/2KO3AsmuHUVAecw28nBLms"]
           },
           {
             "id" : "5615526651",
@@ -2569,7 +2569,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/0b/Battle%2C_Amar_Nath_Sehgal%2C_Middelheim.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55460974", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Battle (Amar Nath Sehgal)"]
+            "urls": ["https://www.openstreetmap.org/node/5615526651","https://www.mapillary.com/map/im/n6FcIhfwe5HrSlo6E0a451"]
           },
           {
             "id" : "5657033922",
@@ -2582,7 +2582,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/5d/Reinhoud_D%27Haese_-_Lynch_-_1965_-_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q30223712", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5657033922","https://www.mapillary.com/map/im/spgHEdBahw7YgfvJ4a265D"]
           },
           {
             "id" : "5657033927",
@@ -2595,7 +2595,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/8/8d/Fountain%2C_Bertrand_Lavier%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55026573", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Fountain (Bertrand Lavier)"]
+            "urls": ["https://www.openstreetmap.org/node/5657033927"]
           },
           {
             "id" : "5673227415",
@@ -2608,7 +2608,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/fa/Honda%2C_Bertrand_Lavier%2C_Middelheimmuseum_03.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55330628", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Honda (Bertrand Lavier)"]
+            "urls": ["https://www.openstreetmap.org/node/5673227415"]
           },
           {
             "id" : "5673227417",
@@ -2621,7 +2621,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/6/63/Heaven_and_Earth%2C_Adrien_Tirtiaux_03.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55317378", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Heaven and Earth (Adrien Tirtiaux)"]
+            "urls": ["https://www.openstreetmap.org/node/5673227417","https://www.mapillary.com/map/im/xcCleQot9pUE51Ilx7q9G3"]
           },
           {
             "id" : "5673227419",
@@ -2634,7 +2634,7 @@
             "images" : ["https://photos.app.goo.gl/pCchXwCcf1bRXoBs7"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55002213", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:De nor (Dennis Tyfus)"]
+            "urls": ["https://www.openstreetmap.org/node/5673227419","https://www.mapillary.com/map/im/fTRJ040licxZI1arEkNtlK"]
           },
           {
             "id" : "5673227923",
@@ -2647,7 +2647,7 @@
             "images" : [""],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5673227923"]
           },
           {
             "id" : "5673227924",
@@ -2660,7 +2660,7 @@
             "images" : [""],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q54857065", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: luckas" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5673227924"]
           },
           {
             "id" : "5673227925",
@@ -2673,7 +2673,7 @@
             "images" : ["https://photos.app.goo.gl/EgNZKX2QQQ4UJTnW8"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759045", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5673227925","https://www.mapillary.com/map/im/5HNt1IhuCPrdBDXwPoxvTz"]
           },
           {
             "id" : "5710075090",
@@ -2686,7 +2686,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/fb/Omlaagkijkend_meisje%2C_Reg_Butler%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615912", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5710075090","https://www.mapillary.com/map/im/fKLsM8xFPODhjxbYmZ4hrb"]
           },
           {
             "id" : "5716404893",
@@ -2699,7 +2699,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/4c/WINGTIPsection_STANDS_by_Draake_Manufactures_door_Florian_Mertens_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55190008", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:WINGTIPsection STANDS by Draake Manufactures (Florian Mertens)"]
+            "urls": ["https://www.openstreetmap.org/node/5716404893"]
           },
           {
             "id" : "5727091632",
@@ -2712,7 +2712,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/9c/Natural_Born_Artist_by_Andra_Ursuta_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55251416", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Natural Born Artist (Andra Ursuta)"]
+            "urls": ["https://www.openstreetmap.org/node/5727091632"]
           },
           {
             "id" : "5729019691",
@@ -2725,7 +2725,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/5/58/Bali%2C_Phillip_King_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616340", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Bali (Phillip King)"]
+            "urls": ["https://www.openstreetmap.org/node/5729019691","https://www.mapillary.com/map/im/dUplsJA9VQoclpgI8hOVvb"]
           },
           {
             "id" : "5729019692",
@@ -2738,7 +2738,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/70/Under_the_Weather%2C_Isabel_Fredeus_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55743949", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Under the Weather (Isabel Fredeus)"]
+            "urls": ["https://www.openstreetmap.org/node/5729019692"]
           },
           {
             "id" : "5729019693",
@@ -2751,7 +2751,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/4/43/Dialoog%2C_Albert_Szukalski.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616293", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5729019693","https://www.mapillary.com/map/im/4YzYTu3PWZgQeWl6PzEAIE"]
           },
           {
             "id" : "5729019694",
@@ -2764,7 +2764,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/7/75/Erased%2C_Marta_Galmozzi%2C_Middelheimmuseum.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55265246", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/5729019694"]
           },
           {
             "id" : "5732525719",
@@ -2777,7 +2777,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/6/63/Mars_%28Sunrise%29%2C_Spencer_Finch%2C_Gloriette_06.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55317301", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Mars Sunrise (Spencer Finch)"]
+            "urls": ["https://www.openstreetmap.org/node/5732525719"]
           },
           {
             "id" : "5786941761",
@@ -2790,7 +2790,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/0/04/Untitled%2C_Amber_Van_Luffelen%2C_Middelheimmuseum_03.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55758944", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: escada" , "Wikimedia Commons Category:Untitled (Amber Van Luffelen)"]
+            "urls": ["https://www.openstreetmap.org/node/5786941761"]
           },
           {
             "id" : "8235972703",
@@ -2803,7 +2803,7 @@
             "images" : ["https://photos.app.goo.gl/ij3QE2qPJrYhHQKB6"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/8235972703","https://www.mapillary.com/map/im/Oj8CmrhpZOnXQTg6fTYt6T"]
           },
           {
             "id" : "8236015970",
@@ -2816,7 +2816,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/b/be/Flat_Field_Works_Variant_2_Two_Sections%2C_Andrea_Zittel.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55397882", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons Category:Flat Field Works Variant 2 Two Sections (Andrea Zittel)"]
+            "urls": ["https://www.openstreetmap.org/node/8236015970","https://www.mapillary.com/map/im/ujW5lH8FNo3uTgHrd71usE"]
           },
           {
             "id" : "8237217708",
@@ -2829,7 +2829,7 @@
             "images" : ["https://photos.app.goo.gl/VpUvysNAGuoP75jD7"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/8237217708","https://images.mapillary.com/k2KoGDe1OyzilZlBqUrerE/thumb-2048.jpg"]
           },
           {
             "id" : "8238912715",
@@ -2842,7 +2842,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/f/f1/Henk_Visch%2C_Morgen_is_alles_anders%2C_1996.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616424", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/8238912715","https://www.mapillary.com/map/im/em6IeymJIxB54pSvcWEdR7"]
           },
           {
             "id" : "8240275391",
@@ -2855,7 +2855,7 @@
             "images" : ["https://photos.app.goo.gl/3vkyR9XoJR6w6ckG9"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/8240275391","https://www.mapillary.com/map/im/qyPebPUDZFkzw8xfdkY4Im"]
           },
           {
             "id" : "8241511984",
@@ -2868,7 +2868,7 @@
             "images" : ["https://upload.wikimedia.org/wikipedia/commons/9/90/Matt_Mullican%2C_Zonder_titel%2C_1993.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616408", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/8241511984","https://www.mapillary.com/map/im/ZkulJp34tIriDKd6HsaXbf"]
           },
           {
             "id" : "8241512016",
@@ -2881,7 +2881,7 @@
             "images" : ["https://photos.app.goo.gl/iLamwUxpQ2iVGRmN6"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616410", 
-            "urls": ["OpenStreetMap", "OpenStreetMap User: km2bp" , "Wikimedia Commons"]
+            "urls": ["https://www.openstreetmap.org/node/8241512016","https://www.mapillary.com/map/im/GP5gTBHnUSSHTHQXgMgxVX"]
           }
         ]
       }        

@@ -9,5 +9,5 @@
       "images" : [{{ if(cells["image"].value!=null, jsonize(cells["image"].value), '') }}],
       "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
       "wikidata": {{jsonize(cells["wikidata"].value)}}, 
-      "urls": {{cells["attribution"].value}}
+      "urls": {{cells["urls"].value}}
     }
