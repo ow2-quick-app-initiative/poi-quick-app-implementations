@@ -2,7 +2,7 @@
   "meta": {
       "app_id": "es.espinr.middelheimmuseum",
       "app_title": "Antwerpen Middelheimmuseum",
-      "version": 6,
+      "version": 7,
       "updated": "2022-10-03",
       "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
@@ -2505,19 +2505,6 @@
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759045", 
             "urls": ["https://www.openstreetmap.org/node/5606095004"]
-          },
-          {
-            "id" : "5606095005",
-            "type" : "installation",
-            "lon" : "4.4103067",
-            "lat" : "51.1819248",
-            "name" : "Backwards (13, 5, 23, 7)",
-            "description" : "Installation created by William Forsythe.",
-            "more" : "",
-            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe_%283%29.jpg/300px-Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe_%283%29.jpg"],
-            "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
-            "wikidata": "Q55759045", 
-            "urls": ["https://www.openstreetmap.org/node/5606095005"]
           },
           {
             "id" : "5610620352",
