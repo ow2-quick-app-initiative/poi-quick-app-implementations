@@ -2345,7 +2345,7 @@
             "name" : "Gautam Buddha",
             "description" : "Statue",
             "more" : "",
-            "images" : ["[]"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/3663519584"]
@@ -2644,7 +2644,7 @@
             "name" : "Circuit (Hexagonal)",
             "description" : "Installation",
             "more" : "",
-            "images" : ["[]"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/5673227923"]
@@ -2657,7 +2657,7 @@
             "name" : "Birdcalls",
             "description" : "Installation created by Louise Lawler in 1971.",
             "more" : "",
-            "images" : ["[]"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q54857065", 
             "urls": ["https://www.openstreetmap.org/node/5673227924"]
