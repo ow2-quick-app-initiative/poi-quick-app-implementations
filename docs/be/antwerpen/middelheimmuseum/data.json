@@ -2,7 +2,7 @@
   "meta": {
       "app_id": "es.espinr.middelheimmuseum",
       "app_title": "Antwerpen Middelheimmuseum",
-      "version": 5,
+      "version": 6,
       "updated": "2022-10-03",
       "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
@@ -31,7 +31,7 @@
             "name" : "David",
             "description" : "Statue",
             "more" : "",
-            "images" : ["https://commons.wikimedia.org/wiki/File:David,_Park_Den_Brandt,_Antwerpen.jpg"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/David%2C_Park_Den_Brandt%2C_Antwerpen.jpg/300px-David%2C_Park_Den_Brandt%2C_Antwerpen.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/2376124830"]
@@ -187,7 +187,7 @@
             "name" : "Envelope",
             "description" : "Sculpture created by Tony Cragg in 1996.",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/u1WLowvR2hKThsDu8"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Tony_Cragg_-_Envelope_-_1996_-_Middelheimmuseum_01.jpg/300px-Tony_Cragg_-_Envelope_-_1996_-_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616444", 
             "urls": ["https://www.openstreetmap.org/node/3137504615","https://www.mapillary.com/map/im/F149R55Uhzfq6fKunwTxZz"]
@@ -1838,7 +1838,7 @@
             "name" : "Laatste Bolwerk",
             "description" : "Sculpture created by Albin Courtois in 1963.",
             "more" : "",
-            "images" : ["https://images.mapillary.com/ZMmgce0gY8OcsZ3caMID1X/thumb-2048.jpg"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616064", 
             "urls": ["https://www.openstreetmap.org/node/3173023511","https://photos.app.goo.gl/C2gu138GC7Sk6cVH7"]
@@ -2124,7 +2124,7 @@
             "name" : "Toren der Stilte",
             "description" : "Sculpture created by Marta Colvin in 1960.",
             "more" : "",
-            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Toren_der_Stilte%2C_Marta_Colwin%2C_Middelheimmuseum_01.jpg/300px-Toren_der_Stilte%2C_Marta_Colwin%2C_Middelheimmuseum_01.jpg"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Toren_der_Stilte%2C_Marta_Colvin%2C_Middelheimmuseum_02.jpg/300px-Toren_der_Stilte%2C_Marta_Colvin%2C_Middelheimmuseum_02.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616037", 
             "urls": ["https://www.openstreetmap.org/node/3173023538","https://www.mapillary.com/map/im/P6IaFmdgRCN2Z0D2wZewAv"]
@@ -2449,7 +2449,7 @@
             "name" : "Lucifer",
             "description" : "Sculpture",
             "more" : "",
-            "images" : ["https://commons.wikimedia.org/wiki/File:Paul_Van_Hoeydonck,_Lucifer,_1994.jpg"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Paul_Van_Hoeydonck%2C_Lucifer%2C_1994.jpg/300px-Paul_Van_Hoeydonck%2C_Lucifer%2C_1994.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/4335023024","https://www.mapillary.com/map/im/51v1I6kzR8dR0qClF1REsr"]
@@ -2631,7 +2631,7 @@
             "name" : "De Nor",
             "description" : "Sculpture created by Dennis Tyfus in 2018.",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/pCchXwCcf1bRXoBs7"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55002213", 
             "urls": ["https://www.openstreetmap.org/node/5673227419","https://www.mapillary.com/map/im/fTRJ040licxZI1arEkNtlK"]
@@ -2670,7 +2670,7 @@
             "name" : "Backwards (13, 5, 23, 7)",
             "description" : "Installation created by William Forsythe.",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/EgNZKX2QQQ4UJTnW8"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe_%282%29.jpg/320px-Backwards_%2813%2C_5%2C_23%2C_7%29%2C_William_Forsythe_%282%29.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q55759045", 
             "urls": ["https://www.openstreetmap.org/node/5673227925","https://www.mapillary.com/map/im/5HNt1IhuCPrdBDXwPoxvTz"]
@@ -2800,7 +2800,7 @@
             "name" : "Groeten aan E. De Jaeck",
             "description" : "Sculpture",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/ij3QE2qPJrYhHQKB6"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/8235972703","https://www.mapillary.com/map/im/Oj8CmrhpZOnXQTg6fTYt6T"]
@@ -2826,7 +2826,7 @@
             "name" : "Two reclining figures",
             "description" : "Sculpture",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/VpUvysNAGuoP75jD7"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Peter_Rogiers_Two_reclining_figures_on_a_calder_base_2006.jpg/300px-Peter_Rogiers_Two_reclining_figures_on_a_calder_base_2006.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/8237217708","https://images.mapillary.com/k2KoGDe1OyzilZlBqUrerE/thumb-2048.jpg"]
@@ -2850,9 +2850,9 @@
             "lon" : "4.4131257",
             "lat" : "51.1797748",
             "name" : "Staand meisje",
-            "description" : "Statue",
+            "description" : "Statue by Hans Wimmer",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/3vkyR9XoJR6w6ckG9"],
+            "images" : [],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "", 
             "urls": ["https://www.openstreetmap.org/node/8240275391","https://www.mapillary.com/map/im/qyPebPUDZFkzw8xfdkY4Im"]
@@ -2878,7 +2878,7 @@
             "name" : "Two figures for Middelheim",
             "description" : "Sculpture created by Juan Muñoz in 1992.",
             "more" : "",
-            "images" : ["https://photos.app.goo.gl/iLamwUxpQ2iVGRmN6"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Juan_Mu%C3%B1oz_-_Two_Figures_for_Middelheim_-_1993_-_Middelheimmuseum_01.jpg/300px-Juan_Mu%C3%B1oz_-_Two_Figures_for_Middelheim_-_1993_-_Middelheimmuseum_01.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616410", 
             "urls": ["https://www.openstreetmap.org/node/8241512016","https://www.mapillary.com/map/im/GP5gTBHnUSSHTHQXgMgxVX"]
