@@ -4,8 +4,10 @@
             "geolocation" : {
                 "request" : "Necesito GPS para funcionar",
                 "description": "Esta aplicación utiliza tu geoposición para mostrar los puntos de interés cercanos, nada más. Por favor, dame permiso :)",
-                "no": "No, gracias",
-                "yes": "Sí, está bien"
+                "no": "No, quiero salir",
+                "settings": "Abrir ajustes",
+                "yes": "Sí, continuar"
+
             },
             "likes" : {
                 "added": "{title} añadido a favoritos",

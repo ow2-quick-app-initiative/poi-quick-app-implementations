@@ -10,6 +10,7 @@ import geolocation from '@system.geolocation'
 import prompt from '@system.prompt'
 import storage from '@system.storage'
 import push from '@service.push'
+import router from '@system.router';
 
 // URL for the Maps
 const mapBaseUrl = 'https://geojson.pbest.me'
@@ -268,20 +269,26 @@ export default {
           message: self.i18n.$t('message.app.geolocation.description'), 
           buttons: [ 
             { 
-              text: self.i18n.$t('message.app.geolocation.no'), 
-              color: '#B11623' 
+              text: self.i18n.$t('message.app.geolocation.yes'), 
             },
             { 
-              text: self.i18n.$t('message.app.geolocation.yes'), 
-              color: '#88C100'
+              text: self.i18n.$t('message.app.geolocation.settings'), 
             }, 
+            { 
+              text: self.i18n.$t('message.app.geolocation.no'), 
+            },
           ], 
           success: function (res) { 
-            if (res.index === 1) {
+            if (res.index === 0) {
               console.info({ message: '    The user wants to repeat the process' })
-            } else if (res.index === 0) {
+            } else if (res.index === 2) {
               console.info("   🚫 User doesn't grant geolocation permissions"); 
               self.exit()
+            } else if (res.index === 1) {
+              console.info("   Opening geolocation settings");
+              router.push({
+                uri: 'hap://settings/location_source_manager',
+              })
             }
           }, 
           cancel: function(){ 

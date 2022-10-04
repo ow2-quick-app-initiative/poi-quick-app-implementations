@@ -4,8 +4,9 @@
             "geolocation" : {
                 "request" : "I need geolocation to work",
                 "description": "This app uses your geolocation to show the artworks nearby, nothing else. Please grant it :)",
-                "no": "No, thanks",
-                "yes": "Yes, I'm okay"
+                "no": "No, exit",
+                "settings": "Open settings",
+                "yes": "Yes, continue"
             },
             "likes" : {
                 "added": "{title} added to favorites",
