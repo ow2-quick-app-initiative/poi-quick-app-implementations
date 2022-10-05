@@ -2,8 +2,8 @@
   "meta": {
       "app_id": "es.espinr.middelheimmuseum",
       "app_title": "Antwerpen Middelheimmuseum",
-      "version": 8,
-      "updated": "2022-10-03",
+      "version": 9,
+      "updated": "2022-10-06",
       "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
       "marketplace_url": ""
@@ -16,9 +16,9 @@
                   "complementary": "#00ccf6"
               },
               "repository_url": "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/be/antwerpen/middelheimmuseum/",
-              "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. Please, note that it's not an official app.",
-              "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from public sources. You can find inaccuracies, so we apologize in advance.",
-              "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
+              "text_info": "This app was created to illustrate how to make the most of open data and citizens' collaboration. As you can see, it's free of charge Please, note that it's not an official app. In case you want to see all the details about these artworks, go to https://middelheimmuseum.be. There, you have a full catalog of the permanent artworks as well as a nice native app with routes.",
+              "text_acknowledge": "This app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from OpenStreetMap, Wikidata and Middelheimmuseum and personal pictures. You can find inaccuracies, so we apologize in advance.",
+              "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by enthusiasts and experts.",
               "feedback_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/#get-involved",
               "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=de/eckernforde&template=update_request.md&title=Update+Request"
           },
@@ -878,7 +878,7 @@
             "name" : "De profeet",
             "description" : "Statue created by Pablo Gargallo in 1932.",
             "more" : "",
-            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pable_Gargallo%2C_De_profeet%2C_1933.jpg/300px-Pable_Gargallo%2C_De_profeet%2C_1933.jpg"],
+            "images" : ["https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/images/3151450173.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pable_Gargallo%2C_De_profeet%2C_1933.jpg/300px-Pable_Gargallo%2C_De_profeet%2C_1933.jpg"],
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27615607", 
             "urls": ["https://www.openstreetmap.org/node/3151450173","https://www.mapillary.com/map/im/tn6fFSmDkqLq9rFvsTXv8z"]
@@ -2851,7 +2851,72 @@
             "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
             "wikidata": "Q27616410", 
             "urls": ["https://www.openstreetmap.org/node/8241512016","https://www.mapillary.com/map/im/GP5gTBHnUSSHTHQXgMgxVX"]
-          }
+          },
+          {
+            "id" : "Q27616362",
+            "type" : "sculpture",
+            "lon" : "4.413724030437446",
+            "lat" : "51.18070685368934",
+            "name" : "Leonardo Swirl",
+            "description" : "Sculpture created by Alice Aycock in 1982.",
+            "more" : "",
+            "images" : ["https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/images/Q27616362.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Alice_Aycock%2C_Leonardo_Swirl%2C_1982.jpg/640px-Alice_Aycock%2C_Leonardo_Swirl%2C_1982.jpg"],
+            "attributions": ["Source: Wikidata", "Commons Category: Leonardo Swirl (Alice Aycock)" ],
+            "wikidata": "Q27616362", 
+            "urls": ["https://search.middelheimmuseum.be/Details/collect/148126"]
+          },
+          {
+            "id" : "Q27627558",
+            "type" : "torso",
+            "lon" : "4.415255",
+            "lat" : "51.179678",
+            "name" : "Vrouwentorso",
+            "description" : "(Female torso) Sculpture created by Alberto Viani in 1954.",
+            "more" : "",
+            "images" : ["https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/images/Q27627558.jpg"],
+            "attributions": ["Source: Wikidata" ],
+            "wikidata": "Q27627558", 
+            "urls": ["https://search.middelheimmuseum.be/Details/collect/148184"]
+          },
+          {
+            "id" : "Q27616513",
+            "type" : "installation",
+            "lon" : "4.41377",
+            "lat" : "51.180595",
+            "name" : "Pirmavent III",
+            "description" : "(Firmament III) Three-dimensional net around a void in the form of human being, ten times larger. Artwork created by Antony Gormley in 2009.",
+            "more" : "",
+            "images" : ["https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/images/Q27616513.jpg"],
+            "attributions": ["Source: Wikidata" ],
+            "wikidata": "Q27616513", 
+            "urls": ["https://search.middelheimmuseum.be/Details/collect/344756"]
+          }, 
+          {
+            "id" : "Q27630203",
+            "type" : "installation",
+            "lon" : "4.411995",
+            "lat" : "51.179692",
+            "name" : "Pirmavent III",
+            "description" : "(Beam Drop) Sculpture created by Chris Burden in 2009.",
+            "more" : "",
+            "images" : ["https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/images/Q27630203.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Chris_Burden%2C_Beam_Drop%2C_2009_01.jpg/640px-Chris_Burden%2C_Beam_Drop%2C_2009_01.jpg"],
+            "attributions": ["Source: Wikidata", "Source: Museums and Heritage Antwerp" ],
+            "wikidata": "Q27630203", 
+            "urls": ["https://search.middelheimmuseum.be/Details/collect/216250"]
+          }, 
+          {
+            "id" : "Q27616527",
+            "type" : "bridge",
+            "lon" : "4.411495",
+            "lat" : "51.180233",
+            "name" : "The Bridge Without A Name",
+            "description" : "Bridge created by Ai Weiwei in 2012.",
+            "more" : "",
+            "images" : ["https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/images/Q27616527.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ai_Weiwei%2C_The_Bridge_without_a_Name%2C_2012.jpg/512px-Ai_Weiwei%2C_The_Bridge_without_a_Name%2C_2012.jpg"],
+            "attributions": ["Source: Wikidata", "Source: Middelheim Museum" ],
+            "wikidata": "Q27616527", 
+            "urls": ["https://search.middelheimmuseum.be/Details/collect/339771"]
+          }  
         ]
       }        
   }
