@@ -18,7 +18,7 @@
               "repository_url": "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/be/antwerpen/middelheimmuseum/",
               "text_info": "This app was created to illustrate how to make the most of open data and citizens' collaboration. As you can see, it's free of charge Please, note that it's not an official app. In case you want to see all the details about these artworks, go to https://middelheimmuseum.be. There, you have a full catalog of the permanent artworks as well as a nice native app with routes.",
               "text_acknowledge": "This app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from OpenStreetMap, Wikidata and Middelheimmuseum and personal pictures. You can find inaccuracies, so we apologize in advance.",
-              "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by enthusiasts and experts.",
+              "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by enthusiasts and experts. Visit https://middelheimmuseum.be for official information.",
               "feedback_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/#get-involved",
               "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=de/eckernforde&template=update_request.md&title=Update+Request"
           },
