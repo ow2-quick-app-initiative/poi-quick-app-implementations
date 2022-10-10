@@ -19,7 +19,7 @@
                 "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from https://maps.amsterdam.nl/open_geodata/?k=118 using automatic means. So, if you find inaccuracies we apologize.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
                 "feedback_url": "https://pbest.eu/cultural-heritage-quick-app/nl/amsterda/#get-involved",
-                "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=nl/amsterda&template=update_request.md&title=Update+Request"
+                "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=nl/amsterda&template=update_request.md&title=Update%20Request"
             },
            "pois" : [
             {
@@ -30,7 +30,7 @@
               "name" : "Oude Kerk 1306",
               "description" : "Religie bouwwerk: Oude Kerk 1306",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude+kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude%20kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -90,7 +90,7 @@
               "name" : "Sint-Anthonispoort 1466-1617",
               "description" : "Militair bouwwerk: Sint-Anthonispoort 1466-1617",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Anthonispoort.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Anthonispoort.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -102,7 +102,7 @@
               "name" : "Nieuwe Kerk 1408",
               "description" : "Religie bouwwerk: Nieuwe Kerk 1408",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe+kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe%20kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -114,7 +114,7 @@
               "name" : "St.-Elisabethskapel 1361-1492",
               "description" : "Religie bouwwerk: St.-Elisabethskapel 1361-1492",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Elisabethskapel.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Elisabethskapel.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -126,7 +126,7 @@
               "name" : "Sint-Pieterskapel 1382-1578",
               "description" : "Religie bouwwerk: Sint-Pieterskapel 1382-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Pieterskapel.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Pieterskapel.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -150,7 +150,7 @@
               "name" : "St.-Marienveld ten Nieuwenlichte- of Oude Nonnenklooster 1389-1578",
               "description" : "Religie bouwwerk: St.-Marienveld ten Nieuwenlichte- of Oude Nonnenklooster 1389-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude+Nonnenklooster.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude%20Nonnenklooster.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -198,7 +198,7 @@
               "name" : "Sint-Dionisius- of Nieuwe Nonnenklooster 1403-1578",
               "description" : "Religie bouwwerk: Sint-Dionisius- of Nieuwe Nonnenklooster 1403-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe+Nonnenklooster.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe%20Nonnenklooster.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -234,7 +234,7 @@
               "name" : "Sint-Ceciliënklooster 1411-1578",
               "description" : "Religie bouwwerk: Sint-Ceciliënklooster 1411-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Cecilienklooster.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Cecilienklooster.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -246,7 +246,7 @@
               "name" : "Sint-Maria Magdalenaklooster 1411-1579",
               "description" : "Religie bouwwerk: Sint-Maria Magdalenaklooster 1411-1579",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+MariaMagdalenaklooster.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20MariaMagdalenaklooster.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -270,7 +270,7 @@
               "name" : "Luciënconvent 1414-1578",
               "description" : "Religie bouwwerk: Luciënconvent 1414-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Lucienconvent.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Lucienconvent.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -282,7 +282,7 @@
               "name" : "Sint-Mariaconvent 1417-1578",
               "description" : "Religie bouwwerk: Sint-Mariaconvent 1417-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Mariaconvent.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Mariaconvent.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -294,7 +294,7 @@
               "name" : "Sint-Ursula of Elf Duizend Maagdenconvent 1419-1578",
               "description" : "Religie bouwwerk: Sint-Ursula of Elf Duizend Maagdenconvent 1419-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Ursulaklooster.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Ursulaklooster.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -306,7 +306,7 @@
               "name" : "Sint-Barbaraconvent 1425-1578",
               "description" : "Religie bouwwerk: Sint-Barbaraconvent 1425-1578",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Barbaraconvent.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Barbaraconvent.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -462,7 +462,7 @@
               "name" : "Zuiderkerk 1611",
               "description" : "Religie bouwwerk: Zuiderkerk 1611",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Zuiderkerk+%282%29.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Zuiderkerk%20%282%29.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -498,7 +498,7 @@
               "name" : "Heiligewegspoort 1610-1663",
               "description" : "Militair bouwwerk: Heiligewegspoort 1610-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Heiligewegspoort+1625.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Heiligewegspoort%201625.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -546,7 +546,7 @@
               "name" : "Regulierspoort 1591-1688",
               "description" : "Militair bouwwerk: Regulierspoort 1591-1688",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Regulierspoort+1657.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Regulierspoort%201657.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -558,7 +558,7 @@
               "name" : "Sint-Anthonispoort 1617-1663",
               "description" : "Militair bouwwerk: Sint-Anthonispoort 1617-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Anthonispoort+2.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Anthonispoort%202.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -630,7 +630,7 @@
               "name" : "Oudemannen- en Oudevrouwengasthuis 1601",
               "description" : "Openbaar bouwwerk: Oudemannen- en Oudevrouwengasthuis 1601",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude+mannenhuis.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude%20mannenhuis.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -642,7 +642,7 @@
               "name" : "Prinsenhof 1661-1795",
               "description" : "Openbaar bouwwerk: Prinsenhof 1661-1795",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Prinsenhof+I.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Prinsenhof%20I.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -654,7 +654,7 @@
               "name" : "De Beurs van Hendrick de Keyser 1611-1838",
               "description" : "Openbaar bouwwerk: De Beurs van Hendrick de Keyser 1611-1838",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Beurs+1611.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Beurs%201611.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -678,7 +678,7 @@
               "name" : "De Waag 1617",
               "description" : "Openbaar bouwwerk: De Waag 1617",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Waag+Nieuwmarkt.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Waag%20Nieuwmarkt.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1026,7 +1026,7 @@
               "name" : "Aalmoezeniersweeshuis 1666-1825",
               "description" : "Openbaar bouwwerk: Aalmoezeniersweeshuis 1666-1825",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Aalmoezeniersweeshuis+II.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Aalmoezeniersweeshuis%20II.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1074,7 +1074,7 @@
               "name" : "Nieuwe Lutherse Kerk 1671",
               "description" : "Religie bouwwerk: Nieuwe Lutherse Kerk 1671",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe+Lutherse+Kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe%20Lutherse%20Kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1086,7 +1086,7 @@
               "name" : "Oude Lutherse Kerk 1633",
               "description" : "Religie bouwwerk: Oude Lutherse Kerk 1633",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude+Lutherse+Kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Oude%20Lutherse%20Kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1098,7 +1098,7 @@
               "name" : "Engels Presbyteriaanse Kerk 1607",
               "description" : "Religie bouwwerk: Engels Presbyteriaanse Kerk 1607",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Engelse+kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Engelse%20kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1110,7 +1110,7 @@
               "name" : "Gasthuiskerk 1578-1864",
               "description" : "Religie bouwwerk: Gasthuiskerk 1578-1864",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Gasthuis+Kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Gasthuis%20Kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1122,7 +1122,7 @@
               "name" : "Kapel ter Heilige Stede/ Nieuwezijds Kapel 1345",
               "description" : "Religie bouwwerk: Kapel ter Heilige Stede/ Nieuwezijds Kapel 1345",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nwzijds+Kapel.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nwzijds%20Kapel.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1134,7 +1134,7 @@
               "name" : "Nieuwe Synagoge 1752",
               "description" : "Religie bouwwerk: Nieuwe Synagoge 1752",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe+Synagoge.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwe%20Synagoge.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1146,7 +1146,7 @@
               "name" : "Portugese Synagoge 1671",
               "description" : "Religie bouwwerk: Portugese Synagoge 1671",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Portugese+Synagoge.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Portugese%20Synagoge.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1158,7 +1158,7 @@
               "name" : "Synagoge aan de Uilenburgerstraat 1766",
               "description" : "Religie bouwwerk: Synagoge aan de Uilenburgerstraat 1766",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Synagoge+Uilenburg.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Synagoge%20Uilenburg.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1182,7 +1182,7 @@
               "name" : "Armeense Kerk 1714",
               "description" : "Religie bouwwerk: Armeense Kerk 1714",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Persiaanse+kerk.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Persiaanse%20kerk.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1254,7 +1254,7 @@
               "name" : "Weteringpoort 1668-1842",
               "description" : "Militair bouwwerk: Weteringpoort 1668-1842",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Weteringspoort+%282%29.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Weteringspoort%20%282%29.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1350,7 +1350,7 @@
               "name" : "Atheneum Illustre 1632",
               "description" : "Openbaar bouwwerk: Atheneum Illustre 1632",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Atheneum+Illustre.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Atheneum%20Illustre.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1374,7 +1374,7 @@
               "name" : "Stadhuis / Paleis 1655",
               "description" : "Openbaar bouwwerk: Stadhuis / Paleis 1655",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Stadhuis+Paleis.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Stadhuis%20Paleis.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1386,7 +1386,7 @@
               "name" : "St. Jorishof 1403-1901",
               "description" : "Openbaar bouwwerk: St. Jorishof 1403-1901",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint+Jorishof.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Sint%20Jorishof.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1830,7 +1830,7 @@
               "name" : "Lijnbanen Oostenburg 1661-1943",
               "description" : "Productie bouwwerk: Lijnbanen Oostenburg 1661-1943",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/lijnbaanVOC+Admiraliteit.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/lijnbaanVOC%20Admiraliteit.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1842,7 +1842,7 @@
               "name" : "Bolwerk 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+A.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20A.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1854,7 +1854,7 @@
               "name" : "Bolwerk 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+B.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20B.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1866,7 +1866,7 @@
               "name" : "Bolwerk 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+C.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20C.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1878,7 +1878,7 @@
               "name" : "Bolwerk 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+D.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20D.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1890,7 +1890,7 @@
               "name" : "Bolwerk 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+E.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20E.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1902,7 +1902,7 @@
               "name" : "Bolwerk 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+F.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20F.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1914,7 +1914,7 @@
               "name" : "Bolwerk Rijzenhoofd 1592-1663",
               "description" : "Militair bouwwerk: Bolwerk Rijzenhoofd 1592-1663",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk+2e+G+Rijzenhoofd.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/bolwerk%202e%20G%20Rijzenhoofd.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1926,7 +1926,7 @@
               "name" : "Bolwerk 1578-1613",
               "description" : "Militair bouwwerk: Bolwerk 1578-1613",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk+1e+A.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk%201e%20A.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1938,7 +1938,7 @@
               "name" : "Bolwerk 1578-1613",
               "description" : "Militair bouwwerk: Bolwerk 1578-1613",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk+1e+B.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk%201e%20B.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1950,7 +1950,7 @@
               "name" : "Bolwerk 1578-1613",
               "description" : "Militair bouwwerk: Bolwerk 1578-1613",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk+1e+C.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk%201e%20C.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1962,7 +1962,7 @@
               "name" : "Bolwerk 1578-1613",
               "description" : "Militair bouwwerk: Bolwerk 1578-1613",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk+1e+D.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Bolwerk%201e%20D.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1974,7 +1974,7 @@
               "name" : "Hortus Botanicus 1682",
               "description" : "Openbaar bouwwerk: Hortus Botanicus 1682",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Hortus+Botanicus.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Hortus%20Botanicus.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1986,7 +1986,7 @@
               "name" : "Grote Synagoge 1671",
               "description" : "Religie bouwwerk: Grote Synagoge 1671",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Grote+Synagoge.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Grote%20Synagoge.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -1998,7 +1998,7 @@
               "name" : "Obbene Sjoel 1685",
               "description" : "Religie bouwwerk: Obbene Sjoel 1685",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Synagoge+complex.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Synagoge%20complex.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2010,7 +2010,7 @@
               "name" : "Dritt Sjoel 1700",
               "description" : "Religie bouwwerk: Dritt Sjoel 1700",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Synagoge+complex.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Synagoge%20complex.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2022,7 +2022,7 @@
               "name" : "Waag Westerhal 1619-1857",
               "description" : "Openbaar bouwwerk: Waag Westerhal 1619-1857",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Waag+Westerhal.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Waag%20Westerhal.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2034,7 +2034,7 @@
               "name" : "Oudevrouwenhuis Diaconie 1683",
               "description" : "Openbaar bouwwerk: Oudevrouwenhuis Diaconie 1683",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/diaconie+oudevrouwenhuis.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/diaconie%20oudevrouwenhuis.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2046,7 +2046,7 @@
               "name" : "Diaconie Weeshuis 1657-1880",
               "description" : "Openbaar bouwwerk: Diaconie Weeshuis 1657-1880",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Diaconie+weeshuis.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Diaconie%20weeshuis.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2058,7 +2058,7 @@
               "name" : "Waag 1533-1808",
               "description" : "Openbaar bouwwerk: Waag 1533-1808",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Waag+Dam+1625.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Waag%20Dam%201625.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2070,7 +2070,7 @@
               "name" : "Toren Leeuwenburg ca. 1490-1614",
               "description" : "Militair bouwwerk: Toren Leeuwenburg ca. 1490-1614",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Toren+Leeuwenburg.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Toren%20Leeuwenburg.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2082,7 +2082,7 @@
               "name" : "Glashuis Jan Hendriksz Soop 1601-1631",
               "description" : "Productie bouwwerk: Glashuis Jan Hendriksz Soop 1601-1631",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Glashuis+Soop.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Glashuis%20Soop.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2118,7 +2118,7 @@
               "name" : "Nieuwezijds Huiszittenhuis 1654-1870",
               "description" : "Openbaar bouwwerk: Nieuwezijds Huiszittenhuis 1654-1870",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwezijds+Huiszittenhuis.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/Nieuwezijds%20Huiszittenhuis.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
@@ -2130,7 +2130,7 @@
               "name" : "Oudezijds Huiszittenhuis 1654",
               "description" : "Openbaar bouwwerk: Oudezijds Huiszittenhuis 1654",
               "more" : "",
-              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/OZ+Huiszittenhuis.jpg"],
+              "images" : ["https://maps.amsterdam.nl/archeologie/Downloads/OZ%20Huiszittenhuis.jpg"],
               "attributions": ["Source: Municipality of Amsterdam - Monuments and Archaeology" ],
               "URLs": []
             },
