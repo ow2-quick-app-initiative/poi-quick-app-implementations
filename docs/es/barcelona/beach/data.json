@@ -1,0 +1,171 @@
+{
+    "meta": {
+        "app_title": "BCN Beaches",
+        "version": 1,
+        "updated": "2022-10-10",
+        "source_url": "https://pbest.eu/cultural-heritage-quick-app/es/barcelona/beach/data.json",
+        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
+        "marketplace_url": ""
+    },
+    "content": {
+        "ca": {
+            "app": {
+                "theme": {
+                    "brand": "#da121a",
+                    "complementary": "#000000"
+                },
+                "repository_url": "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/es/barcelona/beach",
+                "text_info": "This app is created by enthusiasts, based on Barcelona Open Data and Wikidata. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. Please, note that it's not an official app.",
+                "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Barcelona Open Data and Wikidata using automatic means. So, if you find inaccuracies we apologize.",
+                "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
+                "feedback_url": "https://pbest.eu/cultural-heritage-quick-app/es/barcelona/beach/#get-involved",
+                "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=es/barcelona/beach&template=update_request.md&title=Update%20Request"
+            },
+           "pois" : [
+            {
+              "id" : "99400270692",
+              "type" : "beach",
+              "lon" : "2.1952328977717435",
+              "lat" : "41.38346152967781",
+              "name" : "Platja del Somorrostro",
+              "description" : "Platja a la Barceloneta",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Barcelona_Beach_-_panoramio.jpg/600px-Barcelona_Beach_-_panoramio.jpg"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q87167423", 
+              "urls": ["http://lameva.barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-somorrostro"]
+            },
+            {
+              "id" : "99400455488",
+              "type" : "beach",
+              "lon" : "2.2176973761393084",
+              "lat" : "41.40457048313004",
+              "name" : "Àrea d'Accés per a Ciutadans amb Gossos",
+              "description" : "Platja a Diagonal Mar i el Front Marítim del Poblenou",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/002-Strand-Barcelona.jpg/600px-002-Strand-Barcelona.jpg"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3328909", 
+              "urls": ["http://www.barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges"]
+            },
+            {
+              "id" : "92086030400",
+              "type" : "beach",
+              "lon" : "2.2123276980931683",
+              "lat" : "41.39857924467329",
+              "name" : "Platja de la Mar Bella",
+              "description" : "Platja a Diagonal Mar i el Front Marítim del Poblenou",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Platja_de_la_Mar_Bella_%28Barcelona%29_01.JPG/600px-Platja_de_la_Mar_Bella_%28Barcelona%29_01.JPG"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3331605", 
+              "urls": ["http://barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-la-mar-bella"]
+            },
+            {
+              "id" : "92086030401",
+              "type" : "beach",
+              "lon" : "2.2142493854271126",
+              "lat" : "41.401144617626905",
+              "name" : "Platja de la Nova Mar Bella",
+              "description" : "Platja a Diagonal Mar i el Front Marítim del Poblenou",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Volleyball_at_Platja_de_la_Nova_Mar_Bella.JPG/600px-Volleyball_at_Platja_de_la_Nova_Mar_Bella.JPG"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3329668", 
+              "urls": ["http://barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-la-nova-mar-bella"]
+            },
+            {
+              "id" : "92086030398",
+              "type" : "beach",
+              "lon" : "2.1896792006250663",
+              "lat" : "41.373706513534366",
+              "name" : "Platja de Sant Sebastià",
+              "description" : "Platja a la Barceloneta",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/W_Barcelona_by_Ricardo_Bofill.jpg/600px-W_Barcelona_by_Ricardo_Bofill.jpg"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3331620", 
+              "urls": ["http://barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-sant-sebastia"]
+            },
+            {
+              "id" : "92086030399",
+              "type" : "beach",
+              "lon" : "2.2028838890750646",
+              "lat" : "41.39076474300676",
+              "name" : "Platja de la Nova Icària",
+              "description" : "Platja a la Vila Olímpica del Poblenou",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Platja_de_la_Nova_Ic%C3%A0ria_01.JPG/600px-Platja_de_la_Nova_Ic%C3%A0ria_01.JPG"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3329630", 
+              "urls": ["https://book.timify.com/services?accountId=609b7203c9b6281189510d26&locale=ca-es"]
+            },
+            {
+              "id" : "92168143754",
+              "type" : "beach",
+              "lon" : "2.20675449785976",
+              "lat" : "41.39460267821261",
+              "name" : "Platja del Bogatell",
+              "description" : "Platja a el Poblenou",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Barcelona%27s_lifeguard.jpg/600px-Barcelona%27s_lifeguard.jpg"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3329621", 
+              "urls": ["http://barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-bogatell"]
+            },
+            {
+              "id" : "92086030396",
+              "type" : "beach",
+              "lon" : "2.1922222424172015",
+              "lat" : "41.37861435600187",
+              "name" : "Platja de la Barceloneta",
+              "description" : "Platja a la Barceloneta",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Barcelona_%2816877599244%29.jpg/600px-Barcelona_%2816877599244%29.jpg"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q1053014", 
+              "urls": ["http://www.barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-la-barceloneta"]
+            },
+            {
+              "id" : "99400119148",
+              "type" : "beach",
+              "lon" : "2.2217148764638015",
+              "lat" : "41.411066821389646",
+              "name" : "Zona de Banys",
+              "description" : "Platja a el Besòs i el Maresme",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Parc_dels_Auditoris1.JPG/600px-Parc_dels_Auditoris1.JPG"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q11697775", 
+              "urls": ["https://book.timify.com/services?accountId=609b7203c9b6281189510d26&hideCloseButton=true"]
+            },
+            {
+              "id" : "99400165604",
+              "type" : "beach",
+              "lon" : "2.217741476714544",
+              "lat" : "41.405015109468714",
+              "name" : "Platja de Llevant",
+              "description" : "Platja a Diagonal Mar i el Front Marítim del Poblenou",
+              "more" : "",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/002-Strand-Barcelona.jpg/600px-002-Strand-Barcelona.jpg"],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q3328909", 
+              "urls": ["http://www.barcelona.cat/ca/que-pots-fer-a-bcn/banys-i-platges/platja-de-llevant"]
+            },
+            {
+              "id" : "99400194035",
+              "type" : "beach",
+              "lon" : "2.1913705593606174",
+              "lat" : "41.37714207928898",
+              "name" : "Platja de Sant Miquel",
+              "description" : "Platja a la Barceloneta",
+              "more" : "",
+              "images" : [""],
+              "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
+              "wikidata": "Q24019707", 
+              "urls": ["https://book.timify.com/services?accountId=609b7203c9b6281189510d26&locale=ca-es"]
+            }
+          ]
+        }
+    }
+}
