@@ -159,8 +159,8 @@
               "lat" : "41.37714207928898",
               "name" : "Platja de Sant Miquel",
               "description" : "Platja a la Barceloneta",
-              "more" : "",
-              "images" : [""],
+              "more" : "Wikimedia CC-BY: IonutDragu",
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Barcelona_-_panoramio_%2853%29.jpg/600px-Barcelona_-_panoramio_%2853%29.jpg"],
               "attributions": ["Source: OpenStreetMap", "Source: Museums and Heritage Antwerp" ],
               "wikidata": "Q24019707", 
               "urls": ["https://book.timify.com/services?accountId=609b7203c9b6281189510d26&locale=ca-es"]
