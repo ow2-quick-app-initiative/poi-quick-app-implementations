@@ -11,8 +11,8 @@
         "ca": {
             "app": {
                 "theme": {
-                    "brand": "#da121a",
-                    "complementary": "#000000"
+                    "brand": "#5342AE",
+                    "complementary": "#ffffff"
                 },
                 "repository_url": "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/es/barcelona/beach",
                 "text_info": "This app is created by enthusiasts, based on Barcelona Open Data and Wikidata. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. Please, note that it's not an official app.",
