@@ -1,10 +1,6 @@
-# _Heritage in…_ Your City
+# _Heritage in…_ Barcelona (Beaches)
 
-_This is part of the [Heritage_in Quick App Project](https://pbest.eu/poi-quick-app/#Theproject)._
-
-__Change this text according to your needs__
-
-The _Heritage in…_ Quick App promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
+The _Heritage in…_ Barcelona Quick App promotes Baarcelona´s natural heritage through open data and crowdsourcing. This is part of the [Heritage_in Quick App Project](https://pbest.eu/poi-quick-app/#Theproject).
 
 > It's free, open-source and collaborative 
 
@@ -14,7 +10,7 @@ These apps are based on open data and automatic processing of the data. The comm
 
 The app doesn't collect any personal data, so relax. We won't sell anything.
 
-Perhaps the content is inaccurate, so please [let us know](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) if you've spotted anything that might be enhanced. 
+Perhaps the content is inaccurate, so please [let us know](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=es/barcelona) if you've spotted anything that might be enhanced. 
 
 ## Get involved
 
@@ -27,7 +23,7 @@ Every project has two resource types:
 - *images* (`./images/xxxxx.jpg`): light pictures in square format. If possible 1x1 ratio for homogenous look and feel; the lighter the better (50Kb per image would be fine).
 - *database* (`./data.json`): JSON file with the app's configuration (name, colors, privacy texts, etc.) and the points of interest you want to show in the app. 
 
-You can download it in your computer, modify the texts, or add a new element based on your knowledge. You can upload it directly (better a Pull Request if you are familiar with GitHub), or [raise an issue](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) to suggest the changes (please be explicit).
+You can download it in your computer, modify the texts, or add a new element based on your knowledge. You can upload it directly (better a Pull Request if you are familiar with GitHub), or [raise an issue](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=es/barcelona) to suggest the changes (please be explicit).
 
 Note that there is a moderation process, so it may take some hours. Please, leave a note with the suggestion, so the editor may validate and confirm your changes.
 
@@ -225,5 +221,5 @@ Note that the application will append the name of the point of interest at the e
 
 Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](../quick-app) folder of the repository. 
 
-Feel free to [raise issues](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) on the code.
+Feel free to [raise issues](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=es/barcelona) on the code.
 
