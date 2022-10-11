@@ -1,8 +1,8 @@
 {
     "meta": {
-        "app_id": "",
+        "app_id": "es.espinr.ams_historic_buildings",
         "app_title": "AMS Historic Buildings",
-        "version": 4,
+        "version": 5,
         "updated": "2022-10-05",
         "source_url": "https://pbest.eu/cultural-heritage-quick-app/nl/amsterdam/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
