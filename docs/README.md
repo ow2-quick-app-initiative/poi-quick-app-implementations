@@ -23,9 +23,9 @@ If you want to start a new project, you only need to:
 
 ## License
 
-This project's documentation, content, and data folders are licensed under a [CC-BY license](./LICENSE).
+This project's documentation, content, and data folders are licensed under a [CC-BY license](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/LICENSE).
 
-All other code in this repository is licensed under the [MIT license](./LICENSE-CODE).
+All other code in this repository is licensed under the [MIT license](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/LICENSE-CODE).
 
 ## Privacy
 
