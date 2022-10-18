@@ -1,0 +1,12 @@
+    {
+      "id" : "{{jsonize(cells["id"].value)}}",
+      "type" : {{jsonize(cells["type"].value)}},
+      "lon" : "{{jsonize(cells["lon"].value)}}",
+      "lat" : "{{jsonize(cells["lat"].value)}}",
+      "name" : {{jsonize(cells["Nom"].value)}},
+      "description" : {{jsonize(cells["description"].value)}},
+      "more" : {{jsonize(cells["more"].value)}},
+      "images" : [{{ if(cells["THUMB_URL"].value!=null, jsonize(cells["THUMB_URL"].value), '') }}],
+      "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
+      "urls": []
+    }
