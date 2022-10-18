@@ -2,8 +2,8 @@
   "meta": {
       "app_id": "es.espinr.middelheimmuseum",
       "app_title": "Antwerpen Middelheimmuseum",
-      "version": 11,
-      "updated": "2022-10-05",
+      "version": 12,
+      "updated": "2022-10-18",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/be/antwerpen/middelheimmuseum/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
       "marketplace_url": ""

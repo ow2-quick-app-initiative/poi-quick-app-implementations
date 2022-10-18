@@ -18,8 +18,8 @@ Some screenshots:
 
 If you want to start a new project, you only need to:
 
-- configure the [quick app](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/quick-app) of this repository, and
-- configure the sample [database and documentation](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/docs/sample) that feeds the quick app.
+- configure the [quick app](https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/quick-app) of this repository, and
+- configure the sample [database and documentation](https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/sample) that feeds the quick app.
 
 ## License
 
