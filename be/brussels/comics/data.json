@@ -2,8 +2,8 @@
     "meta": {
         "app_id": "es.espinr.comics",
         "app_title": "BXL Comic Book Route",
-        "version": 3,
-        "updated": "2022-09-26",
+        "version": 4,
+        "updated": "2022-10-18",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": "https://appgallery.huawei.com/app/C106421983"
@@ -20,7 +20,7 @@
                 "text_acknowledge": "This quick app is an open-source project powered by Brussels Open Data and Wikidata and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
                 "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/#get-involved",
-                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?template=update_request.md&title=Update+Request"
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?labels=be/comics&template=update_request.md&title=Update+Request"
             },
             "pois": [
                 {
