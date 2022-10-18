@@ -2,11 +2,11 @@
   "meta": {
       "app_id": "es.espinr.oeratoom",
       "app_title": "Oeratoom Leuven",
-      "version": 6,
-      "updated": "2022-09-26",
+      "version": 7,
+      "updated": "2022-10-18",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/oeratoom/data.json",
       "analytics_id": "1",
-      "marketplace_url": ""
+      "marketplace_url": "https://appgallery.huawei.com/app/C106950887"
   },
   "content": {
       "en": {
