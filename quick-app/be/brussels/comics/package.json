@@ -12,6 +12,6 @@
   "devDependencies": {
     "geolib": "^3.3.3",
     "cross-env": "^7.0.2",
-    "fa-toolkit": "file:fa-toolkit-11.3.2-Stable.302.tgz"
+    "fa-toolkit": "file:fa-toolkit-12.5.1-Stable.301.tgz"
   }
 }
