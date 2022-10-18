@@ -12,7 +12,7 @@ __If you are interested, please visit the main repository with the [methodology 
 
 Some screenshots:
 
-<img src="./be/leuven/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
+<img src="./be/leuven/heritage/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
 
 ## Start a new project for your town
 

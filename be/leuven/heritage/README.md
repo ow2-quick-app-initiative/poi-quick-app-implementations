@@ -25,7 +25,7 @@ The content for each application instance (one per city/town) is stored in a par
 Every project has two resource types:
 
 - *images* (`./images/xxxxx.jpg`): light pictures in square format. If possible 1x1 ratio for homogenous look and feel; the lighter, the better (50Kb per image would be fine). 
-- *database* ([`./data.json`](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/docs/be/leuven/data.json)): JSON file with the app's configuration (name, colors, privacy texts, etc.) and the points of interest you want to show in the app. 
+- *database* ([`./data.json`](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/docs/be/leuven/heritage/data.json)): JSON file with the app's configuration (name, colors, privacy texts, etc.) and the points of interest you want to show in the app. 
 
 You can download it to your computer, modify the texts, or add a new element based on your knowledge. You can upload it directly (better a Pull Request if you are familiar with GitHub) or [raise an issue](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?labels=be/leuven) to suggest the changes (please be explicit).
 
@@ -33,7 +33,7 @@ Note that there is a moderation process so it may take some hours. Please, leave
 
 ### How to submit new images
 
-The images are in the [`./images` directory](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/docs/be/leuven/images/). 
+The images are in the [`./images` directory](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/docs/be/leuven/heritage/images/). 
 
 You can find a mistake, or you want to modify and upload a new version. 
 
@@ -44,7 +44,7 @@ Please, use the identifier of the point of interest you are referring to (see at
 
 ### How to update the database?
 
-The database is in a JSON file named [`data.json`](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/docs/be/leuven/data.json) in the project's root directory.. 
+The database is in a JSON file named [`data.json`](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/blob/main/docs/be/leuven/heritage/data.json) in the project's root directory.. 
 
 Please be sure that this document has the correct format (syntax and content). You can test it using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json)). 
 
