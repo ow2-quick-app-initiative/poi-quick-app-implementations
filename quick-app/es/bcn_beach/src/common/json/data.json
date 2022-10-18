@@ -2,8 +2,8 @@
   "meta": {
       "app_id": "es.espinr.bcn_beach",
       "app_title": "BCN Beaches",
-      "version": 3,
-      "updated": "2022-10-11",
+      "version": 5,
+      "updated": "2022-10-18",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/es/barcelona/beach/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
       "marketplace_url": ""
@@ -179,7 +179,7 @@
             "text_acknowledge": "Aquesta quick app és un projecte de codi obert impulsat per dades obertes i enriquit per la comunitat. La major part de la informació s'ha extret de Barcelona Open Data i Wikidata mitjançant mitjans automàtics. Per tant, si trobeu inexactituds us demanem disculpes.",
             "text_feedback": "Si us plau, fes-nos saber si vols contribuir amb la teva experiència, enriquir el contingut, corregir inexactituds o enviar imatges.",
             "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/es/barcelona/beach/#get-involved",
-            "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?labels=es/barcelona/beach&template=update_request.md&title=Update%20Request"
+            "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?labels=es/barcelona&template=update_request.md&title=Update%20Request"
         },
        "pois" : [
         {
