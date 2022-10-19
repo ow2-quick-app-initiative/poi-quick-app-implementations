@@ -2,8 +2,8 @@
     "meta": {
         "app_id": "es.espinr.fr.paris.women",
         "app_title": "Illustrious Parisian Women",
-        "version": 1,
-        "updated": "2022-10-18",
+        "version": 2,
+        "updated": "2022-10-19",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": ""
@@ -55,7 +55,7 @@
                   "name" : "Alessandra Montagne",
                   "description" : "La cheffe Franco-brésilienne du restaurant Tempero est une locavore.",
                   "more" : "Dans sa cuisine elle utilise des produits de marchés franciliens et propose une carte reflétant ses origines mais aussi ses voyages.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
@@ -163,7 +163,7 @@
                   "name" : "Christelle Brua",
                   "description" : "Après avoir été meilleure pâtissière de l’année en 2009, elle est sacrée meilleure pâtissière au monde en 2018.",
                   "more" : "Christelle Brua dévoile ses talents au Pré Catalan, 3 étoiles au Michelin et signe la carte avec sa pâtisserie signature “la pomme en sucre soufflé”.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
@@ -247,7 +247,7 @@
                   "name" : "Eleonora Zuliani",
                   "description" : "Trattoria italienne, il baccaro se situe entre place Voltaire et le Père Lachaise et est tenu par la cheffe Eleonora Zuliani.",
                   "more" : "Ex-architecte est l'ambassadrice de la cuisine de l'Italie du Nord et particulièrement du Frioul à Paris.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
@@ -499,7 +499,7 @@
                   "name" : "Justine Piluso",
                   "description" : "Classé en tête des meilleur restaurant parisiens, les cuisines du restaurant Le Cappiello sont tenues par Justine Piluso depuis janvier 2017.",
                   "more" : "Justine Piluso formée en cuisine à l'institut Bocuse propose des plats à bases de produits frais et une cuisine simple dans son restaurant qu'elle considère comme bistrot de quartier.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
@@ -583,7 +583,7 @@
                   "name" : "Manon Fleury",
                   "description" : "Originaire de Bourgogne, Manon Fleury a tout d'une grande cheffe.",
                   "more" : "Elle fait ses classes à ZE Kitchen Gallerie et à l'école Ferrandi.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
@@ -787,7 +787,7 @@
                   "name" : "Roxana Maracineanu",
                   "description" : "Roxana Maracineanu est une ancienne nageuse et femme politique française.",
                   "more" : "Elle remportera au cours de sa carrière de nageuse de nombreux titres dont celui de la première championne du monde française de natation en 1998 à Perth en Australie.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
@@ -907,7 +907,7 @@
                   "name" : "Tatiana et Katia Levha",
                   "description" : "Au 32 rue Saint-Maur se situe le restaurant des soeurs Levha, le Double Dragon.",
                   "more" : "Elles commencent ensemble leur aventure gastronomique avec un premier restaurant en 2014, le Servan, rue St-Maur lui aussi.   ",
-                  "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
+                  "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/images/placeholder.jpg"],
                   "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
                   "urls": []
                 },
