@@ -9,5 +9,5 @@
       "images" : [{{ if(cells["thumbnail"].value!=null, jsonize(cells["thumbnail"].value), '') }}],
       "wikidata" : {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '') }},
       "attributions": {{ if(cells["attributions"].value!=null, cells["attributions"].value, '[]') }},
-      "urls": {{ cells["attributions"].value}}
+      "urls": {{ cells["urls"].value}}
     }
