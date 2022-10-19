@@ -1,0 +1,13 @@
+    {
+      "id" : {{jsonize(cells["IDBASE"].value)}},
+      "type" : {{jsonize(cells["STADEDEVELOPPEMENT"].value)}},
+      "lon" : {{jsonize(cells["lon"].value)}},
+      "lat" : {{jsonize(cells["lat"].value)}},
+      "name" : {{jsonize(cells["LIBELLEFRANCAIS"].value)}},
+      "description" : {{jsonize(cells["description"].value)}},
+      "more" : {{jsonize(cells["more"].value)}},
+      "images" : [{{ if(cells["thumbnail"].value!=null, jsonize(cells["thumbnail"].value), '') }}],
+      "wikidata" : {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '') }},
+      "attributions": {{ if(cells["attributions"].value!=null, cells["attributions"].value, '[]') }},
+      "urls": {{ cells["attributions"].value}}
+    }
