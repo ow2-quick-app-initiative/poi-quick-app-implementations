@@ -59,7 +59,7 @@
                 "more" : "In her kitchen she uses Ile -de -France market products and offers a card reflecting her origins but also her travels.",
                 "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
                 "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-                "wikidata" : ,
+                "wikidata" : "",
                 "urls": []
               },
               {
@@ -254,7 +254,7 @@
                 "more" : "Cinema actress and actress at the theater, faithful friend of Jean Marais, she recorded at her record around sixty films from 1931 to 1974.",
                 "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Edwige_Feuillere.jpg"],
                 "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-                "wikidata" : ,
+                "wikidata" : "",
                 "urls": []
               },
               {
@@ -267,7 +267,7 @@
                 "more" : "Ex-architect is the ambassador of the cuisine of Northern Italy and particularly of Frioul in Paris.",
                 "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
                 "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-                "wikidata" : ,
+                "wikidata" : "",
                 "urls": []
               },
               {
@@ -787,7 +787,7 @@
                 "more" : "It becomes known worldwide with its paintings from the \"Tir\" collection, a series of paintings in painting and plaster made in the 60s.",
                 "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Niki_de_Saint_Phalle.jpg"],
                 "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-                "wikidata" : ,
+                "wikidata" : "",
                 "urls": []
               },
               {
@@ -982,7 +982,7 @@
                 "more" : "They start their gastronomic adventure together with a first restaurant in 2014, the Servan, rue St-Maur too.",
                 "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
                 "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-                "wikidata" : ,
+                "wikidata" : "",
                 "urls": []
               },
               {
@@ -1076,7 +1076,7 @@
               "more" : "Dans sa cuisine elle utilise des produits de marchés franciliens et propose une carte reflétant ses origines mais aussi ses voyages.",
               "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
               "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-              "wikidata" : ,
+              "wikidata" : "",
               "urls": []
             },
             {
@@ -1271,7 +1271,7 @@
               "more" : "Actrice de cinéma et comédienne au théâtre, fidèle amie de Jean Marais, elle enregistre à son palmarès une soixantaine de films de 1931 à 1974.",
               "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Edwige_Feuillere.jpg"],
               "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-              "wikidata" : ,
+              "wikidata" : "",
               "urls": []
             },
             {
@@ -1284,7 +1284,7 @@
               "more" : "Ex-architecte est l'ambassadrice de la cuisine de l'Italie du Nord et particulièrement du Frioul à Paris.",
               "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
               "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-              "wikidata" : ,
+              "wikidata" : "",
               "urls": []
             },
             {
@@ -1804,7 +1804,7 @@
               "more" : "Elle devient mondialement connue avec ses tableaux de la collection \"Tir\", série de tableaux en peinture et plâtre réalisée dans les années 60 .   ",
               "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Niki_de_Saint_Phalle.jpg"],
               "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-              "wikidata" : ,
+              "wikidata" : "",
               "urls": []
             },
             {
@@ -1999,7 +1999,7 @@
               "more" : "Elles commencent ensemble leur aventure gastronomique avec un premier restaurant en 2014, le Servan, rue St-Maur lui aussi.",
               "images" : ["https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png"],
               "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-              "wikidata" : ,
+              "wikidata" : "",
               "urls": []
             },
             {
@@ -2042,6 +2042,7 @@
               "urls": []
             }
           ]
+        
         }
     }
 }

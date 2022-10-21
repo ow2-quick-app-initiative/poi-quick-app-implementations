@@ -8,7 +8,7 @@
       "more" : {{jsonize(cells["more"].value)}},
       "images" : [{{ if(cells["images"].value!=null, jsonize(cells["images"].value), '') }}],
       "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-      "wikidata" : {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '') }},
+      "wikidata" : {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '""') }},
       "urls": []
     }
 
@@ -22,6 +22,6 @@
       "more" : {{jsonize(cells["more_fr"].value)}},
       "images" : [{{ if(cells["images"].value!=null, jsonize(cells["images"].value), '') }}],
       "attributions": ["Paris Data", "Direction de l'Attractivité et de l'Emploi - Ville de Paris" ],
-      "wikidata" : {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '') }},
+      "wikidata" : {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '""') }},
       "urls": []
     }
