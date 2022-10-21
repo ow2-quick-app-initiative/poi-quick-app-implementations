@@ -41,7 +41,7 @@
             }            
         },
         "main": {
-            "loading": "Loading artworks..."
+            "loading": "Loading..."
         },
         "detail": {
             "approx_km": "Approx. at {distance} km from here",

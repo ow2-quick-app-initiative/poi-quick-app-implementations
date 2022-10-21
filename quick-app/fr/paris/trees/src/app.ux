@@ -14,7 +14,7 @@ import router from '@system.router';
 
 // URL for the Maps
 const mapBaseUrl = 'https://geojson.pbest.me'
-const markerIconColor = 'pale'
+const markerIconColor = 'brown'
 
 // to enable async
 const injectRef = Object.getPrototypeOf(global) || global
