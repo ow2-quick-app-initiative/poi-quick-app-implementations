@@ -69,7 +69,7 @@
             "install" : {
                 "title": "Keep using this app?",
                 "button": "Install App",
-                "description": "Install the icon in your homescreen:",
+                "description": "Install the icon on your homescreen:",
                 "dialog": {
                     "question": "Do you want to install the app to use it later?",
                     "success": "Yeah! Homescreen icon created",
