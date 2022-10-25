@@ -415,19 +415,6 @@
               "urls": ["https://www.openstreetmap.org/node/6126650985"]
             },
             {
-              "id" : "7064900146",
-              "type" : "attraction",
-              "lon" : "2.2993451",
-              "lat" : "48.8579648",
-              "name" : "History Group Store",
-              "description" : "Travel agency in Paris",
-              "more" : "",
-              "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/placeholder.jpg"],
-              "wikidata" : "",
-              "attributions": ["Data by OpenStreetMap® and Wikimedia"],
-              "urls": ["https://www.openstreetmap.org/node/7064900146"]
-            },
-            {
               "id" : "7126620755",
               "type" : "artwork",
               "lon" : "2.2917845",
@@ -2263,19 +2250,6 @@
             "wikidata" : "Q3149058",
             "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by Binche"],
             "urls": ["https://www.openstreetmap.org/node/4828870750"]
-          },
-          {
-            "id" : "7064900146",
-            "type" : "attraction",
-            "lon" : "2.2993451",
-            "lat" : "48.8579648",
-            "name" : "History Group Store",
-            "description" : "Agence de voyage à Paris",
-            "more" : "",
-            "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/placeholder.jpg"],
-            "wikidata" : "",
-            "attributions": ["Data by OpenStreetMap® and Wikimedia"],
-            "urls": ["https://www.openstreetmap.org/node/7064900146"]
           },
           {
             "id" : "1000196804",
