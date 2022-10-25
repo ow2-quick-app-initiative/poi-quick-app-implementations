@@ -12,8 +12,8 @@
       "en": {
           "app": {
               "theme": {
-                  "brand": "#B8DC3C",
-                  "complementary": "#4C49A2"
+                "brand": "#071F32",
+                "complementary": "#fafafa"
               },
               "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/docs/fr/paris/heritage",
               "text_info": "This app is created by citizens and local experts based on crowdsourced data, so it is not official. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
@@ -1147,8 +1147,8 @@
       "fr": {
         "app": {
             "theme": {
-                "brand": "#B8DC3C",
-                "complementary": "#4C49A2"
+                "brand": "#071F32",
+                "complementary": "#fafafa"
             },
             "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/docs/fr/paris/heritage",
             "text_info": "Cette application est créée par des citoyens et des experts locaux sur la base de données participatives, elle n'est donc pas officielle. Comme vous pouvez le voir, c'est aussi gratuit. Veuillez nous faire savoir si vous souhaitez contribuer avec votre expérience, enrichir le contenu, corriger des inexactitudes ou soumettre des photos.",
