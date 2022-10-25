@@ -89,3 +89,7 @@ Den, Len
 
 # To uppercase first character
 value.substring(0,1).toUppercase() + value.substring(1)
+
+
+
+'["Data from OpenStreetMap®, and Wikimedia"'+ if(cells['license'].value!=null, ',"'+cells['license'].value + '"', "") + "]"
