@@ -2,8 +2,8 @@
   "meta": {
       "app_id": "es.espinr.fr.paris",
       "app_title": "Paris Cultural Heritage",
-      "version": 1,
-      "updated": "2022-10-25",
+      "version": 2,
+      "updated": "2022-10-26",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
       "marketplace_url": ""
@@ -162,7 +162,7 @@
               "name" : "invader",
               "description" : "French urban artist",
               "more" : "Artist: invader",
-              "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/18/Space_Invaders_Paris.JPG"],
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Space_Invaders_Paris.JPG/600px-Space_Invaders_Paris.JPG"],
               "wikidata" : "",
               "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by KoS"],
               "urls": ["https://viaf.org/viaf/5305149198262074940000","https://id.loc.gov/authorities/no2010032958","https://www.openstreetmap.org/node/8601675118"]
@@ -968,9 +968,9 @@
               "name" : "Invader",
               "description" : "French urban artist",
               "more" : "Artist: Invader",
-              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Invader_Portrait.jpg/600px-Invader_Portrait.jpg"],
+              "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Space_Invaders_Paris.JPG/600px-Space_Invaders_Paris.JPG"],
               "wikidata" : "",
-              "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by Valou123456"],
+              "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by KoS"],
               "urls": ["https://viaf.org/viaf/5305149198262074940000","https://id.loc.gov/authorities/no2010032958","https://www.openstreetmap.org/node/8693376417"]
             },
             {
@@ -1297,7 +1297,7 @@
             "name" : "Invader",
             "description" : "Artiste urbain français",
             "more" : "Artiste: invader",
-            "images" : ["https://upload.wikimedia.org/wikipedia/commons/1/18/Space_Invaders_Paris.JPG"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Space_Invaders_Paris.JPG/600px-Space_Invaders_Paris.JPG"],
             "wikidata" : "",
             "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by KoS"],
             "urls": ["https://viaf.org/viaf/5305149198262074940000","https://id.loc.gov/authorities/no2010032958","https://www.openstreetmap.org/node/8601675118"]
@@ -2116,9 +2116,9 @@
             "name" : "Invader",
             "description" : "Artiste urbain français",
             "more" : "Artiste: Invader",
-            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Invader_Portrait.jpg/600px-Invader_Portrait.jpg"],
+            "images" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Space_Invaders_Paris.JPG/600px-Space_Invaders_Paris.JPG"],
             "wikidata" : "",
-            "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by Valou123456"],
+            "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by KoS"],
             "urls": ["https://viaf.org/viaf/5305149198262074940000","https://id.loc.gov/authorities/no2010032958","https://www.openstreetmap.org/node/8693376417"]
           },
           {
