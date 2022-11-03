@@ -2,11 +2,11 @@
   "meta": {
       "app_id": "es.espinr.fr.paris",
       "app_title": "Paris Cultural Heritage",
-      "version": 2,
-      "updated": "2022-10-26",
+      "version": 3,
+      "updated": "2022-11-03",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
-      "marketplace_url": ""
+      "marketplace_url": "https://appgallery.huawei.com/app/C107281631"
   },
   "content": {
       "en": {
