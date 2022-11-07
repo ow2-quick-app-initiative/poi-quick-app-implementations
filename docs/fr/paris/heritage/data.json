@@ -968,7 +968,7 @@
               "name" : "Invader",
               "description" : "French urban artist",
               "more" : "Artist: Invader",
-              "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/invader.jpg",],
+              "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/invader.jpg"],
               "wikidata" : "",
               "attributions": ["Data by OpenStreetMap® and Wikimedia", "Picture from Wikidata by KoS"],
               "urls": ["https://viaf.org/viaf/5305149198262074940000","https://id.loc.gov/authorities/no2010032958","https://www.openstreetmap.org/node/8693376417"]
