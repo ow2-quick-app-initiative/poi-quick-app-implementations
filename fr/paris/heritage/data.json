@@ -2,8 +2,8 @@
   "meta": {
       "app_id": "es.espinr.fr.paris",
       "app_title": "Paris Cultural Heritage",
-      "version": 4,
-      "updated": "2022-11-07",
+      "version": 5,
+      "updated": "2022-11-08",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/data.json",
       "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
       "marketplace_url": "https://appgallery.huawei.com/app/C107281631"
@@ -58,7 +58,7 @@
               "name" : "Studio des Acacias",
               "description" : "Space for artistic expression of the new French and international contemporary scene",
               "more" : "",
-              "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/placeholder.jpg"],
+              "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/acacias.jpg"],
               "wikidata" : "Q28493848",
               "attributions": ["Data by OpenStreetMap® and Wikimedia"],
               "urls": ["https://www.openstreetmap.org/node/1986484618","tel:+33 1 58 05 49 83","https://studiodesacacias.com/fr"]
@@ -1193,7 +1193,7 @@
             "name" : "Studio des Acacias",
             "description" : "Espace d’expression artistique de la nouvelle scène contemporaine française et internationale",
             "more" : "",
-            "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/placeholder.jpg"],
+            "images" : ["https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/images/acacias.jpg"],
             "wikidata" : "Q28493848",
             "attributions": ["Data by OpenStreetMap® and Wikimedia"],
             "urls": ["https://www.openstreetmap.org/node/1986484618","tel:+33 1 58 05 49 83","https://studiodesacacias.com/fr"]
