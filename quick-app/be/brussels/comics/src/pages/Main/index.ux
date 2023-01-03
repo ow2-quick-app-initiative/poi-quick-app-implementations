@@ -13,7 +13,7 @@
             </div>
             <div if="{{this.selectedTabIndex === 1}}">
               <mymap id="map-component"></mymap>
-            </div>          
+            </div>
             <div if="{{this.selectedTabIndex === 2}}">
               <about id="about-component"></about>
             </div>          
@@ -21,8 +21,9 @@
         </tab-content>
 
         <tab-bar class="tab-bar">
-          <div class="tab-item" for="tabList">
+          <div class="tab-item" for="tabList" >
             <text
+              id="{{$item.id}}"
               class="iconfont"
               style="color: {{$idx === this.selectedTabIndex ? this.activedColor : this.deactivedColor}}"
             >
@@ -46,33 +47,53 @@
         <progress type="circular" class="circular-progress"></progress>
       </div>
     </div>
+    <div id="splash-first-experience" show="{{!closeIntro}}">
+      <stack class="image" >
+        <image src="/common/images/frontpage.jpg"></image>
+        <text class="brand">{{appName}}</text>
+      </stack>
+      <text class="info">{{appIntroText}}</text>
+      <input
+        class="button"
+        type="button"
+        value="{{$t('message.app.init.button') | uppercase }}"
+        @click="closeIntroSplash"
+      />    
+    </div>
   </stack>    
 </template>
 
 <script>
 
 import { getDistance } from 'geolib'
+import storage from '@system.storage'
 
 export default {
   private: {
-    tabList: [      
+    tabList: [      // icons and titles are overwriten using i18n
       {
-        title: 'cards',
-        icon: '\uf03e'
+        title: '',
+        id: 'tab_cards',
+        icon: ''
       },
       {
-        title: 'map',
-        icon: '\uf041'
+        title: '',
+        id: 'tab_map',
+        icon: ''
       },
       {
-        title: 'about',
-        icon: '\uf129'
+        title: '',
+        id: 'tab_about',
+        icon: ''
       }
     ],
+    fistExperience: true,
+    closeIntro: false,
     selectedTabIndex: 0,
     deactivedColor: '#707780',
     activedColor: '#000000',
     activeTabIndex: 0,
+    appIntroText: '',
     channel: null
   },
   public: {
@@ -81,7 +102,7 @@ export default {
     loading: true
   },
   onInit() {
-    this.initTabs() 
+    this.initTabs()
     this.channel = new BroadcastChannel('updateChannel')
     const appInfo = this.$app.getAppData('appInfo')
     this.loadingMessage = this.$t('message.main.loading')
@@ -92,11 +113,15 @@ export default {
       backgroundColor: appInfo.theme.brand, 
       backgroundOpacity: 0.9
     })
-    this.appName = `${this.$app.manifest.name} v${this.$app.manifest.versionName}`
+    this.appName = `${this.$app.manifest.name}`
+    this.appIntroText = this.$t('message.app.init.info', {place: appInfo.place})
     this._registerListenerUpdates()
   },
   onDestroy() {
     this.channel.close()
+  },
+  uppercase(name) {
+    return name.toUpperCase()
   },
   initTabs() {
     const appInfo = this.$app.getAppData('appInfo')
@@ -116,6 +141,7 @@ export default {
     this.channel.onmessage = function(event) {
       console.info(`[Main/index.ux] Received update message ${event.data}`)
       if (event.data === 'ready') {
+        self._checkIfFirstVisit()
         self.updatePoisByDistance()
         self.loading = false
       }
@@ -124,6 +150,44 @@ export default {
   updatePoisByDistance() {
     this._setDistancePois()
     this._reorderPOIs()
+  },
+  _checkIfFirstVisit() {
+    const self = this
+    storage.get({ 
+      key: 'firstVisit',
+      default: 'false' })
+      .then((res) => {
+        if (res.data === 'false') {
+          self._addFavoritesByDefault()
+          storage.set({ 
+            key: 'firstVisit',
+            value: 'true' })           
+        }
+      }) 
+  },
+  _addFavoritesByDefault() {
+    // if it´s the first time, populates the array of favorites 
+    // with those marked as favorite=true in the db
+    const currentLikedIds = this.$app.getAppData('likedIds')
+    if (currentLikedIds && currentLikedIds.length === 0) {
+      const pois = this.$app.getAppData('pois')
+      pois.forEach(poi => {
+        if (poi.favorite) {
+          currentLikedIds.push(poi.id)
+        }        
+      });
+      storage.set({
+        key: 'liked',
+        value: JSON.stringify(currentLikedIds)
+      })
+    }
+  },
+  closeIntroSplash() {
+    this.closeIntro = true
+    // If regId exists in the storage, it does not need to register
+    // storage.set({ 
+    //   key: 'firstExperience',
+    //   value: 'true' }) 
   },
   /* -------------------SelfCustomEvent------------------ */
   changeTab(e) {
@@ -208,10 +272,56 @@ text {
     background-color: rgba(255, 255, 255, 0.8);
     image {
       width: 40%;
+      opacity: 0.6;
     }
     .version, .info {
-      font-size: 20px; 
+      font-size: 2 * @size-factor; 
     }
-  }   
+  }
+  #splash-first-experience {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    .image {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 4 * @size-factor; 
+      image {
+        width: 100%;
+        opacity: 0.7;
+      }
+    }
+    .brand {
+      color: @brand;
+      font-size: 10 * @size-factor;
+      font-weight: bolder;
+    }
+    .button {
+      padding: 4 * @size-factor; 
+      padding-top: 2 * @size-factor; 
+      padding-bottom: 2 * @size-factor; 
+      margin-top: 5 * @size-factor;
+      border-width: 0.5 * @size-factor;
+      border-radius: 2 * @size-factor;
+      font-size: 3 * @size-factor;
+      background-color: @brand;
+      color: #fafafa;
+      border-color: #fafafa;
+    }
+    .info {
+      padding-left: 5 * @size-factor;  
+      padding-right: 5 * @size-factor; 
+      text-align: left; 
+      color: #aaaaaa;
+      font-style: italic;
+      font-size: 3 * @size-factor;
+      padding-bottom: 3 * @size-factor; 
+    }
+  }
 }
 </style>

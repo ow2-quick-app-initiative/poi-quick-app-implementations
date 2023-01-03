@@ -4,9 +4,19 @@
             "geolocation" : {
                 "request" : "Necesito GPS para funcionar",
                 "description": "Esta aplicación utiliza tu geoposición para mostrar los puntos de interés cercanos, nada más. Por favor, dame permiso :)",
-                "no": "No, gracias",
-                "yes": "Sí, está bien"
-            }
+                "no": "No, quiero salir",
+                "settings": "Abrir ajustes",
+                "yes": "Sí, continuar"
+
+            },
+            "likes" : {
+                "added": "{title} añadido a favoritos",
+                "removed": "{title} eliminado de favoritos"
+            },
+            "init": {
+                "info": "Descubre la historia de {place} a través del patrimonio culural de sus calles. Explora los lugares a tu alrededor y añádelos (♥) a tu lista de favoritos.",
+                "button": "Comienza a explorar >"
+            }       
         },
         "tabs": [
             {
@@ -16,7 +26,7 @@
             {
                 "title": "Mapa",
                 "icon": "\ue55b"
-            },
+            },            
             {
                 "title": "Acerca",
                 "icon": "\ue88e"
@@ -25,7 +35,11 @@
         "cards": {
             "approx_km": "{distance} km desde aquí",
             "approx_m": "{distance} m desde aquí",
-            "no_items": "No más datos"
+            "no_items": "Final de la lista 😌\nUsa los filtros para refinar tu búsqueda",
+            "filter": {
+                "only_favs": "sólo favoritos",
+                "placeholder": "escribe para filtrar..."
+            }                        
         },
         "main": {
             "loading": "Cargando puntos de interés..."
@@ -35,17 +49,18 @@
             "approx_m": "Aprox. a {distance} m desde aquí",
             "acknowledgements": "Muchas gracias a nuestros colaboradores:",
             "wikidata": "Wikidata",
-            "freebase": "Freebase",
             "more_info": "Más información:",
             "loading_map": "Cargando mapa...",
             "share": {
-                "body": "Eh, echa un ojo a {itemName} en {appName}. Es acerca de {description} {url}",
+                "body": "Eh, echa un ojo a {itemName} en {appName}. Es acerda de {description} {url}",
                 "error": "No he podido compartir el contenido :(" 
             },
             "buttons": {
                 "share": "Compartir",
+                "navi": "Direcciones",
                 "feedback": "Mejóralo"
-            }
+            },
+            "url_navi": "https://www.petalmaps.com/nav/{from_lon},{from_lat}/{to_lon},{to_lat}/Mi%20posición/{name_poi}/walk" 
         },
         "about": {
             "install" : {
@@ -60,9 +75,9 @@
                 } 
             },
             "acknowledments": "Gracias a:",
+            "close_ads": "Cerrar publicidad",
             "acks": [
-                "Mapas por © OpenStreetMap",
-                "Icono de Digital Comic Museum (CC0)"
+                "Mapas por © OpenStreetMap"
             ],
             "release": "Versión del contenido:",
             "involved": "Colabora con el proyecto!",

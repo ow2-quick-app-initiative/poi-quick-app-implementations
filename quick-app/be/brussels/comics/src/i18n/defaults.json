@@ -4,8 +4,17 @@
             "geolocation" : {
                 "request" : "I need geolocation to work",
                 "description": "This app uses your geolocation to show the artworks nearby, nothing else. Please grant it :)",
-                "no": "No, thanks",
-                "yes": "Yes, I'm okay"
+                "no": "No, exit",
+                "settings": "Open settings",
+                "yes": "Yes, continue"
+            },
+            "likes" : {
+                "added": "{title} added to favorites",
+                "removed": "{title} removed from favorites"
+            },
+            "init": {
+                "info": "Discover {place} through its streets. Explore the places around you and add (♥) them to your favorites list.",
+                "button": "Start exploring >"
             }
         },
         "tabs": [
@@ -25,7 +34,11 @@
         "cards": {
             "approx_km": "{distance} km from here",
             "approx_m": "{distance} m from here",
-            "no_items": "No more data"
+            "no_items": "No more items to show. 😌\nUse the filters to refine your search.",
+            "filter": {
+                "only_favs": "only favorites",
+                "placeholder": "type to filter..."
+            }
         },
         "main": {
             "loading": "Loading artworks..."
@@ -35,7 +48,6 @@
             "approx_m": "Approx. at {distance} m from here",
             "acknowledgements": "A big thanks to our contributors:",
             "wikidata": "Wikidata",
-            "freebase": "Freebase",
             "more_info": "More information:",
             "loading_map": "Loading map...",
             "share": {
@@ -44,8 +56,10 @@
             },
             "buttons": {
                 "share": "Share",
+                "navi": "Directions",
                 "feedback": "Improve it"
-            }
+            },
+            "url_navi": "https://www.petalmaps.com/nav/{from_lon},{from_lat}/{to_lon},{to_lat}/My%20location/{name_poi}/walk" 
         },
         "about": {
             "install" : {
@@ -60,9 +74,9 @@
                 } 
             },
             "acknowledments": "Thanks to:",
+            "close_ads": "Close Ad",
             "acks": [
-                "Maps by © OpenStreetMap",
-                "Icon from Digital Comic Museum (CC0)"
+                "Maps by © OpenStreetMap"
             ],
             "release": "Content Release:",
             "involved": "Get involved now!",

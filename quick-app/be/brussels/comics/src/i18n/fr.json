@@ -11,6 +11,10 @@
             "likes" : {
                 "added": "{title} ajouté aux favoris",
                 "removed": "{title} supprimé des favoris"
+            },
+            "init": {
+                "info": "Découvrez l'histoire de {place} à travers le patrimoine culturel de ses rues. Explorez les lieux qui vous entourent et ajoutez-les (♥) à votre liste de favoris.",
+                "button": "Commencez à explorer >"
             }
         },
         "tabs": [
@@ -70,6 +74,7 @@
                 } 
             },
             "acknowledments": "Grâce à:",
+            "close_ads": "Fermer publi",
             "acks": [
                 "Cartes par © OpenStreetMap"
             ],
