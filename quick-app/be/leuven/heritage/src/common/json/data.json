@@ -2,11 +2,12 @@
     "meta": {
         "app_id": "es.espinr.leuven",
         "app_title": "LVN Street Heritage",
-        "version": 25,
-        "updated": "2022-09-30",
+        "version": 26,
+        "updated": "2023-01-03",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
-        "marketplace_url": "https://appgallery.huawei.com/app/C105790639"
+        "marketplace_url": "https://appgallery.huawei.com/app/C105790639",
+        "native_ad_unit_id": ""
     },
     "content": {
         "en": {
@@ -15,6 +16,7 @@
                     "brand": "#EA3556",
                     "complementary": "#FAFAFA"
                 },
+                "place": "Leuven",
                 "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/docs/be/leuven",
                 "text_info": "This app is created by local experts, so it is not official. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
                 "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
