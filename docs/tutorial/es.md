@@ -10,14 +10,21 @@
 Puedes probar que tienes todo instalado desde la línea de comandos:
 
 ````bash
-$ node -v 
-v19.4.0   
+node -v 
 
-% git -v
-git version 2.39.0
+> v19.4.0   
+````
 
-% npm -v
-9.2.0
+````bash
+git -v
+
+> git version 2.39.0
+````
+
+````bash
+npm -v
+
+> 9.2.0
 ````
 
 Pera probar Open Refine, ejecuta la app y accede a la aplicación desde el navegador Web en la dirección http://127.0.0.1:3333/  
@@ -182,7 +189,7 @@ El resultado se parecerá al siguiente código:
       "attributions": ["Source: Ayto de Gijon", "Otras atribuciones"],
       "wikidata": "",
       "urls": []
-    },
+    }
 }
 ````
 
@@ -209,7 +216,8 @@ En el directorio con las plantillas y código (`poi-quick-app-web`) encontrarás
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/monumentos-gijon/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
-    },
+    }
+}
 ````
 
 4. Personaliza la app:
