@@ -330,7 +330,7 @@
                   "name" : "La patrouille des Castors - De Beverpatrouille",
                   "description" : "Painting by Mitacq",
                   "more" : "Painted in 2003",
-                  "images" : [""],
+                  "images" :[],
                   "attributions": ["Source: Brussels Open Data", "Thanks to Open Data Brussels for the pictures"],
                   "wikidata": "",
                   "urls": []
@@ -343,7 +343,7 @@
                   "name" : "Benoit Brisefer - Steven Sterk",
                   "description" : "Painting by Peyo",
                   "more" : "Painted in 2015",
-                  "images" : [""],
+                  "images" : [],
                   "attributions": ["Source: Brussels Open Data", "Thanks to Open Data Brussels for the pictures"],
                   "wikidata": "",
                   "urls": []
@@ -408,7 +408,7 @@
                   "name" : "Le monde … l'envers - De omgekeerde wereld",
                   "description" : "Painting by Atak",
                   "more" : "Painted in 2021",
-                  "images" : [""],
+                  "images" : [],
                   "attributions": ["Source: Brussels Open Data", "Thanks to Open Data Brussels for the pictures"],
                   "wikidata": "",
                   "urls": []
