@@ -7,7 +7,7 @@
       "description" : {{jsonize(cells["description"].value)}},
       "more" : {{ if(cells["more"].value!=null, jsonize(cells["more"].value), '""') }},
       "images" : [{{ if(cells["image"].value!=null, jsonize(cells["image"].value), '') }}],
-      "attributions": ["Source: Ayto de Gijon", "Otras atribuciones"],
+      "attributions": ["Source: Thanks to...", "Your attributions here"],
       "wikidata": {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '""') }},
       "urls": [{{if(cells["urls"].value!=null, jsonize(cells["urls"].value), '') }}]
     }
