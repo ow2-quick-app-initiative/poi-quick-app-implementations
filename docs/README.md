@@ -10,6 +10,12 @@ Any city can implement its own application in a few hours. They only need one or
 
 __If you are interested, please visit the main repository with the [methodology and the templates](https://github.com/ow2-quick-app-initiative/poi-quick-app), and explore some [existing implementation examples](https://ow2-quick-app-initiative.github.io/poi-quick-app/#Examplesofimplementations).__
 
+
+Quick links: 
+- [Repository with the methodology and docs (poi-quick-app)](https://github.com/ow2-quick-app-initiative/poi-quick-app)
+- [Repository of implementations and templates (poi-quick-app-implementations)](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations)
+- [Repository with the Web app code (poi-quick-app-web)](https://github.com/ow2-quick-app-initiative/poi-quick-app-web)
+
 Some screenshots:
 
 <img src="./be/leuven/heritage/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
