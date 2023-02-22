@@ -121,7 +121,7 @@ Si lo prefieres, puedes usar una plantilla en formato CSV (`poi-quick-app-implem
 
 Seleciona la temática y busca un conjunto de datos abierto que te sirva como base (asegúrate de que tiene una licencia que te permita reusarlo y cumple con ella). Echa un vistazo a los portales de datos abiertos o a la Wikipedia.
 
-Ejemplo: https://observa.gijon.es/explore/dataset/monumentos/table/ 
+Ejemplo: https://bruxellesdata.opendatasoft.com/explore/dataset/bruxelles_parcours_bd/information/
 
 Puedes crear un ejemplo desde cero (incluye al menos 10 elementos o puntos de interés).
 
@@ -136,22 +136,17 @@ Open Refine app, por defecto en: http://127.0.0.1:3333/
 - Puedes agrupar los elementos similares para establecer los tipos (`type`).
 
 [Carga del conjunto de datos en Open Refine (ver [funciones](https://openrefine.org/docs/manual/grelfunctions))]
-- Renombro y elimino algunas columnas para facilitar la legibilidad (opcional)
+- Renombro y elimino algunas columnas para facilitar la legibilidad (opcional).
 - Facet para detectar filas con datos erróneos 
-  - Compruebo si las imágenes empiezan por `http` (`value.startsWith('http')`)
-  - Elimino las que están mal por simplificar (se podría limpiar)  
-  - Creo una nueva columna con las coordenadas (que están en el fax) 
-     - nueva columna `coordinates` basada en la columna fax (`value.find(/(\d\d)\.(\d){4,7} -\d\.(\d){4,7}/)[0]`)
-     - elimino `fax` para simplificar
-     - filtro las celdas de coordenadas que están vacías
-     - Busco las coordenadas que están en `email` (renombrada la columna) (Transformo las celdas vacías de coordenadas con `cells['email'].value.find(/(\d\d)\.(\d){4,7} -\d\.(\d){4,7}/)[0]`)
-     - Lo mismo en la columna de localización (`cells['localizacion'].value.find(/(\d\d)\.(\d){4,7} -\d\.(\d){4,7}/)[0]`)
-     - El resto lo borro para simplificar. Tenemos 85 puntos que mostrar
-- Limpieza de los elementos HTML en descripción (`value.replace(/<\/?..?\/?>/,' ')`)
-- Añado un tipo (`monumento`)
-- Divido coordenadas en lat y lon (split cells)
+  - Por ejemplo, compruebo si las imágenes empiezan por `http` (`value.startsWith('http')`)
+- Divido coordenadas en lat y lon (split in two columns)
+  - Renombro como `lat` y `lon`
 - Facet para comprobar si los identificadores son únicos
+- Creo una descripción basada en el autor (`Add column based on column` > `"Mural por " + value`).
 - Facet para comprobar que todas las filas tienen descripción
+- Genero un identificador (nueva columna con el valor `'00' + row.index`)
+- Convierto el año en el campo `more` (renombrando la columna)
+- Creo un tipo (nueva columna `type` con el valor `'mural'`).
 
 Se exporta en formato JSON, usando una plantilla como la siguiente:
 
@@ -165,7 +160,7 @@ Se exporta en formato JSON, usando una plantilla como la siguiente:
       "description" : {{jsonize(cells["description"].value)}},
       "more" : {{ if(cells["more"].value!=null, jsonize(cells["more"].value), '""') }},
       "images" : [{{ if(cells["image"].value!=null, jsonize(cells["image"].value), '""') }}],
-      "attributions": ["Source: Ayto de Gijon", "Otras atribuciones"],
+      "attributions": ["Source: Brussels Open Data", "Otras atribuciones"],
       "wikidata": {{ if(cells["wikidata"].value!=null, jsonize(cells["wikidata"].value), '""') }},
       "urls": [{{if(cells["urls"].value!=null, jsonize(cells["urls"].value), '') }}]
     }
@@ -178,18 +173,18 @@ El resultado se parecerá al siguiente código:
 {
   "rows" : [
     {
-      "id" : "9801",
-      "type" : "monumento",
-      "lon" : "-5.663887",
-      "lat" : "43.545327",
-      "name" : "Capilla de San Juan Bautista",
-      "description" : " Año contrucción: hacia 1702 – 1723.  Monumento histórico Artístico (1.974).",
-      "more" : "Capilla del palacio del marqués de San Esteban del Mar. Fue fundada en 1699 por D. Luis de Jove Ramírez fallecido en 1713, prior de la catedral de Oviedo y tío del primer marqués de San Esteban. El Templo, de estilo barroco, fue proyectado por el arquitecto asturiano Francisco Menénedez-Camina Carreño y concluido por Pedro Muñiz Somonte en 1723.",
-      "images" : ["http://www.gijon.es/data/images/f0/f5/59535/552x497_v1_sanjuanbautista.JPG"],
-      "attributions": ["Source: Ayto de Gijon", "Otras atribuciones"],
+      "id" : "000",
+      "type" : "mural",
+      "lon" : "4.34942722321",
+      "lat" : "50.8467465143",
+      "name" : "Broussaille - Ragebol",
+      "description" : "Mural por Frank Pé",
+      "more" : "En el año 1999",
+      "images" : ["https://opendata.bruxelles.be/api/explore/v2.1/catalog/datasets/bruxelles_parcours_bd/files/b17daccbf026ff22035464e3d0f12b51"],
+      "attributions": ["Source: Brussels Open Data", "Otras atribuciones"],
       "wikidata": "",
       "urls": []
-    }
+    },
 }
 ````
 
