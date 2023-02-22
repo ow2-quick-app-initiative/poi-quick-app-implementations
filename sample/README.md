@@ -2,6 +2,11 @@
 
 _This is part of the [Heritage_in Quick App Project](https://ow2-quick-app-initiative.github.io/poi-quick-app/#Theproject)._
 
+Quick links: 
+- [Repository with the methodology and docs (poi-quick-app)](https://github.com/ow2-quick-app-initiative/poi-quick-app)
+- [Repository of implementations and templates (poi-quick-app-implementations)](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations)
+- [Repository with the Web app code (poi-quick-app-web)](https://github.com/ow2-quick-app-initiative/poi-quick-app-web)
+
 __Change this text according to your needs__
 
 The _Heritage in…_ Quick App promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
