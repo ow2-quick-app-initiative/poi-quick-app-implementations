@@ -27,7 +27,7 @@ npm -v
 > 9.2.0
 ````
 
-Pera probar Open Refine, ejecuta la app y accede a la aplicación desde el navegador Web en la dirección http://127.0.0.1:3333/  
+Para probar Open Refine, ejecuta la app y accede a la aplicación desde el navegador Web en la dirección http://127.0.0.1:3333/  
 
 
 ## Paso 1: Obtén el código fuente y las plantillas 
