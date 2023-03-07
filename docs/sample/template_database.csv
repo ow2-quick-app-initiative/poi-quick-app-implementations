@@ -1,2 +1,2 @@
-id(unique_id);title(text);type(text);description(text);more(text);url(comma-separated-urls);attributions(comma-separated-texts);images(comma-separated-images);lat;lon
-;;;;;;;;;
+id,title,type,description,more,url,attributions,images,lat,lon
+unique_id,text,text,text,text,(comma-separated-urls),(comma-separated-texts),(comma-separated-image-urls),number,number
