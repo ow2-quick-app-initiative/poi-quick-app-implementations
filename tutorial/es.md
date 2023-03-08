@@ -1,5 +1,10 @@
 # Tutorial: Crea tu aplicación __Heritage in...__
 
+## Enlaces rápidos
+
+- Repositorio con las implementaciones de referencia y las plantillas: https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations
+- Documentación del proyecto: https://github.com/ow2-quick-app-initiative/poi-quick-app
+
 ## Pre-requisitos:
 
 1. Cliente GIT ([Descarga](https://git-scm.com/downloads))
@@ -259,7 +264,14 @@ Si todo va bien podrás ver la base de datos que has creado desde un navegador w
 
 ## Paso 5: Carga la configuración y base de datos en la app 
 
-### Descarga la aplicación web 
+Una vez has creado el fichero (`data.json`) y lo has publicado en la Web (está accesible desde un navegador Web), tienes dos opciones para visualizarlo y probarlo:
+
+1. Desde tu equipo en local 
+2. Usando heritagein.info  
+
+### La aplicación web en tu equipo 
+
+Puedes descargar la app en tu equipo. 
 
 Desde la linea de comandos:
 
@@ -282,4 +294,11 @@ Incluye el documento de configuración que has creado como un parámetro en la U
 http://127.0.0.1:3000/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/data.json
 
 
+### Usando heritagein.info  
+
+Puedes probar la configuración en heritagein.info.
+
+Para ello, comprueba que el fichero de configuración es correcto, copia la URL al documento en la web y pégalo como un parámetro en la URL, de la ruta `/_/` como en el siguiente ejemplo:
+
+https://heritagein.info/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/sample/data.json
 
