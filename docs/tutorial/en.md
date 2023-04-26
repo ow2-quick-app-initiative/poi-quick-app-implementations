@@ -3,30 +3,30 @@
 Content:
 
 <!-- vscode-markdown-toc -->
-* 1. [Quick Links](#QuickLinks)
-* 2. [Pre Requirements:](#PreRequirements:)
-* 3. [Step 1: Get the source code and templates](#Step1:Getthesourcecodeandtemplates)
-	* 3.1. [ Clone the project on your computer](#Clonetheprojectonyourcomputer)
-* 4. [Step 2: Database](#Step2:Database)
-	* 4.1. [Refine your data set](#Refineyourdataset)
-* 5. [Step 3: Configuring the app](#Step3:Configuringtheapp)
-* 6. [Step 4: Web Publishing](#Step4:WebPublishing)
-* 7. [Step 5: Load the configuration and database in the app](#Step5:Loadtheconfigurationanddatabaseintheapp)
-	* 7.1. [Download the web app](#Downloadthewebapp)
-	* 7.2. [Using heritagein.info](#Usingheritagein.info)
+* [Quick Links](#QuickLinks)
+* [Pre Requirements:](#PreRequirements:)
+* [Step 1: Get the source code and templates](#Step1:Getthesourcecodeandtemplates)
+	* [ Clone the project on your computer](#Clonetheprojectonyourcomputer)
+* [Step 2: Database](#Step2:Database)
+	* [Refine your data set](#Refineyourdataset)
+* [Step 3: Configuring the app](#Step3:Configuringtheapp)
+* [Step 4: Web Publishing](#Step4:WebPublishing)
+* [Step 5: Load the configuration and database in the app](#Step5:Loadtheconfigurationanddatabaseintheapp)
+	* [Download the web app](#Downloadthewebapp)
+	* [Using heritagein.info](#Usingheritagein.info)
 
 <!-- vscode-markdown-toc-config
-	numbering=true
+	numbering=false
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-##  1. <a name='QuickLinks'></a>Quick Links
+## <a name='QuickLinks'></a>Quick Links
 
 - Repository with the implementations and templates: https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations
 - Project's documentation: https://github.com/ow2-quick-app-initiative/poi-quick-app
 
-##  2. <a name='PreRequirements:'></a>Pre Requirements:
+## <a name='PreRequirements:'></a>Pre Requirements:
 
 1. GIT client ([Download](https://git-scm.com/downloads))
 2. Node.js (v14 or higher) + npm. ([How to install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
@@ -56,7 +56,7 @@ npm -v
 To test if Open Refine is installed, run the app and open http://127.0.0.1:3333/ on your web browser.
 
 
-##  3. <a name='Step1:Getthesourcecodeandtemplates'></a>Step 1: Get the source code and templates
+## <a name='Step1:Getthesourcecodeandtemplates'></a>Step 1: Get the source code and templates
 
 Clone the [main repository](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations) to your Github account (you can use whichever platform you prefer, of course). To do this, [you need an account](https://github.com/login).
 
@@ -86,7 +86,7 @@ From the main page of our repository:
 - Add Secret - Check on the next screen that a secret with the name `ACCESS_TOKEN` appears.
 
 
-###  3.1. <a name='Clonetheprojectonyourcomputer'></a> Clone the project on your computer
+### <a name='Clonetheprojectonyourcomputer'></a> Clone the project on your computer
 
 To start working on your team, you need to clone the repository you just created to your account.
 
@@ -106,7 +106,7 @@ The templates you will modify are in `poi-quick-app-implementations/docs/sample`
 
 Rename the `sample` directory with a simple and intuitive name that describes your project, or the place it applies to. You will work on that directory to create the new application.
 
-##  4. <a name='Step2:Database'></a>Step 2: Database
+## <a name='Step2:Database'></a>Step 2: Database
 
 This project allows us to represent points of interest of any subject, so we need to create a suitable data set with the information that we can represent in the app.
 
@@ -145,7 +145,7 @@ Therefore, you need a list of records with the following attributes:
 
 If you prefer, you can use a template in CSV format (`poi-quick-app-implementations/docs/sample/template_database.csv`).
 
-###  4.1. <a name='Refineyourdataset'></a>Refine your data set
+### <a name='Refineyourdataset'></a>Refine your data set
 
 Select the theme and look for an open dataset to serve as a base (make sure it has a license that allows you to reuse it and complies with it). Take a look at open data portals or Wikipedia.
 
@@ -205,7 +205,7 @@ The result will look like the following code:
 
 The result is an array of points of interest to be loaded directly into the `data.json` document (database), as indicated in the next step.
 
-##  5. <a name='Step3:Configuringtheapp'></a>Step 3: Configuring the app
+## <a name='Step3:Configuringtheapp'></a>Step 3: Configuring the app
 
 In the directory with the templates and code (`poi-quick-app-web`) you will find:
 - `docs/sample` with the sample templates for your app.
@@ -257,7 +257,7 @@ The array corresponding to the `pois` key is where you can paste the list of poi
 You can check that the format is correct by validating `data.json` against the [JSON schema](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json).
 
 
-##  6. <a name='Step4:WebPublishing'></a>Step 4: Web Publishing
+## <a name='Step4:WebPublishing'></a>Step 4: Web Publishing
 
 You can use Github and its publish options to expose the database and configuration you just created.
 
@@ -274,14 +274,14 @@ If all goes well you will be able to see the database you have created from a we
 `https://your-user.github.io/poi-quick-app-implementations/sample/data.json`
 
 
-##  7. <a name='Step5:Loadtheconfigurationanddatabaseintheapp'></a>Step 5: Load the configuration and database in the app
+## <a name='Step5:Loadtheconfigurationanddatabaseintheapp'></a>Step 5: Load the configuration and database in the app
 
 Once you have created and published the (`data.json`) file (you can open it using a Web browser), you have two options to visualize and test it:
 
 1. Download and run the app in your computer, and 
 2. Through heritagein.info  
 
-###  7.1. <a name='Downloadthewebapp'></a>Download the web app
+### <a name='Downloadthewebapp'></a>Download the web app
 
 From the command line:
 
@@ -303,7 +303,7 @@ Include the configuration document you created as a parameter in the URL:
 
 http://127.0.0.1:3000/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/data.json
 
-###  7.2. <a name='Usingheritagein.info'></a>Using heritagein.info  
+### <a name='Usingheritagein.info'></a>Using heritagein.info  
 
 You can test your configuration using heritagein.info.
 
