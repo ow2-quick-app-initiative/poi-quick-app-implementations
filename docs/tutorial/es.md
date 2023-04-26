@@ -1,11 +1,32 @@
 # Tutorial: Crea tu aplicación __Heritage in...__
 
-## Enlaces rápidos
+Contenidos: 
+
+<!-- vscode-markdown-toc -->
+* 1. [Enlaces rápidos](#Enlacesrpidos)
+* 2. [Pre-requisitos:](#Pre-requisitos:)
+* 3. [Paso 1: Obtén el código fuente y las plantillas](#Paso1:Obtnelcdigofuenteylasplantillas)
+	* 3.1. [Clona el proyecto en tu equipo](#Clonaelproyectoentuequipo)
+* 4. [Paso 2: Base de datos](#Paso2:Basededatos)
+	* 4.1. [Refina tu conjunto de datos](#Refinatuconjuntodedatos)
+* 5. [Paso 3: Configuración de la app](#Paso3:Configuracindelaapp)
+* 6. [Paso 4: Publicación en la web](#Paso4:Publicacinenlaweb)
+* 7. [Paso 5: Carga la configuración y base de datos en la app](#Paso5:Cargalaconfiguracinybasededatosenlaapp)
+	* 7.1. [La aplicación web en tu equipo](#Laaplicacinwebentuequipo)
+	* 7.2. [Usando heritagein.info](#Usandoheritagein.info)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+##  1. <a name='Enlacesrpidos'></a>Enlaces rápidos
 
 - Repositorio con las implementaciones de referencia y las plantillas: https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations
 - Documentación del proyecto: https://github.com/ow2-quick-app-initiative/poi-quick-app
 
-## Pre-requisitos:
+##  2. <a name='Pre-requisitos:'></a>Pre-requisitos:
 
 1. Cliente GIT ([Descarga](https://git-scm.com/downloads))
 2. Node.js (v14 o superior) + npm. ([Cómo instalar Node.js y npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
@@ -35,7 +56,7 @@ npm -v
 Para probar Open Refine, ejecuta la app y accede a la aplicación desde el navegador Web en la dirección http://127.0.0.1:3333/  
 
 
-## Paso 1: Obtén el código fuente y las plantillas 
+##  3. <a name='Paso1:Obtnelcdigofuenteylasplantillas'></a>Paso 1: Obtén el código fuente y las plantillas 
 
 Clona el [repositorio principal](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations) en tu cuenta en Github (puedes usar la plataforma que prefieras, por supuesto). Para ello, [necesitas una cuenta](https://github.com/login).
 
@@ -63,7 +84,7 @@ Desde la página principal de nuestro repositorio:
 - Secret: `ghp_rK453....` <- lo que tienes en el portapapeles
 - Add Secret - Comprueba en la siguiente pantalla que aparece un secreto con el nombre `ACCESS_TOKEN`.
 
-### Clona el proyecto en tu equipo
+###  3.1. <a name='Clonaelproyectoentuequipo'></a>Clona el proyecto en tu equipo
 
 Para comenzar a trabajar en tu equipo, necesitas clonar el repositorio que acabas de crear en tu cuenta. 
 
@@ -83,7 +104,7 @@ Las plantillas que modificarás están en `poi-quick-app-implementations/docs/sa
 
 Renombra el directorio `sample` con un nombre intuitivo y simple que describa tu proyecto, o el lugar al que aplica. Trabajarás sobre ese directorio para crear la nueva aplicación.
 
-## Paso 2: Base de datos
+##  4. <a name='Paso2:Basededatos'></a>Paso 2: Base de datos
 
 Este proyecto permite representar puntos de interés de cualquier temática, por lo que necesitamos crear un conjunto de datos adecuado con la información que podemos representar en la app.
 
@@ -122,7 +143,7 @@ Por lo tanto, necesitas una lista de registros con los siguientes attributos:
 
 Si lo prefieres, puedes usar una plantilla en formato CSV (`poi-quick-app-implementations/docs/sample/template_database.csv`).
 
-### Refina tu conjunto de datos
+###  4.1. <a name='Refinatuconjuntodedatos'></a>Refina tu conjunto de datos
 
 Seleciona la temática y busca un conjunto de datos abierto que te sirva como base (asegúrate de que tiene una licencia que te permita reusarlo y cumple con ella). Echa un vistazo a los portales de datos abiertos o a la Wikipedia.
 
@@ -140,20 +161,7 @@ Open Refine app, por defecto en: http://127.0.0.1:3333/
 - Asegúrate de tener nombre y descripción.
 - Puedes agrupar los elementos similares para establecer los tipos (`type`).
 
-[Carga del conjunto de datos en Open Refine (ver [funciones](https://openrefine.org/docs/manual/grelfunctions))]
-- Renombro y elimino algunas columnas para facilitar la legibilidad (opcional).
-- Facet para detectar filas con datos erróneos 
-  - Por ejemplo, compruebo si las imágenes empiezan por `http` (`value.startsWith('http')`)
-- Divido coordenadas en lat y lon (split in two columns)
-  - Renombro como `lat` y `lon`
-- Facet para comprobar si los identificadores son únicos
-- Creo una descripción basada en el autor (`Add column based on column` > `"Mural por " + value`).
-- Facet para comprobar que todas las filas tienen descripción
-- Genero un identificador (nueva columna con el valor `'00' + row.index`)
-- Convierto el año en el campo `more` (renombrando la columna)
-- Creo un tipo (nueva columna `type` con el valor `'mural'`).
-
-Se exporta en formato JSON, usando una plantilla como la siguiente:
+La base de datos tabular se exporta en formato JSON usando una plantilla como la siguiente:
 
 ```
     {
@@ -195,7 +203,7 @@ El resultado se parecerá al siguiente código:
 
 El resultado es un array de puntos de interés para cargar directamente en el documento `data.json` (base de datos), como se indica en el siguiente paso.
 
-## Paso 3: Configuración de la app
+##  5. <a name='Paso3:Configuracindelaapp'></a>Paso 3: Configuración de la app
 
 En el directorio con las plantillas y código (`poi-quick-app-web`) encontrarás:
 - `docs/sample` con las plantillas de ejemplo para tu app.  
@@ -245,7 +253,7 @@ El array correspondiente a la clave `pois`, es donde podrás pegar la lista de l
 Puedes comprobar que el formato es correcto, validando `data.json` contra el [esquema JSON](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json). 
 
 
-## Paso 4: Publicación en la web
+##  6. <a name='Paso4:Publicacinenlaweb'></a>Paso 4: Publicación en la web
 
 Puedes usar Github y sus opciones de publicación para exponer la base de datos y la configuración que acabas de crear. 
 
@@ -262,14 +270,14 @@ Si todo va bien podrás ver la base de datos que has creado desde un navegador w
 `https://tu-usuario.github.io/poi-quick-app-implementations/sample/data.json` 
 
 
-## Paso 5: Carga la configuración y base de datos en la app 
+##  7. <a name='Paso5:Cargalaconfiguracinybasededatosenlaapp'></a>Paso 5: Carga la configuración y base de datos en la app 
 
 Una vez has creado el fichero (`data.json`) y lo has publicado en la Web (está accesible desde un navegador Web), tienes dos opciones para visualizarlo y probarlo:
 
 1. Desde tu equipo en local 
 2. Usando heritagein.info  
 
-### La aplicación web en tu equipo 
+###  7.1. <a name='Laaplicacinwebentuequipo'></a>La aplicación web en tu equipo 
 
 Puedes descargar la app en tu equipo. 
 
@@ -294,7 +302,7 @@ Incluye el documento de configuración que has creado como un parámetro en la U
 http://127.0.0.1:3000/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/data.json
 
 
-### Usando heritagein.info  
+###  7.2. <a name='Usandoheritagein.info'></a>Usando heritagein.info  
 
 Puedes probar la configuración en heritagein.info.
 
