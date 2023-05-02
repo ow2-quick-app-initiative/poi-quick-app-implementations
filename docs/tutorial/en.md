@@ -1,6 +1,32 @@
 # Tutorial: Develop __Heritage in...__ app
 
-## Pre Requirements:
+Content:
+
+<!-- vscode-markdown-toc -->
+* [Quick Links](#QuickLinks)
+* [Pre Requirements](#PreRequirements)
+* [Step 1. Get the source code and templates](#Step1.Getthesourcecodeandtemplates)
+	* [ Clone the project on your computer](#Clonetheprojectonyourcomputer)
+* [Step 2. Database](#Step2.Database)
+	* [Refine your data set](#Refineyourdataset)
+* [Step 3. Configuring the app](#Step3.Configuringtheapp)
+* [Step 4. Web Publishing](#Step4.WebPublishing)
+* [Step 5. Load the configuration and database in the app](#Step5.Loadtheconfigurationanddatabaseintheapp)
+	* [Download the web app](#Downloadthewebapp)
+	* [Using heritagein.info](#Usingheritagein.info)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='QuickLinks'></a>Quick Links
+
+- Repository with the implementations and templates: https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations
+- Project's documentation: https://github.com/ow2-quick-app-initiative/poi-quick-app
+
+## <a name='PreRequirements'></a>Pre Requirements
 
 1. GIT client ([Download](https://git-scm.com/downloads))
 2. Node.js (v14 or higher) + npm. ([How to install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
@@ -30,7 +56,7 @@ npm -v
 To test if Open Refine is installed, run the app and open http://127.0.0.1:3333/ on your web browser.
 
 
-## Step 1: Get the source code and templates
+## <a name='Step1.Getthesourcecodeandtemplates'></a>Step 1. Get the source code and templates
 
 Clone the [main repository](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations) to your Github account (you can use whichever platform you prefer, of course). To do this, [you need an account](https://github.com/login).
 
@@ -60,7 +86,7 @@ From the main page of our repository:
 - Add Secret - Check on the next screen that a secret with the name `ACCESS_TOKEN` appears.
 
 
-## Clone the project on your computer
+### <a name='Clonetheprojectonyourcomputer'></a> Clone the project on your computer
 
 To start working on your team, you need to clone the repository you just created to your account.
 
@@ -80,7 +106,7 @@ The templates you will modify are in `poi-quick-app-implementations/docs/sample`
 
 Rename the `sample` directory with a simple and intuitive name that describes your project, or the place it applies to. You will work on that directory to create the new application.
 
-## Step 2: Database
+## <a name='Step2.Database'></a>Step 2. Database
 
 This project allows us to represent points of interest of any subject, so we need to create a suitable data set with the information that we can represent in the app.
 
@@ -119,7 +145,7 @@ Therefore, you need a list of records with the following attributes:
 
 If you prefer, you can use a template in CSV format (`poi-quick-app-implementations/docs/sample/template_database.csv`).
 
-### Refine your data set
+### <a name='Refineyourdataset'></a>Refine your data set
 
 Select the theme and look for an open dataset to serve as a base (make sure it has a license that allows you to reuse it and complies with it). Take a look at open data portals or Wikipedia.
 
@@ -137,20 +163,7 @@ Open Refine app, defaults to: http://127.0.0.1:3333/
 - Make sure you have a name and description.
 - You can group similar elements to establish the types (`type`).
 
-[Loading the dataset into Open Refine (see [functions](https://openrefine.org/docs/manual/grelfunctions))]
-- I rename and remove some columns for easier readability (optional).
-- Facet to detect rows with wrong data
-  - For example, I check if images start with `http` (`value.startsWith('http')`)
-- I divide coordinates into lat and lon (split in two columns)
-  - Rename as `lat` and `lon`
-- Facet to check if ids are unique
-- Create a description based on the author (`Add column based on column` > `"Mural by " + value`).
-- Facet to check that all rows have description
-- I generate an identifier (new column with the value `'00' + row.index`)
-- I convert the year in the `more` field (by renaming the column)
-- I create a type (new `type` column with the value `'mural'`).
-
-It is exported in JSON format, using a template like the following:
+The tabular database must be exported in JSON format. You can use a template like the following:
 
 ```
     {
@@ -175,11 +188,11 @@ The result will look like the following code:
   "rows" : [
     {
       "id" : "000",
-      "type" : "mural",
+      "type" : "painting",
       "lon" : "4.34942722321",
       "lat" : "50.8467465143",
       "name" : "Broussaille - Ragebol",
-      "description" : "Mural por Frank Pé",
+      "description" : "Wall painting by Frank Pé",
       "more" : "En el año 1999",
       "images" : ["https://opendata.bruxelles.be/api/explore/v2.1/catalog/datasets/bruxelles_parcours_bd/files/b17daccbf026ff22035464e3d0f12b51"],
       "attributions": ["Source: Brussels Open Data", "Otras atribuciones"],
@@ -192,7 +205,7 @@ The result will look like the following code:
 
 The result is an array of points of interest to be loaded directly into the `data.json` document (database), as indicated in the next step.
 
-## Step 3: Configuring the app
+## <a name='Step3.Configuringtheapp'></a>Step 3. Configuring the app
 
 In the directory with the templates and code (`poi-quick-app-web`) you will find:
 - `docs/sample` with the sample templates for your app.
@@ -208,7 +221,7 @@ In the directory with the templates and code (`poi-quick-app-web`) you will find
 {
     "meta": {
         "app_id": "org.example.gijon.monumentos",
-        "app_title": "Monumentos de Gijón",
+        "app_title": "Gijon Monuments",
         "version": 1,
         "updated": "2023-03-09",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/monumentos-gijon/data.json",
@@ -244,7 +257,7 @@ The array corresponding to the `pois` key is where you can paste the list of poi
 You can check that the format is correct by validating `data.json` against the [JSON schema](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json).
 
 
-## Step 4: Web Publishing
+## <a name='Step4.WebPublishing'></a>Step 4. Web Publishing
 
 You can use Github and its publish options to expose the database and configuration you just created.
 
@@ -261,9 +274,14 @@ If all goes well you will be able to see the database you have created from a we
 `https://your-user.github.io/poi-quick-app-implementations/sample/data.json`
 
 
-## Step 5: Load the configuration and database in the app
+## <a name='Step5.Loadtheconfigurationanddatabaseintheapp'></a>Step 5. Load the configuration and database in the app
 
-### Download the web app
+Once you have created and published the (`data.json`) file (you can open it using a Web browser), you have two options to visualize and test it:
+
+1. Download and run the app in your computer, and 
+2. Through heritagein.info  
+
+### <a name='Downloadthewebapp'></a>Download the web app
 
 From the command line:
 
@@ -284,3 +302,11 @@ Open your browser and access the app: http://127.0.0.1:3000/
 Include the configuration document you created as a parameter in the URL:
 
 http://127.0.0.1:3000/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/data.json
+
+### <a name='Usingheritagein.info'></a>Using heritagein.info  
+
+You can test your configuration using heritagein.info.
+
+Please, check that your configuration file is valid, copy the public URL of your document, and paste it as a URL parameter. Use the `/_/` path as in the following example:
+
+https://heritagein.info/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/sample/data.json
