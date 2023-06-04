@@ -2,7 +2,7 @@
     "meta": {
         "app_id": "es.espinr.gr.kos",
         "app_title": "Best of Kos",
-        "version": 2,
+        "version": 3,
         "updated": "2023-06-04",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/gr/kos/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
@@ -354,7 +354,7 @@
               },
               {
                 "id": "poi19",
-                "lat": 36.8837119,
+                "lat": 36.8637119,
                 "lon": 26.949451,
                 "name": "Cavo Paradiso Beach",
                 "description": "Cavo Paradiso Beach is a scenic beach located on the southern coast of Kos.",
