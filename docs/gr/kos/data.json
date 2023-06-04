@@ -2,8 +2,8 @@
     "meta": {
         "app_id": "es.espinr.gr.kos",
         "app_title": "Best of Kos",
-        "version": 1,
-        "updated": "2023-06-03",
+        "version": 2,
+        "updated": "2023-06-04",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/gr/kos/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
@@ -228,8 +228,8 @@
               },
               {
                 "id": "poi11",
-                "lat": 36.606418,
-                "lon": 27.750755,
+                "lat": 36.59506418,
+                "lon": 27.1561,
                 "name": "Nisyros Island",
                 "description": "Nisyros Island is a volcanic island located near Kos.",
                 "more": "Known for its unique volcanic landscapes and stunning natural beauty, Nisyros Island offers visitors an opportunity to explore volcanic craters, geothermal springs, and picturesque villages. The island is accessible by ferry from Kos and is a popular day trip destination for nature lovers and hikers.",
@@ -337,8 +337,8 @@
               },
               {
                 "id": "poi18",
-                "lat": 36.755409,
-                "lon": 27.641655,
+                "lat": 36.752667,
+                "lon": 26.988696,
                 "name": "Agios Stefanos Beach",
                 "description": "Agios Stefanos Beach is a beautiful sandy beach located in Kefalos, Kos.",
                 "more": "With its crystal-clear turquoise waters and soft golden sand, Agios Stefanos Beach offers visitors a picturesque seaside experience. The beach is surrounded by stunning cliffs and offers panoramic views of the Aegean Sea. Visitors can relax under umbrellas, swim in the refreshing waters, and enjoy the natural beauty of the coastal landscape.",
