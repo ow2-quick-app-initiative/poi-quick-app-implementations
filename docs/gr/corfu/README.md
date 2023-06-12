@@ -1,4 +1,4 @@
-# _Heritage in…_ Your City
+# _Heritage in…_ Corfu (Greece)
 
 _This is part of the [Heritage_in Quick App Project](https://ow2-quick-app-initiative.github.io/poi-quick-app/#Theproject)._
 
