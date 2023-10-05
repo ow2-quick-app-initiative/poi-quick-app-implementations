@@ -1,3 +1,7 @@
+# ⚠ This repo has moved
+
+It now lives at https://github.com/OW2-MiniApp-Initiative/poi-miniapp-implementations.
+
 # _Heritage in…_ Quick App
 
 [![JSON Check & Publication](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/actions/workflows/gh-deploy.yml/badge.svg?branch=main)](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/actions/workflows/gh-deploy.yml)
